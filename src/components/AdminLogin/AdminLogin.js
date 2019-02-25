@@ -29,7 +29,7 @@ export function AdminLogin({ setUser }) {
   }
 
   if (isLoggedIn) {
-    return <Redirect to="/admin/home" />
+    return <Redirect to="/admin/tour" />
   }
 
   return (
