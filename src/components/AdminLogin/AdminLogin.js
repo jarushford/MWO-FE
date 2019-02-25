@@ -38,21 +38,22 @@ export default function AdminLogin() {
       </p>
       <form
         className="login-form"
-        onSubmit={e => {
-          return handleSubmit(e)
-        }}
+        data-testid="form"
+        onSubmit={e => handleSubmit(e)}
       >
         <input
           type="text"
           placeholder="email"
           value={email}
           onChange={e => updateEmail(e.target.value)}
+          data-testid="email"
         />
         <input
           type="password"
           placeholder="password"
           value={password}
           onChange={e => updatePassword(e.target.value)}
+          data-testid="password"
         />
         <button>Login</button>
       </form>
