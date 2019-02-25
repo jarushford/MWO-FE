@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 import { sha256 } from 'js-sha256'
 import { Redirect } from 'react-router-dom'
+import { connect } from 'react-redux'
+import { setUser } from '../../actions'
 import '../../main.scss'
 
-export default function AdminLogin() {
+export function AdminLogin({ setUser }) {
   const [email, updateEmail] = useState('')
   const [password, updatePassword] = useState('')
   const [isLoggedIn, setLogin] = useState(false)
@@ -21,9 +23,9 @@ export default function AdminLogin() {
       body: JSON.stringify(user)
     })
 
-    !response.ok
-      ? setError(true)
-      : setLogin(true)
+    setUser(response.ok)
+    setError(response.ok)
+    setLogin(response.ok)
   }
 
   if (isLoggedIn) {
@@ -60,3 +62,9 @@ export default function AdminLogin() {
     </div>
   )
 }
+
+export const mapDispatchToProps = (dispatch) => ({
+  setUser: (user) => dispatch(setUser(user))
+})
+
+export default connect(null, mapDispatchToProps)(AdminLogin)

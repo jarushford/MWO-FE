@@ -28,6 +28,10 @@ ShallowWrapper {
           exact={true}
           path="/admin"
         />
+        <Route
+          component={[Function]}
+          path="/admin/home"
+        />
         <Route />
       </Switch>,
       "className": "app",
@@ -47,6 +51,10 @@ ShallowWrapper {
             component={[Function]}
             exact={true}
             path="/admin"
+          />,
+          <Route
+            component={[Function]}
+            path="/admin/home"
           />,
           <Route />,
         ],
@@ -82,6 +90,18 @@ ShallowWrapper {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "path": "/admin/home",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
           "props": Object {},
           "ref": null,
           "rendered": null,
@@ -108,6 +128,10 @@ ShallowWrapper {
             exact={true}
             path="/admin"
           />
+          <Route
+            component={[Function]}
+            path="/admin/home"
+          />
           <Route />
         </Switch>,
         "className": "app",
@@ -127,6 +151,10 @@ ShallowWrapper {
               component={[Function]}
               exact={true}
               path="/admin"
+            />,
+            <Route
+              component={[Function]}
+              path="/admin/home"
             />,
             <Route />,
           ],
@@ -153,6 +181,18 @@ ShallowWrapper {
               "component": [Function],
               "exact": true,
               "path": "/admin",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "path": "/admin/home",
             },
             "ref": null,
             "rendered": null,

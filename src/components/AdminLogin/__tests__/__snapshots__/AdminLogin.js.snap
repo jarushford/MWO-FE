@@ -3,7 +3,7 @@
 exports[`AdminLogin should match the snapshot 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
-  Symbol(enzyme.__unrendered__): <AdminLogin />,
+  Symbol(enzyme.__unrendered__): <Connect(AdminLogin) />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "checkPropTypes": [Function],
@@ -16,293 +16,59 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "host",
+    "nodeType": "function",
     "props": Object {
-      "children": Array [
-        <h1
-          className="login-title"
-        >
-          Login
-        </h1>,
-        <p
-          className="err-msg false"
-        >
-          Incorrect username or password
-        </p>,
-        <form
-          className="login-form"
-          data-testid="form"
-          onSubmit={[Function]}
-        >
-          <input
-            data-testid="email"
-            onChange={[Function]}
-            placeholder="email"
-            type="text"
-            value=""
-          />
-          <input
-            data-testid="password"
-            onChange={[Function]}
-            placeholder="password"
-            type="password"
-            value=""
-          />
-          <button>
-            Login
-          </button>
-        </form>,
-      ],
-      "className": "admin-login",
+      "children": [Function],
     },
     "ref": null,
-    "rendered": Array [
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Login",
-          "className": "login-title",
+    "rendered": [Function],
+    "type": Object {
+      "$$typeof": Symbol(react.context),
+      "_calculateChangedBits": null,
+      "_context": Object {
+        "$$typeof": Symbol(react.context),
+        "Consumer": [Circular],
+        "Provider": Object {
+          "$$typeof": Symbol(react.provider),
+          "_context": [Circular],
         },
-        "ref": null,
-        "rendered": "Login",
-        "type": "h1",
+        "_calculateChangedBits": null,
+        "_currentRenderer": null,
+        "_currentRenderer2": null,
+        "_currentValue": null,
+        "_currentValue2": null,
+        "_threadCount": 0,
       },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Incorrect username or password",
-          "className": "err-msg false",
-        },
-        "ref": null,
-        "rendered": "Incorrect username or password",
-        "type": "p",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            <input
-              data-testid="email"
-              onChange={[Function]}
-              placeholder="email"
-              type="text"
-              value=""
-            />,
-            <input
-              data-testid="password"
-              onChange={[Function]}
-              placeholder="password"
-              type="password"
-              value=""
-            />,
-            <button>
-              Login
-            </button>,
-          ],
-          "className": "login-form",
-          "data-testid": "form",
-          "onSubmit": [Function],
-        },
-        "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "data-testid": "email",
-              "onChange": [Function],
-              "placeholder": "email",
-              "type": "text",
-              "value": "",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "input",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "data-testid": "password",
-              "onChange": [Function],
-              "placeholder": "password",
-              "type": "password",
-              "value": "",
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "input",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Login",
-            },
-            "ref": null,
-            "rendered": "Login",
-            "type": "button",
-          },
-        ],
-        "type": "form",
-      },
-    ],
-    "type": "div",
+    },
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "host",
+      "nodeType": "function",
       "props": Object {
-        "children": Array [
-          <h1
-            className="login-title"
-          >
-            Login
-          </h1>,
-          <p
-            className="err-msg false"
-          >
-            Incorrect username or password
-          </p>,
-          <form
-            className="login-form"
-            data-testid="form"
-            onSubmit={[Function]}
-          >
-            <input
-              data-testid="email"
-              onChange={[Function]}
-              placeholder="email"
-              type="text"
-              value=""
-            />
-            <input
-              data-testid="password"
-              onChange={[Function]}
-              placeholder="password"
-              type="password"
-              value=""
-            />
-            <button>
-              Login
-            </button>
-          </form>,
-        ],
-        "className": "admin-login",
+        "children": [Function],
       },
       "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Login",
-            "className": "login-title",
+      "rendered": [Function],
+      "type": Object {
+        "$$typeof": Symbol(react.context),
+        "_calculateChangedBits": null,
+        "_context": Object {
+          "$$typeof": Symbol(react.context),
+          "Consumer": [Circular],
+          "Provider": Object {
+            "$$typeof": Symbol(react.provider),
+            "_context": [Circular],
           },
-          "ref": null,
-          "rendered": "Login",
-          "type": "h1",
+          "_calculateChangedBits": null,
+          "_currentRenderer": null,
+          "_currentRenderer2": null,
+          "_currentValue": null,
+          "_currentValue2": null,
+          "_threadCount": 0,
         },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Incorrect username or password",
-            "className": "err-msg false",
-          },
-          "ref": null,
-          "rendered": "Incorrect username or password",
-          "type": "p",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              <input
-                data-testid="email"
-                onChange={[Function]}
-                placeholder="email"
-                type="text"
-                value=""
-              />,
-              <input
-                data-testid="password"
-                onChange={[Function]}
-                placeholder="password"
-                type="password"
-                value=""
-              />,
-              <button>
-                Login
-              </button>,
-            ],
-            "className": "login-form",
-            "data-testid": "form",
-            "onSubmit": [Function],
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "data-testid": "email",
-                "onChange": [Function],
-                "placeholder": "email",
-                "type": "text",
-                "value": "",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "input",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "data-testid": "password",
-                "onChange": [Function],
-                "placeholder": "password",
-                "type": "password",
-                "value": "",
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "input",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Login",
-              },
-              "ref": null,
-              "rendered": "Login",
-              "type": "button",
-            },
-          ],
-          "type": "form",
-        },
-      ],
-      "type": "div",
+      },
     },
   ],
   Symbol(enzyme.__options__): Object {
@@ -326,5 +92,6 @@ ShallowWrapper {
       },
     },
   },
+  Symbol(enzyme.__childContext__): null,
 }
 `;
