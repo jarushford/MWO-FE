@@ -23,5 +23,12 @@ header {
   &:hover {
     background: lighten($lightOverlay, 10%);
   }
-  
+}
+
+.title {
+  color: lighten($lightOverlay, 10%);
+  font-size: 3rem;
+  text-align: center;
+  width: 500px;
+  margin: 150px auto;
 }
