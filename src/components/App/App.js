@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
-import { AdminLogin } from '../AdminLogin/AdminLogin'
+import AdminLogin from '../AdminLogin/AdminLogin'
 
 export default function App() {
   return (
