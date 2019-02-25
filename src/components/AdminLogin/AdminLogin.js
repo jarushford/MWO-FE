@@ -27,7 +27,7 @@ export default function AdminLogin() {
   }
 
   if (isLoggedIn) {
-    return <Redirect to="/" />
+    return <Redirect to="/admin/home" />
   }
 
   return (

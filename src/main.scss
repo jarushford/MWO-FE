@@ -1,4 +1,9 @@
+$lightOverlay: rgba(180, 128, 180, 0.657);
+$darkPurple: rgb(47, 1, 65);
+
 @import './components/AdminLogin/AdminLogin';
+@import './components/AdminHome/AdminHome';
+
 
 body {
   margin: 0;

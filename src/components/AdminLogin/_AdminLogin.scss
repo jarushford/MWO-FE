@@ -31,7 +31,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background: rgba(180, 128, 180, 0.657);
+  background: $lightOverlay;
   border-radius: 15px;
 
   input {
@@ -47,7 +47,7 @@
   button {
     width: 200px;
     height: 40px;
-    border: 3px solid rgb(61, 1, 85);
+    border: 3px solid $darkPurple;
     font-size: 1.3rem;
     cursor: pointer;
     border-radius: 5px;
@@ -55,7 +55,7 @@
     outline: none;
 
     &:hover {
-      background: rgb(61, 1, 85);
+      background: $darkPurple;
       color: white;
       border: 3px solid white;
     }
