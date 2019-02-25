@@ -1,0 +1,17 @@
+@import './components/AdminLogin/AdminLogin';
+
+body {
+  margin: 0;
+  background: url('./assets/background.png');
+  background-size: cover;
+  background-position: 100 center;
+}
+
+@font-face {
+  font-family: 'Cooper';
+  src: url('./assets/Cooper.otf');
+}
+
+* {
+  font-family: 'Cooper'
+}
