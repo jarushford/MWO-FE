@@ -15,14 +15,28 @@ export function AdminTour({ user }) {
       const result = await response.json()
       const dates = result.map(date => {
         return (
-          <div key={date.id}>
+          <div key={date.id} className="tour-date">
             <h3>{date.day_of_week} {date.date}</h3>
             <a href={date.venue_link}><h5>{date.venue}</h5></a>
             <h5>{date.city}</h5>
             <a href={date.ticket_link}><button>Tickets</button></a>
+            <button onClick={() => removeDate(date.id)}>Remove</button>
           </div>
       )})
       setDates(dates)
+    }
+  }
+
+  const removeDate = async (id) => {
+    const url = `https://mwo-be.herokuapp.com/api/v1/tour_dates/${id}`
+    const response = await fetch(url, {
+      method: 'DELETE',
+      headers: { 'Content-Type': 'application/json' }
+    })
+    if (!response.ok) {
+      alert('Error deleting data, please try again later')
+    } else {
+      setDates([])
     }
   }
 

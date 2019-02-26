@@ -5,3 +5,15 @@
   font-size: 2.8rem;
   margin-top: 0;
 }
+
+.tour-date {
+  background: $lightOverlay;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+
+  button {
+    cursor: pointer;
+  }
+}
