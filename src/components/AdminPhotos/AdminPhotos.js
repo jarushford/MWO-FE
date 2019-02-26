@@ -2,8 +2,7 @@ import React, { useState, useEffect } from 'react'
 import '../../main.scss'
 import { Redirect } from 'react-router-dom'
 import { connect } from 'react-redux'
-// import TourForm from '../TourForm/TourForm'
-
+import PhotoForm from '../Forms/PhotoForm'
 
 export function AdminPhotos({ user }) {
   const [photos, setPhotos] = useState([])
@@ -60,7 +59,7 @@ export function AdminPhotos({ user }) {
         >
           Add Photo
         </button>
-        {/* <PhotoForm showForm={showForm} addPhoto={addPhoto} /> */}
+        <PhotoForm showForm={showForm} addPhoto={addPhoto} />
         <div className="photo-container">
           {photos}
         </div>
