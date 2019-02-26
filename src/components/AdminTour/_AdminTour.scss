@@ -13,7 +13,16 @@
   align-items: center;
   margin: 20px;
 
-  button {
-    cursor: pointer;
+  a:visited {
+    color: black;
   }
+}
+
+button {
+  cursor: pointer;
+}
+
+.add-date-btn {
+  display: block;
+  margin: 40px auto;
 }

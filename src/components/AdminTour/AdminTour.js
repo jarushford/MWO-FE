@@ -2,9 +2,12 @@ import React, { useState, useEffect } from 'react'
 import '../../main.scss'
 import { Redirect } from 'react-router-dom'
 import { connect } from 'react-redux'
+import TourForm from '../TourForm/TourForm'
+
 
 export function AdminTour({ user }) {
   const [dates, setDates] = useState([])
+  const [showForm, setForm] = useState(false)
 
   const getDates = async () => {
     const url = 'https://mwo-be.herokuapp.com/api/v1/tour_dates'
@@ -29,15 +32,19 @@ export function AdminTour({ user }) {
 
   const removeDate = async (id) => {
     const url = `https://mwo-be.herokuapp.com/api/v1/tour_dates/${id}`
-    const response = await fetch(url, {
+    await fetch(url, {
       method: 'DELETE',
       headers: { 'Content-Type': 'application/json' }
     })
-    if (!response.ok) {
-      alert('Error deleting data, please try again later')
-    } else {
-      setDates([])
-    }
+  }
+
+  const addDate = async (data) => {
+    const url = 'https://mwo-be.herokuapp.com/api/v1/tour_dates'
+    await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
+    })
   }
 
   useEffect(() => {
@@ -50,6 +57,13 @@ export function AdminTour({ user }) {
     return (
       <div className="admin-tour">
         <h1 className="admin-title">Tour</h1>
+        <button
+          className="add-date-btn"
+          onClick={() => setForm(!showForm)}
+        >
+          Add Tour Date
+        </button>
+        <TourForm showForm={showForm} addDate={addDate} />
         {dates}
       </div>
     )
