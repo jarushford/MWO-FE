@@ -1,0 +1,19 @@
+img {
+  width: 200px;
+}
+
+.photo {
+  background: $lightOverlay;
+  display: flex;
+  width: 400px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.photo-container {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}

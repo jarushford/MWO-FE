@@ -58,7 +58,7 @@ export function AdminTour({ user }) {
       <div className="admin-tour">
         <h1 className="admin-title">Tour</h1>
         <button
-          className="add-date-btn"
+          className="add-btn"
           onClick={() => setForm(!showForm)}
         >
           Add Tour Date
