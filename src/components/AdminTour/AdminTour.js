@@ -42,7 +42,7 @@ export function AdminTour({ user }) {
 
   useEffect(() => {
     getDates()
-  }, [])
+  }, [dates])
 
   if (!user) {
     return <Redirect to="/admin" />
