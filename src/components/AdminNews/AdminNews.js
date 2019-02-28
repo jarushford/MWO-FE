@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import '../../main.scss'
 import { Redirect } from 'react-router-dom'
 import { connect } from 'react-redux'
+import NewsForm from '../Forms/NewsForm'
 
 export function AdminNews({ user }) {
   const [news, setNews] = useState([])
@@ -53,7 +54,7 @@ export function AdminNews({ user }) {
         >
           Add Item
         </button>
-        {/* <PhotoForm showForm={showForm} /> */}
+        <NewsForm showForm={showForm} />
         <div className="news-container">
           {news}
         </div>
