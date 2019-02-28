@@ -51,7 +51,7 @@ export default class PhotoForm extends Component {
       >
         <input
           type="text"
-          placeholder="day_of_week"
+          placeholder="description"
           value={description}
           onChange={e => this.updateValue(e, 'description')}
         />
