@@ -4,6 +4,7 @@ import AdminLogin from '../AdminLogin/AdminLogin'
 import AdminHome from '../AdminHome/AdminHome'
 import AdminTour from '../AdminTour/AdminTour'
 import AdminPhotos from '../AdminPhotos/AdminPhotos'
+import AdminNews from '../AdminNews/AdminNews'
 
 export default function App() {
   return (
@@ -27,7 +28,14 @@ export default function App() {
             </div>
           )
         }} />
-        <Route />
+        <Route path="/admin/news" render={() => {
+          return (
+            <div>
+              <AdminHome />
+              <AdminNews />
+            </div>
+          )
+        }} />
       </Switch>
     </div>
   )
