@@ -5,10 +5,8 @@ export default class PhotoForm extends Component {
   constructor() {
     super()
     this.state = {
-      link: null,
       description: ''
     }
-    this.updatePhoto = this.updatePhoto.bind(this)
   }
 
   updateValue = (e, input) => {
@@ -17,26 +15,29 @@ export default class PhotoForm extends Component {
     })
   }
 
-  updatePhoto = () => {
-    var file = this.refs.file.files[0];
-    var reader = new FileReader();
-    reader.readAsDataURL(file);
-    reader.onloadend = function (e) {
-        this.setState({
-            link: [reader.result]
-        })
-      }.bind(this);
+  handleUpload = e => {
+    e.preventDefault()
+    window.cloudinary.openUploadWidget(
+      { cloud_name: 'mad-wallace', upload_preset: 'xscksodf', tags: [] },
+      async (error, result) => {
+        if (result.info.secure_url) {
+          await this.addPhoto({
+            link: result.info.secure_url,
+            description: this.state.description
+          })
+          this.setState({ description: '' })
+        }
+      }
+    )
   }
 
-  handleSubmit = async (e) => {
-    e.preventDefault()
-    await this.updatePhoto()
-    // Do cloudinary fetch here then set url into state before adding photo
-    this.setState({
-      link: '',
-      description: ''
+  addPhoto = async (data) => {
+    const url = 'https://mwo-be.herokuapp.com/api/v1/photos'
+    await fetch(url, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
     })
-    this.props.addPhoto(this.state)
   }
   
   render() {
@@ -54,12 +55,7 @@ export default class PhotoForm extends Component {
           value={description}
           onChange={e => this.updateValue(e, 'description')}
         />
-        <input
-          type="file"
-          ref="file" 
-          onChange={this.updatePhoto}
-        />
-        <button>Submit</button>
+        <button onClick={this.handleUpload}>Upload & Submit</button>
       </form>
     )
   }

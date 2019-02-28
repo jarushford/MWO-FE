@@ -34,15 +34,6 @@ export function AdminPhotos({ user }) {
     })
   }
 
-  const addPhoto = async (data) => {
-    const url = 'https://mwo-be.herokuapp.com/api/v1/photos'
-    await fetch(url, {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(data)
-    })
-  }
-
   useEffect(() => {
     getPhotos()
   }, [photos])
@@ -59,7 +50,7 @@ export function AdminPhotos({ user }) {
         >
           Add Photo
         </button>
-        <PhotoForm showForm={showForm} addPhoto={addPhoto} />
+        <PhotoForm showForm={showForm} />
         <div className="photo-container">
           {photos}
         </div>
