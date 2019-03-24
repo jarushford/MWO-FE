@@ -11,7 +11,7 @@ export function AdminHome({ user }) {
       <div className="admin-home">
         <header>
           <NavLink to="/admin/tour" className="nav-item">Tour</NavLink>
-          <NavLink to="/" className="nav-item">Videos</NavLink>
+          <NavLink to="/admin/videos" className="nav-item">Videos</NavLink>
           <NavLink to="/admin/news" className="nav-item">News</NavLink>
           <NavLink to="/admin/photos" className="nav-item">Photos</NavLink>
           <NavLink to="/" className="nav-item">Mailing</NavLink>
