@@ -6,6 +6,7 @@ import AdminTour from '../AdminTour/AdminTour'
 import AdminPhotos from '../AdminPhotos/AdminPhotos'
 import AdminNews from '../AdminNews/AdminNews'
 import AdminVideos from '../AdminVideos/AdminVideos'
+import AdminMailing from '../AdminMailing/AdminMailing'
 
 export default function App() {
   return (
@@ -42,6 +43,14 @@ export default function App() {
             <div>
               <AdminHome />
               <AdminVideos />
+            </div>
+          )
+        }} />
+        <Route path="/admin/mailing" render={() => {
+          return (
+            <div>
+              <AdminHome />
+              <AdminMailing />
             </div>
           )
         }} />

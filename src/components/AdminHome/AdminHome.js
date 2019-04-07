@@ -14,7 +14,7 @@ export function AdminHome({ user }) {
           <NavLink to="/admin/videos" className="nav-item">Videos</NavLink>
           <NavLink to="/admin/news" className="nav-item">News</NavLink>
           <NavLink to="/admin/photos" className="nav-item">Photos</NavLink>
-          <NavLink to="/" className="nav-item">Mailing</NavLink>
+          <NavLink to="/admin/mailing" className="nav-item">Mailing</NavLink>
         </header>
       </div>
     )

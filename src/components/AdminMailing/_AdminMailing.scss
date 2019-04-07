@@ -1,0 +1,11 @@
+.mailing-container {
+  background: $lightOverlay;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px auto;
+  padding: 20px;
+  list-style: none;
+}
