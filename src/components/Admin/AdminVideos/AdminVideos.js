@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import '../../main.scss'
+import '../../../main.scss'
 import { Redirect } from 'react-router-dom'
 import { connect } from 'react-redux'
-import VideoForm from '../Forms/VideoForm'
+import VideoForm from '../../Forms/VideoForm'
 
 export function AdminVideos({ user }) {
   const [videos, setVideos] = useState([])

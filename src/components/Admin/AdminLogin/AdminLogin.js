@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import { sha256 } from 'js-sha256'
 import { Redirect } from 'react-router-dom'
 import { connect } from 'react-redux'
-import { setUser } from '../../actions'
-import '../../main.scss'
+import { setUser } from '../../../actions'
+import '../../../main.scss'
 
 export function AdminLogin({ setUser }) {
   const [email, updateEmail] = useState('')

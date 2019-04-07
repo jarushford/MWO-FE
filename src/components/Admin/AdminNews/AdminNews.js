@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import '../../main.scss'
+import '../../../main.scss'
 import { Redirect } from 'react-router-dom'
 import { connect } from 'react-redux'
-import NewsForm from '../Forms/NewsForm'
+import NewsForm from '../../Forms/NewsForm'
 
 export function AdminNews({ user }) {
   const [news, setNews] = useState([])

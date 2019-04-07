@@ -1,12 +1,12 @@
 import React from 'react'
 import { Route, Switch } from 'react-router-dom'
-import AdminLogin from '../AdminLogin/AdminLogin'
-import AdminHome from '../AdminHome/AdminHome'
-import AdminTour from '../AdminTour/AdminTour'
-import AdminPhotos from '../AdminPhotos/AdminPhotos'
-import AdminNews from '../AdminNews/AdminNews'
-import AdminVideos from '../AdminVideos/AdminVideos'
-import AdminMailing from '../AdminMailing/AdminMailing'
+import AdminLogin from '../Admin/AdminLogin/AdminLogin'
+import AdminHome from '../Admin/AdminHome/AdminHome'
+import AdminTour from '../Admin/AdminTour/AdminTour'
+import AdminPhotos from '../Admin/AdminPhotos/AdminPhotos'
+import AdminNews from '../Admin/AdminNews/AdminNews'
+import AdminVideos from '../Admin/AdminVideos/AdminVideos'
+import AdminMailing from '../Admin/AdminMailing/AdminMailing'
 
 export default function App() {
   return (

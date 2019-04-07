@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import '../../main.scss'
+import '../../../main.scss'
 import { Redirect } from 'react-router-dom'
 import { connect } from 'react-redux'
 

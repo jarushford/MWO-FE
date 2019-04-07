@@ -1,12 +1,12 @@
 $lightOverlay: rgba(180, 128, 180, 0.657);
 $darkPurple: rgb(47, 1, 65);
 
-@import './components/AdminLogin/AdminLogin';
-@import './components/AdminHome/AdminHome';
-@import './components/AdminTour/AdminTour';
-@import './components/AdminPhotos/AdminPhotos';
-@import './components/AdminVideos/_AdminVideos';
-@import './components/AdminMailing/_AdminMailing';
+@import './components/Admin/AdminLogin/AdminLogin';
+@import './components/Admin/AdminHome/AdminHome';
+@import './components/Admin/AdminTour/AdminTour';
+@import './components/Admin/AdminPhotos/AdminPhotos';
+@import './components/Admin/AdminVideos/_AdminVideos';
+@import './components/Admin/AdminMailing/_AdminMailing';
 @import './components/Forms/Form';
 
 
