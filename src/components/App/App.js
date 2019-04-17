@@ -7,12 +7,19 @@ import AdminPhotos from '../Admin/AdminPhotos/AdminPhotos'
 import AdminNews from '../Admin/AdminNews/AdminNews'
 import AdminVideos from '../Admin/AdminVideos/AdminVideos'
 import AdminMailing from '../Admin/AdminMailing/AdminMailing'
+import MainNav from '../MainNav/MainNav'
 
 export default function App() {
   return (
     <div className="app">
       <Switch>
-        <Route exact path="/" />
+        <Route exact path="/" render={() => {
+          return (
+            <div>
+              <MainNav />
+            </div>
+          )
+        }} />
         <Route exact path="/admin" component={AdminLogin} />
         <Route path="/admin/tour" render={() => {
           return (
