@@ -20,6 +20,34 @@ export default function App() {
             </div>
           )
         }} />
+        <Route exact path="/tour" render={() => {
+          return (
+            <div>
+              <MainNav />
+            </div>
+          )
+        }} />
+        <Route exact path="/media" render={() => {
+          return (
+            <div>
+              <MainNav />
+            </div>
+          )
+        }} />
+        <Route exact path="/about" render={() => {
+          return (
+            <div>
+              <MainNav />
+            </div>
+          )
+        }} />
+        <Route exact path="/contact" render={() => {
+          return (
+            <div>
+              <MainNav />
+            </div>
+          )
+        }} />
         <Route exact path="/admin" component={AdminLogin} />
         <Route path="/admin/tour" render={() => {
           return (
