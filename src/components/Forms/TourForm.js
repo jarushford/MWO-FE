@@ -50,7 +50,7 @@ export default class TourForm extends Component {
         />
         <input
           type="text"
-          placeholder="date"
+          placeholder="date (mm/dd)"
           value={date}
           onChange={e => this.updateValue(e, 'date')}
         />

@@ -40,7 +40,7 @@ export default class Tour extends Component {
     const mappedDates = sortedDates.map(date => {
         return (
           <tr key={date.id}>
-            <td>{date.day_of_week} {date.date}</td>
+            <td>{date.day_of_week} | {date.date}</td>
             <td>{date.venue}</td>
             <td>{date.city}</td>
             <td>
@@ -60,12 +60,14 @@ export default class Tour extends Component {
   }
 
   render() {
+    if (this.state.isLoading) {
+      return <Loader />
+    }
+
     let noDates
     let tourDates
-
-    if (this.state.isLoading) {
-      noDates = <Loader />
-    } else if (!this.state.tourDates.length) {
+    
+    if (!this.state.tourDates.length) {
       noDates = <h3>No tour dates right now, check back soon!</h3>
     } else {
       tourDates = this.getDatesRender()
