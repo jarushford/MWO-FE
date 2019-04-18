@@ -1,23 +1,53 @@
 .tour-container {
   width: 100%;
+  margin: 0;
+
+  h1 {
+    color: $lightOverlay;
+    font-size: 15rem;
+    margin: 0;
+    opacity: .2;
+    height: 175px;
+    line-height: 150px;
+  }
 
   table {
     width: 95%;
-    margin: 40px auto;
-
-    tr {
-      display: flex;
-      justify-content: space-around;
-    }
+    margin: 20px auto 100px;
   }
 
   h3, td, th {
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    text-align: center;
+  }
+
+  td {
+    height: 60px;
+    border-bottom: 1px solid $lightOverlay;
   }
 
   th {
     font-size: 1.5rem;
+    border-bottom: 2px solid $lightOverlay;
+  }
+}
+
+.tickets-btn {
+  width: 100px;
+  height: 40px;
+  background: none;
+  border: 2px solid $purple;
+  border-radius: 5px;
+  color: $purple;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+  transition: .3s ease;
+  outline: none;
+
+  &:hover {
+    background: $purple;
+    color: white;
   }
 }

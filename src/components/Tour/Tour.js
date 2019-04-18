@@ -31,37 +31,52 @@ export default class Tour extends Component {
     }
   }
 
-  render() {
-    let noDates
-    let tourDates
-
-    if (this.state.isLoading) {
-      noDates = <h3>Loading ...</h3>
-      // use react loader later
-    } else if (!this.state.tourDates.length) {
-      noDates = <h3>No tour dates right now, check back soon!</h3>
-    } else {
-      tourDates = this.state.tourDates.map(date => {
+  getDatesRender = () => {
+    const { tourDates } = this.state
+    const sortedDates = tourDates.sort((a, b) => {
+      return this.dateHelper(a.date) - this.dateHelper(b.date)
+    })
+    const mappedDates = sortedDates.map(date => {
         return (
           <tr key={date.id}>
             <td>{date.day_of_week} {date.date}</td>
             <td>{date.venue}</td>
             <td>{date.city}</td>
             <td>
-              <a href={date.ticket_link}>
-                <button>Tickets</button>
+              <a href={date.ticket_link} target="_blank" >
+                <button className="tickets-btn">Tickets</button>
               </a>
             </td>
           </tr>
         )
       })
+
+    return mappedDates
+  }
+
+  dateHelper = date => {
+    return date.substring(0, 2) + date.substring(3, 5)
+  }
+
+  render() {
+    let noDates
+    let tourDates
+
+    if (this.state.isLoading) {
+      noDates = <h3>Loading ...</h3>
+      // use custom loader later
+    } else if (!this.state.tourDates.length) {
+      noDates = <h3>No tour dates right now, check back soon!</h3>
+    } else {
+      tourDates = this.getDatesRender()
     }
 
     const tableHeaders = ['when', 'where', 'wait... where?', 'how']
 
     return (
       <section className="tour-container">
-        <table>
+        <h1>tour</h1>
+        <table cellSpacing="0" cellPadding="10">
           <thead>
             <tr>
               {
