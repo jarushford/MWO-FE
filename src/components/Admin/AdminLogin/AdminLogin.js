@@ -3,6 +3,7 @@ import { sha256 } from 'js-sha256'
 import { Redirect } from 'react-router-dom'
 import { connect } from 'react-redux'
 import { setUser } from '../../../actions'
+import Loader from '../../Loader/Loader'
 import '../../../main.scss'
 
 export function AdminLogin({ setUser }) {
@@ -10,9 +11,11 @@ export function AdminLogin({ setUser }) {
   const [password, updatePassword] = useState('')
   const [isLoggedIn, setLogin] = useState(false)
   const [hasErrored, setError] = useState(false)
+  const [isLoading, setLoading] = useState(false)
 
   const handleSubmit = async e => {
     e.preventDefault()
+    setLoading(true)
     const hashedPassword = sha256(password)
     const user = { email, password: hashedPassword }
     const url = 'https://mwo-be.herokuapp.com/api/v1/login'
@@ -26,6 +29,11 @@ export function AdminLogin({ setUser }) {
     setUser(response.ok)
     setError(response.ok)
     setLogin(response.ok)
+    setLoading(false)
+  }
+
+  if (isLoading) {
+    return <Loader />
   }
 
   if (isLoggedIn) {
