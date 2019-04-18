@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Loader from '../Loader/Loader'
+import ErrorPage from '../Error/Error'
 import '../../main.scss'
 
 export default class Tour extends Component {
@@ -7,7 +8,8 @@ export default class Tour extends Component {
     super()
     this.state = {
       tourDates: [],
-      isLoading: false
+      isLoading: false,
+      error: ''
     }
   }
 
@@ -22,13 +24,14 @@ export default class Tour extends Component {
       const response = await fetch(url)
 
       if (!response.ok) {
-        // set error action
+        const message = response.status + ' ' + response.statusText
+        this.setState({ error: message })
       } else {
         const tourDates = await response.json()
         this.setState({ tourDates, isLoading: false })
       }
     } catch (error) {
-      // set error action
+      this.setState({ error })
     }
   }
 
@@ -60,6 +63,10 @@ export default class Tour extends Component {
   }
 
   render() {
+    if (this.state.error.length) {
+      return <ErrorPage message={this.state.error} />
+    }
+
     if (this.state.isLoading) {
       return <Loader />
     }

@@ -1,0 +1,45 @@
+.error-container {
+  width: 80%;
+  margin: 20px auto 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  img {
+    width: 400px;
+    margin-bottom: 40px;
+  }
+
+  button {
+    width: 200px;
+    height: 40px;
+    background: none;
+    border: 2px solid $purple;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    color: $purple;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    transition: .3s ease;
+    outline: none;
+
+    &:hover {
+      background: $purple;
+      color: white;
+    }
+  }
+
+  h2, p {
+    color: white;
+    text-align: center;
+  }
+
+  p, a {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  a, a:visited {
+    color: $purple;
+  }
+}
