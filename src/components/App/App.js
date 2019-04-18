@@ -8,6 +8,7 @@ import AdminNews from '../Admin/AdminNews/AdminNews'
 import AdminVideos from '../Admin/AdminVideos/AdminVideos'
 import AdminMailing from '../Admin/AdminMailing/AdminMailing'
 import MainNav from '../MainNav/MainNav'
+import Tour from '../Tour/Tour'
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
           return (
             <div>
               <MainNav />
+              <Tour />
             </div>
           )
         }} />

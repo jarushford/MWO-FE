@@ -1,0 +1,23 @@
+.tour-container {
+  width: 100%;
+
+  table {
+    width: 95%;
+    margin: 40px auto;
+
+    tr {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+
+  h3, td, th {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+  }
+
+  th {
+    font-size: 1.5rem;
+  }
+}

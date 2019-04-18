@@ -9,13 +9,15 @@ $darkPurple: rgb(47, 1, 65);
 @import './components/Admin/AdminMailing/_AdminMailing';
 @import './components/Forms/Form';
 @import './components/MainNav/MainNav';
+@import './components/Tour/Tour';
 
 
 body {
-  margin: 0;
   background: url('./assets/background.png');
+  max-width: 16000px;
+  margin: auto;
+  background-attachment: fixed;
   background-size: cover;
-  background-position: 100 center;
 }
 
 @font-face {
