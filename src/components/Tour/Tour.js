@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Loader from '../Loader/Loader'
 import '../../main.scss'
 
 export default class Tour extends Component {
@@ -43,7 +44,7 @@ export default class Tour extends Component {
             <td>{date.venue}</td>
             <td>{date.city}</td>
             <td>
-              <a href={date.ticket_link} target="_blank" >
+              <a href={date.ticket_link} target="_blank" rel="noopener noreferrer" >
                 <button className="tickets-btn">Tickets</button>
               </a>
             </td>
@@ -63,8 +64,7 @@ export default class Tour extends Component {
     let tourDates
 
     if (this.state.isLoading) {
-      noDates = <h3>Loading ...</h3>
-      // use custom loader later
+      noDates = <Loader />
     } else if (!this.state.tourDates.length) {
       noDates = <h3>No tour dates right now, check back soon!</h3>
     } else {
