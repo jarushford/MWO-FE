@@ -9,6 +9,8 @@ import AdminVideos from '../Admin/AdminVideos/AdminVideos'
 import AdminMailing from '../Admin/AdminMailing/AdminMailing'
 import MainNav from '../MainNav/MainNav'
 import Tour from '../Tour/Tour'
+import Contact from '../Contact/Contact'
+import ErrorPage from '../Error/Error'
 
 export default function App() {
   return (
@@ -47,6 +49,7 @@ export default function App() {
           return (
             <div>
               <MainNav />
+              <Contact />
             </div>
           )
         }} />
@@ -91,6 +94,7 @@ export default function App() {
             </div>
           )
         }} />
+        <Route path="" component={ErrorPage} />
       </Switch>
     </div>
   )
