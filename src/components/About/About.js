@@ -19,9 +19,11 @@ export default function About() {
           })
         }
       </div>
-      <button>
-        <a href="http://www.ciphermagazine.com/mad-wallace/" target="_blank" rel="noopener noreferrer">Want to know more about the band?</a>
-      </button>
+      <a href="http://www.ciphermagazine.com/mad-wallace/" target="_blank" rel="noopener noreferrer">
+        <button>
+          Want to know more about the band?
+        </button>
+      </a>
     </section>
   )
 }

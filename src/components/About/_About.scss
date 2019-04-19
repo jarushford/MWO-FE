@@ -1,5 +1,5 @@
 .about-container {
-  margin-bottom: 40px;
+  margin-bottom: 80px;
 
   h1 {
     color: $lightOverlay;
@@ -26,4 +26,32 @@
     margin: auto 20px;
     letter-spacing:.5px;
   }
+
+  a {
+    display: block;
+    text-align: center;
+  }
+
+  button {
+    width: 540px;
+    height: 45px;
+    background: none;
+    border: 2px solid $purple;
+    border-radius: 5px;
+    color: $purple;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    transition: .3s ease;
+    outline: none;
+  
+    &:hover {
+      background: $purple;
+      color: white;
+    }
+  }
+}
+
+.photo-container {
+  max-width: 1200px;
+  margin: 40px auto;
 }

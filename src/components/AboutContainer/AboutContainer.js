@@ -7,9 +7,13 @@ export default function AboutContainer({ name }) {
 
   return (
     <div className="about-photo-container">
-      <div className="photo" style={{ background: `url(${memberCopy.image})` }}>
+      <div className="photo" style={{
+        background: `url('${memberCopy.img}')`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center' 
+      }}>
+        <i className="fas fa-angle-up"></i>
         <p>{memberCopy.bio}</p>
-        
       </div>
       <h3>{memberCopy.name}</h3>
       <h4>{memberCopy.inst}</h4>
