@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
 import Loader from '../Loader/Loader'
 import ErrorPage from '../Error/Error'
+import { connect } from 'react-redux'
+import { setTourDates } from '../../actions'
 import '../../main.scss'
 
-export default class Tour extends Component {
+class Tour extends Component {
   constructor() {
     super()
     this.state = {
@@ -14,7 +16,11 @@ export default class Tour extends Component {
   }
 
   componentDidMount() {
-   this.getTourDates() 
+    if (!this.props.tourDates.length) {
+      this.getTourDates() 
+    } else {
+      this.setState({ tourDates: this.props.tourDates })
+    }
   }
 
   getTourDates = async () => {
@@ -28,6 +34,7 @@ export default class Tour extends Component {
         this.setState({ error: message })
       } else {
         const tourDates = await response.json()
+        this.props.setTourDates(tourDates)
         this.setState({ tourDates, isLoading: false })
       }
     } catch (error) {
@@ -104,3 +111,13 @@ export default class Tour extends Component {
     )
   }
 }
+
+const mapStateToProps = state => ({
+  tourDates: state.tourDates
+})
+
+const mapDispatchToProps = dispatch => ({
+  setTourDates: dates => dispatch(setTourDates(dates))
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(Tour)

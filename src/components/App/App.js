@@ -12,6 +12,8 @@ import Tour from '../Tour/Tour'
 import Contact from '../Contact/Contact'
 import ErrorPage from '../Error/Error'
 import About from '../About/About'
+import Media from '../Media/Media'
+import Home from '../Home/Home'
 
 export default function App() {
   return (
@@ -21,6 +23,7 @@ export default function App() {
           return (
             <div>
               <MainNav />
+              <Home />
             </div>
           )
         }} />
@@ -36,6 +39,7 @@ export default function App() {
           return (
             <div>
               <MainNav />
+              <Media />
             </div>
           )
         }} />
