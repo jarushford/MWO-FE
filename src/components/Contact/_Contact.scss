@@ -19,6 +19,11 @@
 
   a, a:visited {
     color: $purple;
+    transition: .3s ease;
+
+    &:hover {
+      color: lighten($purple, 10%);
+    }
   }
 
   button {

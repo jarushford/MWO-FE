@@ -20,6 +20,7 @@ export default function App() {
     <div className="app">
       <Switch>
         <Route exact path="/" render={() => {
+          document.title = 'Mad Wallace'
           return (
             <div>
               <MainNav />
@@ -28,6 +29,7 @@ export default function App() {
           )
         }} />
         <Route exact path="/tour" render={() => {
+          document.title = 'Mad Wallace | Tour'
           return (
             <div>
               <MainNav />
@@ -36,6 +38,7 @@ export default function App() {
           )
         }} />
         <Route exact path="/media" render={() => {
+          document.title = 'Mad Wallace | Media'
           return (
             <div>
               <MainNav />
@@ -44,6 +47,7 @@ export default function App() {
           )
         }} />
         <Route exact path="/about" render={() => {
+          document.title = 'Mad Wallace | About'
           return (
             <div>
               <MainNav />
@@ -52,6 +56,7 @@ export default function App() {
           )
         }} />
         <Route exact path="/contact" render={() => {
+          document.title = 'Mad Wallace | Contact'
           return (
             <div>
               <MainNav />
