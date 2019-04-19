@@ -3,8 +3,8 @@ import Loader from '../Loader/Loader'
 import ErrorPage from '../Error/Error'
 import { connect } from 'react-redux'
 import { setVideos, setPhotos } from '../../actions'
-
 import '../../main.scss'
+
 
 class Media extends Component {
   constructor() {
@@ -76,7 +76,18 @@ class Media extends Component {
     return (
       <section className="media-container">
         <h1>media</h1>
-        
+        <section className="music-container">
+
+        </section>
+        <section className="videos-container">
+
+        </section>
+        <section className="photos-container">
+
+        </section>
+        <section className="instagram-container">
+
+        </section>
       </section>
     )
   }
