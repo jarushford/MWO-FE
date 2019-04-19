@@ -11,6 +11,7 @@ import MainNav from '../MainNav/MainNav'
 import Tour from '../Tour/Tour'
 import Contact from '../Contact/Contact'
 import ErrorPage from '../Error/Error'
+import About from '../About/About'
 
 export default function App() {
   return (
@@ -42,6 +43,7 @@ export default function App() {
           return (
             <div>
               <MainNav />
+              <About />
             </div>
           )
         }} />

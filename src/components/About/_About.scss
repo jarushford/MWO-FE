@@ -1,0 +1,29 @@
+.about-container {
+  margin-bottom: 40px;
+
+  h1 {
+    color: $lightOverlay;
+    font-size: 15rem;
+    margin: 0;
+    opacity: .35;
+    height: 175px;
+    line-height: 150px;
+    position: relative;
+    z-index: -1;
+  }
+
+  img {
+    width: 100%;
+    margin: 40px 0;
+    padding: 0;
+  }
+
+  p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    margin: auto 20px;
+    letter-spacing:.5px;
+  }
+}
