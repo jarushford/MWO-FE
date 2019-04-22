@@ -19,7 +19,7 @@ class Media extends Component {
   }
 
   componentDidMount() {
-    if (!this.props.videos.length && !this.props.photos.length) {
+    if (!this.props.videos.length || !this.props.photos.length) {
       this.setState({ isLoading: true })
       this.getVideos() 
       this.getPhotos()
