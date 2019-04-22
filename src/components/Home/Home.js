@@ -18,7 +18,6 @@ class Home extends Component {
     this.setState({ isLoading: true })
     this.getData('tour_dates')
     this.getData('videos')
-    this.getData('photos')
     this.getData('news')
     this.setState({ isLoading: false })
   }
@@ -52,6 +51,8 @@ class Home extends Component {
   }
 
   render() {
+    const { tourDates, videos, news } = this.props
+
     if (this.state.isLoading) {
       return <Loader />
     }
@@ -60,15 +61,80 @@ class Home extends Component {
       return <ErrorPage message={this.state.error} />
     }
 
-    console.log(this.props.tourDates)
-    console.log(this.props.videos)
-    console.log(this.props.photos)
-    console.log(this.props.news)
+    let newsRender
+    if (!news.length) {
+      newsRender = <h2>loading news...</h2>
+    } else {
+      newsRender = news.map(item => {
+        return (
+          <div className="news-item" key={item.id}>
+            <a href={item.link}  target="_blank" rel="noopener noreferrer">
+              <h4>{item.title}</h4>
+            </a>
+            <img src={item.image_url} alt={item.title} />
+            <p>{item.body}</p>
+          </div>
+        )
+      })
+    }
+
+    let videoLink
+    if (!videos.length) {
+      videoLink = ''
+    } else {
+      videoLink = videos[0].link
+    }
+
+    let tourRender
+    if (tourDates.length) {
+      tourRender = (
+        <tbody>
+          {
+            tourDates.map(date => {
+              return (
+                <tr key={date.id}>
+                  <td>{date.day_of_week} {date.date}</td>
+                  <td>
+                    <a href={date.ticket_link}  target="_blank" rel="noopener noreferrer">{date.venue}</a>
+                  </td>
+                </tr>
+              )
+            })
+          }
+        </tbody>
+      )
+    }
 
     return (
       <section className="home-container">
-      
-      
+        <section className="news-section">
+          <h2>news</h2>
+          {newsRender}
+        </section>
+        <section className="listen-section">
+          <h2>listen</h2>
+          <div>
+            <iframe id="spotifyPlayer" src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC" title="spotify player" width="350px" height="400px" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          </div>
+        </section>
+        <section className="tour-section">
+          <h2>tour</h2>
+          <table cellSpacing="0" cellPadding="10">
+            <thead>
+              <tr>
+                <th>date</th>
+                <th>location</th>
+              </tr>
+            </thead>
+            {tourRender}
+          </table>
+        </section>
+        <section className="watch-section">
+          <h2>watch</h2>
+          <div>
+            <iframe id="vid_frame" src={videoLink} frameBorder="0" width="450px" height="275px" title="youtube-player"></iframe>
+          </div>
+        </section>
       </section>
     )
   }

@@ -1,0 +1,75 @@
+.home-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  max-width: 1200px;
+  margin: 20px auto 50px;
+
+  h2 {
+    color: white;
+    font-size: 2rem;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+}
+
+.listen-section div {
+  width: 350px;
+  margin: 0 auto;
+}
+
+.watch-section div {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.news-item {
+  text-align: center;
+
+  a, a:visited {
+    color: $purple;
+  }
+
+  h4 {
+    font-size: 1.6rem;
+    margin-top: 0;
+    margin-bottom: 7px;
+  }
+
+  img {
+    width: 300px;
+  }
+
+  p {
+    color: white;
+    margin-top: 7px;
+  }
+}
+
+.tour-section {
+  table {
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 450px;
+    margin: 0 auto;
+  }
+
+  th, td {
+    border-bottom: 1px solid lightgrey;
+  }
+
+  td a {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  tbody td {
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+  }
+}
