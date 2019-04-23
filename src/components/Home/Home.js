@@ -14,11 +14,11 @@ class Home extends Component {
     }
   }
 
-  componentDidMount() {
+  async componentDidMount() {
     this.setState({ isLoading: true })
-    this.getData('tour_dates')
-    this.getData('videos')
-    this.getData('news')
+    await this.getData('videos')
+    await this.getData('tour_dates')
+    await this.getData('news')
     this.setState({ isLoading: false })
   }
 

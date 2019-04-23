@@ -6,7 +6,8 @@ export default class NewsForm extends Component {
     super()
     this.state = {
       title: '',
-      link: ''
+      link: '',
+      thumbnail: ''
     }
   }
 
@@ -18,9 +19,11 @@ export default class NewsForm extends Component {
 
   handleUpload = async e => {
     e.preventDefault()
+    console.log(this.state)
     await this.addVideo({
       title: this.state.title,
-      link: this.state.link
+      link: this.state.link,
+      thumbnail: this.state.thumbnail
     })
   }
 
@@ -34,14 +37,15 @@ export default class NewsForm extends Component {
     if (response.ok) {
       this.setState({ 
         title: '',
-        link: ''
+        link: '',
+        thumbnail: ''
       })
     }
   }
   
   render() {
     const { showForm } = this.props
-    const { title, link } = this.state
+    const { title, link, thumbnail } = this.state
 
     return (
       <form
@@ -59,6 +63,12 @@ export default class NewsForm extends Component {
           placeholder="link"
           value={link}
           onChange={e => this.updateValue(e, 'link')}
+        />
+        <input
+          type="text"
+          placeholder="thumbnail"
+          value={thumbnail}
+          onChange={e => this.updateValue(e, 'thumbnail')}
         />
         <button onClick={this.handleUpload}>Submit</button>
       </form>

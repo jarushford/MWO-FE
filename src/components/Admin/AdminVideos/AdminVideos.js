@@ -20,6 +20,7 @@ export function AdminVideos({ user }) {
           <div key={video.id} className="video">
             <p>{video.title}</p>
             <a className="video-link" href={video.link}>{video.link}</a>
+            <img src={video.thumbnail} alt="video thumbnail" />
             <button onClick={() => removeVideo(video.id)}>Remove</button>
           </div>
       )})

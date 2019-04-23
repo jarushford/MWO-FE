@@ -65,7 +65,7 @@ class Media extends Component {
     }
   }
 
-  nextPhoto = (dir) => {
+  nextPhoto = dir => {
     const { currentImage, photos } = this.state
     if (dir === 1 && currentImage === photos.length - 1) {
       this.setState({ currentImage: 0 })
@@ -73,6 +73,17 @@ class Media extends Component {
       this.setState({ currentImage: photos.length - 1 })
     } else {
       this.setState({ currentImage: currentImage + dir })
+    }
+  }
+
+  handleVideoScroll = dir => {
+    const container = document.getElementById('tn-container')
+    if  (container.scrollLeft > 150 && dir === -1) {
+      container.scrollBy({ left: -150, behavior: 'smooth' })
+    } else if (container.scrollLeft < 150 && dir === -1) {
+      container.scrollTo({ left: -0, behavior: 'smooth' })
+    } else if  (dir === 1) {
+      container.scrollBy({ left: 150, behavior: 'smooth' })
     }
   }
 
@@ -87,24 +98,40 @@ class Media extends Component {
       return <ErrorPage message={error} />
     }
 
-    // let videoRender
-    // if (!this.state.videos.length) {
-    //   videoRender = <h3>videos are loading</h3>
-    // } else {
-    //   videoRender = (
-    //     <div>
-    //         {
-    //           this.state.videos.map(video => {
-    //             return (
-    //               <div className="vid-container">
-    //                 <iframe id="vid_frame" src={video.link} frameBorder="0" width="100%" height="100%"></iframe>
-    //               </div>
-    //             )
-    //           })
-    //         }
-    //     </div>
-    //   )
-    // }
+    let videoRender
+    if (!this.state.videos.length) {
+      videoRender = <h3>videos are loading</h3>
+    } else {
+      videoRender = (
+        <div>
+          <div className="vid-container">
+            <iframe id="vid_frame" src={videos[0].link} frameBorder="0" width="100%" height="100%" title="video player"></iframe>
+          </div>
+          <div className="vid-carousel">
+            <i className="fas fa-caret-left" onClick={() => this.handleVideoScroll(-1)}></i>
+            <div className="thumbnail-container" id="tn-container">
+            {
+              this.state.videos.map(video => {
+                return (
+                  <div className="vid-container" key={video.id}>
+                    <img 
+                      src={video.thumbnail}
+                      alt="video thumbnail"
+                      onClick={() => {
+                        document.getElementById('vid_frame').src = video.link
+                      }} 
+                    />
+                    <p>{video.title}</p>
+                  </div>
+                )
+              })
+            }
+            </div>
+            <i className="fas fa-caret-right" onClick={() => this.handleVideoScroll(1)}></i>
+          </div>
+        </div>
+      )
+    }
 
     let photosRender
     if (!photos.length) {
@@ -136,7 +163,7 @@ class Media extends Component {
         </section>
         <section className="videos-container">
           <h2>videos</h2>
-          {/* {videoRender} */}
+          {videoRender}
         </section>
         <section className="photos-container">
           <h2>photos</h2>

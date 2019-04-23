@@ -79,10 +79,25 @@
 
 .vid-container {
   margin: 20px auto;
-  width: 80%;
   max-width: 800px;
-  height: 50vw;
   max-height: 500px;
+
+  iframe {
+    height: 35vw;
+  }
+
+  img {
+    cursor: pointer;
+    width: 200px;
+  }
+
+  p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 
 .photos-container {
@@ -96,26 +111,43 @@
       max-width: 500px;
       min-width: 300px;
     }
-
-    i {
-      border: 3px solid $purple;
-      border-radius: 50%;
-      padding: 10px 21px;
-      color: $purple;
-      font-size: 3rem;
-      transition: .3s ease;
-      cursor: pointer;
-
-      &:hover {
-        background: $purple;
-        color: white;
-      }
-    }
-
-    .fa-caret-right { padding-left: 28px }
-    .fa-caret-left { padding-right: 28px }
   }
 }
+
+.vid-carousel {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.thumbnail-container {
+  max-width: 80%;
+  overflow: scroll;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.fa-caret-left,
+.fa-caret-right {
+  border: 3px solid $purple;
+  border-radius: 50%;
+  padding: 10px 21px;
+  color: $purple;
+  font-size: 3rem;
+  transition: .3s ease;
+  cursor: pointer;
+
+  &:hover {
+    background: $purple;
+    color: white;
+  }
+}
+
+.fa-caret-right { padding-left: 28px }
+.fa-caret-left { padding-right: 28px }
 
 @media screen and (min-width: 1200px) {
   .music-container div {
