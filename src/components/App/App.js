@@ -14,6 +14,7 @@ import ErrorPage from '../Error/Error'
 import About from '../About/About'
 import Media from '../Media/Media'
 import Home from '../Home/Home'
+import Footer from '../Footer/Footer'
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
             <div>
               <MainNav />
               <Home />
+              <Footer />
             </div>
           )
         }} />
@@ -34,6 +36,7 @@ export default function App() {
             <div>
               <MainNav />
               <Tour />
+              <Footer />
             </div>
           )
         }} />
@@ -43,6 +46,7 @@ export default function App() {
             <div>
               <MainNav />
               <Media />
+              <Footer />
             </div>
           )
         }} />
@@ -52,6 +56,7 @@ export default function App() {
             <div>
               <MainNav />
               <About />
+              <Footer />
             </div>
           )
         }} />
@@ -61,6 +66,7 @@ export default function App() {
             <div>
               <MainNav />
               <Contact />
+              <Footer />
             </div>
           )
         }} />

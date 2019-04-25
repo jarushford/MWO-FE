@@ -15,11 +15,14 @@ class Home extends Component {
   }
 
   async componentDidMount() {
-    this.setState({ isLoading: true })
-    await this.getData('videos')
-    await this.getData('tour_dates')
-    await this.getData('news')
-    this.setState({ isLoading: false })
+    const { tourDates, videos, news } = this.props
+    if (!tourDates.length && !videos.length && !news.length) {
+      this.setState({ isLoading: true })
+      await this.getData('videos')
+      await this.getData('tour_dates')
+      await this.getData('news')
+      this.setState({ isLoading: false })
+    }
   }
 
   async getData(dataType) {
