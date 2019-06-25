@@ -32,6 +32,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: space-around;
+  width: 100%;
+  overflow: auto;
+
+  a, iframe {
+    margin: 0 auto;
+  }
 
   button {
     width: 240px;
@@ -57,10 +63,18 @@
   }
 
   div {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 1200px;
+    width: 100%;
+    overflow: auto;
+
+    div {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      max-width: 1100px;
+      min-width: 1100px;
+      width: 1100px;
+      overflow: auto;
+    }
   }
 
   img {
@@ -89,6 +103,7 @@
   img {
     cursor: pointer;
     width: 200px;
+    margin: 10px;
   }
 
   p {
@@ -109,7 +124,8 @@
     img {
       width: 50%;
       max-width: 500px;
-      min-width: 300px;
+      min-width: 225px;
+      margin: 10px;
     }
   }
 }
@@ -153,5 +169,17 @@
   .music-container div {
     min-width: 1200px;
     margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .fa-caret-right {
+    font-size: 1.5rem;
+    padding: 3px 8px 3px 12px;
+  }
+
+  .fa-caret-left {
+    font-size: 1.5rem;
+    padding: 3px 12px 3px 8px;
   }
 }
