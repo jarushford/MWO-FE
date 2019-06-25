@@ -49,7 +49,7 @@ export default class Footer extends Component {
             onChange={this.updateEmail}
           />
           <p className={`error-msg ${this.state.error && 'errored'}`}>
-            Sorry, something went wrong! Feel free to try again later.
+            Sorry, something went wrong. Feel free to try again later!
           </p>
           <p className={`success-msg ${this.state.success && 'success'}`}>
             Added Successfully, yay!

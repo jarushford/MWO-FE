@@ -16,7 +16,7 @@ class Home extends Component {
 
   async componentDidMount() {
     const { tourDates, videos, news } = this.props
-    if (!tourDates.length && !videos.length && !news.length) {
+    if (!tourDates.length || !videos.length || !news.length) {
       this.setState({ isLoading: true })
       await this.getData('videos')
       await this.getData('tour_dates')

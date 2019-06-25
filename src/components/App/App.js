@@ -15,6 +15,7 @@ import About from '../About/About'
 import Media from '../Media/Media'
 import Home from '../Home/Home'
 import Footer from '../Footer/Footer'
+import PressKit from '../PressKit/PressKit'
 
 export default function App() {
   return (
@@ -111,6 +112,7 @@ export default function App() {
             </div>
           )
         }} />
+        <Route path="/presskit" component={PressKit} />
         <Route path="" component={ErrorPage} />
       </Switch>
     </div>
