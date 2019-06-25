@@ -35,7 +35,7 @@
 }
 
 .tickets-btn {
-  width: 100px;
+  width: 80px;
   height: 40px;
   background: none;
   border: 2px solid $purple;
@@ -49,5 +49,23 @@
   &:hover {
     background: $purple;
     color: white;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .tour-container {
+    th {
+      font-size: 1rem;
+    }
+
+    td {
+      font-size: .7rem;
+    }
+  }
+
+  .tickets-btn {
+    font-size: .7rem;
+    width: 60px;
+    height: 30px;
   }
 }

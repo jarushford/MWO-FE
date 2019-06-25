@@ -1,0 +1,172 @@
+.subscribe-section {
+  background: url('./assets/jake-battle.jpg');
+  height: 290px;
+  background-size: 1050px;
+  background-position: center;
+  background-color: rgba(0,0,0,0.35);
+  background-blend-mode: darken;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 3px solid #b999c8;
+  border-bottom: 3px solid #b999c8;
+  margin-top: 75px;
+  position: relative;
+  text-align: center;
+
+  h3 {
+    color: white;
+    letter-spacing: 1.5px;
+    font-size: 1.4rem;
+    margin: 0;
+    text-shadow: 0px 3px 4px rgba(0,0,0,0.4),
+                 0px 8px 18px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+  }
+
+  input {
+    width: 320px;
+    height: 45px;
+    border-radius: 25px;
+    padding-left: 15px;
+    font-size: 1.1rem;
+    font-family: 'Open Sans', sans-serif;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    transition: 2s ease;
+
+    &:focus {
+      border: 2px solid $purple;
+      box-shadow: 0 0  8px 0px $purple;
+    }
+
+    &::placeholder {
+      opacity: .5;
+    }
+  }
+}
+
+.btn {
+	margin: 20px auto;
+	border: none;
+	padding: 10px 34px;
+	font-size: 1.2rem;
+  position: relative;
+  background: black;
+  outline: none;
+	&::before{
+		transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+		content: '';
+		width: 50%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+
+	& .btn-text{
+		mix-blend-mode: overlay;
+	}
+	&:hover{
+		&::before{
+			width: 100%;
+		}
+	}
+
+	&.rounded{
+    border-radius:50px;
+		& .text-green{
+			color: blue;
+			mix-blend-mode: overlay;
+		}
+		
+		&::before{
+			border-radius: 50px;
+			width: 25%;
+      background: $purple;
+      box-shadow: 0 0  8px 0px $purple;
+      animation: move 8s ease infinite;
+		}
+		&:hover{
+			&::before{
+			background: $purple;
+      width: 100%;
+      -webkit-animation: 0;
+      animation: 0;
+			}
+		}	
+	}
+}
+
+@keyframes move {
+  0%, 100% {
+    margin-left: 0
+  }
+  50% {
+    margin-left: 138px
+  }
+}
+
+.sub-footer {
+  margin: 20px auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+
+  p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  img {
+    width: 90px;
+  }
+}
+
+.error-msg,
+.success-msg {
+  color: tomato;
+  text-shadow: 0px 3px 4px rgba(0,0,0,0.4),
+                 0px 8px 18px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+  position: absolute;
+  top: 110px;
+  opacity: 0;
+}
+
+.success-msg {
+  color: rgb(137, 221, 80)
+}
+
+.errored,
+.success {
+  opacity: 1;
+}
+
+.social-container {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+
+  i {
+    font-size: 2rem;
+    color: #f5cc8f;
+    transition: .3s ease;
+
+   &:hover {
+      transform: translateY(-2px);
+    }
+  }
+}
+
+@media screen and (min-width: 1050px) {
+  .subscribe-section {
+    background-size: 100%;
+  }
+}

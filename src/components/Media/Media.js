@@ -151,15 +151,21 @@ class Media extends Component {
         <section className="music-container">
           <h2>music</h2>
           <div>
-            <iframe id="spotifyPlayer" src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC" title="spotify player" width="300px" height="300px" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-            <a href="https://madwallace.bandcamp.com/album/hook-line-sinker" target="_blank" rel="noopener noreferrer" >
-              <img id="hookline" src="./assets/hookline-album-art.jpg" alt="Hook Line and Sinker" />
-            </a>
-			      <a href="https://madwallace.bandcamp.com/album/2804" target="_blank" rel="noopener noreferrer">
-              <img id="twenty804" src="./assets/2804-album-art.jpg" alt="2804" />
-            </a>
+            <div>
+              <iframe id="spotifyPlayer" src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC" title="spotify player" width="300px" height="300px" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+              <a href="https://madwallace.bandcamp.com/album/hook-line-sinker" target="_blank" rel="noopener noreferrer" >
+                <img id="hookline" src="./assets/hookline-album-art.jpg" alt="Hook Line and Sinker" />
+              </a>
+              <a href="https://madwallace.bandcamp.com/album/2804" target="_blank" rel="noopener noreferrer">
+                <img id="twenty804" src="./assets/2804-album-art.jpg" alt="2804" />
+              </a>
+            </div>
           </div>
-          <button>follow on spotify <i className="fab fa-spotify"></i></button>
+          <a href="https://open.spotify.com/artist/6H2CmXWubR7YVd6n1hlXq7" target="_blank" rel="noopener noreferrer">
+            <button>
+              follow on spotify <i className="fab fa-spotify"></i>
+            </button>
+          </a>
         </section>
         <section className="videos-container">
           <h2>videos</h2>

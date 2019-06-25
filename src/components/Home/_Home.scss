@@ -75,3 +75,28 @@
     font-family: 'Open Sans', sans-serif;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .watch-section div {
+    width: 320px;
+
+    iframe {
+      width: 100%;
+    }
+  }
+
+  .tour-section {
+    table {
+      font-size: 1rem;
+      width: 95%;
+    }
+
+    tbody td {
+      font-size: .8rem;
+    }
+  }
+
+  .home-container {
+    grid-template-columns: none;
+  }
+}
