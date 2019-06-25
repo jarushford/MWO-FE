@@ -19,7 +19,7 @@ export default function MainNav() {
         <NavLink to="/contact">contact</NavLink>
       </header>
       <header className="mobile-nav nav">
-        <Link to="/">
+        <Link to="/" onClick={() => setMenu(false)}>
           <div className="header-logo">
             <img alt="mw-logo" src="./assets/main-logo.png" />
           </div>
