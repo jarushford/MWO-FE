@@ -112,7 +112,14 @@ export default function App() {
             </div>
           )
         }} />
-        <Route path="/presskit" component={PressKit} />
+        <Route path="/presskit" render={() => {
+          return  (
+            <div>
+              <PressKit />
+              <Footer />
+            </div>
+          )
+        }} />
         <Route path="" component={ErrorPage} />
       </Switch>
     </div>
