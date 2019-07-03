@@ -27,14 +27,10 @@ export default function PressKit() {
           <img src="./assets/singing.jpg" alt="Jamie and David singing" />
           <img src="./assets/goggles.jpg" alt="goggles" />
         </div>
-        <div className="press">
-          <h2>Press</h2>
-          <p id="cipher"><em>"Their live performances resonate in your ears long after they've left the stage."</em></p>
-			    <p id="author"> - Clare Ende, <a href="http://www.ciphermagazine.com/mad-wallace/"><strong>Cipher Magazine</strong></a></p>
-			    <p id="cipher"><em>"The sonic sound of this band is somewhere between Jam and Progressive. (Mad Wallace) all bring their own unique style and point of view to this album; working together symbiotically to create something greater than any single member can bring."</em></p>
-			    <p id="author"> - Robert Fadley, <a href="https://www.jambandpurist.com/home/mad-wallace-hook-line-and-sinker-album-review"><strong>Jam Band Purist</strong></a></p>
-			    <p id="best">2018 - Performed in Best of the West Finals at Herman's Hideaway in Denver, CO</p>
-			    <p id="best">2019 - Performed in Summer Camp On The Road at Cervantes' Masterpiece Ballroom in Denver, CO</p>
+        <div className="pk-video">
+          <h2>Video</h2>
+          <a href="https://www.youtube.com/embed/_EjPLSCx0LY"><iframe src="https://www.youtube.com/embed/_EjPLSCx0LY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></a>
+          <p>Check out this video and more on our <a id="vidlink" href="https://www.youtube.com/channel/UC6N29y6h0Fqh7VmEObN6LHA/videos">YouTube channel</a></p>
         </div>
         <div className="pk-music">
           <h2>Music</h2>
@@ -43,10 +39,14 @@ export default function PressKit() {
             <a href="https://open.spotify.com/album/2aMYMSJ1p6wbmiINndEKSt"> Hook Line & Sinker</a>
           </p>
         </div>
-        <div className="pk-video">
-          <h2>Video</h2>
-          <a href="https://www.youtube.com/embed/_EjPLSCx0LY"><iframe src="https://www.youtube.com/embed/_EjPLSCx0LY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></a>
-          <p>Check out this video and more on our <a id="vidlink" href="https://www.youtube.com/channel/UC6N29y6h0Fqh7VmEObN6LHA/videos">YouTube channel</a></p>
+        <div className="press">
+          <h2>Press</h2>
+          <p id="cipher"><em>"Their live performances resonate in your ears long after they've left the stage."</em></p>
+			    <p id="author"> - Clare Ende, <a href="http://www.ciphermagazine.com/mad-wallace/"><strong>Cipher Magazine</strong></a></p>
+			    <p id="cipher"><em>"The sonic sound of this band is somewhere between Jam and Progressive. (Mad Wallace) all bring their own unique style and point of view to this album; working together symbiotically to create something greater than any single member can bring."</em></p>
+			    <p id="author"> - Robert Fadley, <a href="https://www.jambandpurist.com/home/mad-wallace-hook-line-and-sinker-album-review"><strong>Jam Band Purist</strong></a></p>
+			    <p id="best">2018 - Performed in Best of the West Finals at Herman's Hideaway in Denver, CO</p>
+			    <p id="best">2019 - Performed in Summer Camp On The Road at Cervantes' Masterpiece Ballroom in Denver, CO</p>
         </div>
       </div>
     </main>
