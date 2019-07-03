@@ -1,9 +1,16 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function PressKit() {
   document.title = 'Mad Wallace | Press Kit'
   return (
     <main className="press-kit">
+      <Link to="/contact">
+        <button className="back-btn">
+          <i className="far fa-hand-point-left" />
+          Back
+        </button>
+      </Link>
       <section>MAD WALLACE</section>
       <div className="grid-container">
         <div className="bios">
