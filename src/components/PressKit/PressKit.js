@@ -20,13 +20,6 @@ export default function PressKit() {
           <p>Ripping right out of Denver, Colorado, Mad Wallace has made a name for themselves in the Colorado jam scene. Following years of playing house parties at Colorado College and local venues in Colorado Springs, the band moved to Denver in Spring of 2017 to pursue the next step in their musical journey. They quickly became regular performers at local venues including Summit Music Hall, Cervantes, and Herman's Hideaway.</p>
           <p>With two studio albums and a few years of gigging under their belt Mad Wallace is in constant creation mode. Whether it be a song or an improvised jam, the Mad Men of proggroovian-jamrock are quick to read each other and compose powerful music in the moment, as if they were simply conversing. Their presence on stage reflects more than musical technique, it sheds a light on the friendship that lies at the core of the band. It is this love, for one another, the audience, and the music that has fans coming back for more and more as Mad Wallace hurtles their way across the fertile musical landscape of the jam scene.</p>
         </div>
-        <div className="pictures">
-          <img className="bigpic" src="./assets/sabetta.jpg" alt="Sabetta singing" />
-          <img src="./assets/globe.jpg" alt="Globe Hall 6/15" />
-          <img src="./assets/outside.jpg" alt="CC Battle of the Bands" />
-          <img src="./assets/singing.jpg" alt="Jamie and David singing" />
-          <img src="./assets/goggles.jpg" alt="goggles" />
-        </div>
         <div className="pk-video">
           <h2>Video</h2>
           <a href="https://www.youtube.com/embed/_EjPLSCx0LY"><iframe src="https://www.youtube.com/embed/_EjPLSCx0LY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></a>
@@ -47,6 +40,13 @@ export default function PressKit() {
 			    <p id="author"> - Robert Fadley, <a href="https://www.jambandpurist.com/home/mad-wallace-hook-line-and-sinker-album-review"><strong>Jam Band Purist</strong></a></p>
 			    <p id="best">2018 - Performed in Best of the West Finals at Herman's Hideaway in Denver, CO</p>
 			    <p id="best">2019 - Performed in Summer Camp On The Road at Cervantes' Masterpiece Ballroom in Denver, CO</p>
+        </div>
+        <div className="pictures">
+          <img className="bigpic" src="./assets/sabetta.jpg" alt="Sabetta singing" />
+          <img src="./assets/globe.jpg" alt="Globe Hall 6/15" />
+          <img src="./assets/outside.jpg" alt="CC Battle of the Bands" />
+          <img src="./assets/singing.jpg" alt="Jamie and David singing" />
+          <img src="./assets/goggles.jpg" alt="goggles" />
         </div>
       </div>
     </main>
