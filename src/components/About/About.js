@@ -14,7 +14,7 @@ export default function About() {
       <p>Winter, 2017. Jake #1, Jamie, Jake #2, and David were finally together in CO. In that first jam together, sparks flew as the four locked eyes with each other all at once, defying physics. It was as if everyone knew exactly what the other was thinking. While the music created that night was never recorded, it is said you can still hear the faint echoes of the fateful jam ringing through that lonely basement if you listen hard enough. With graduation looming, and the deep seeded fear of working behind a desk beginning to set in, the foursome decided that it was now or never. It was time to make this band work. In no time, the four friends were completing each other's phrases as sweet tune after sweet tune was written and Mad Wallace was finally birthed. </p>
       <div className="photo-container">
         {
-          ['Sabetta', 'Lauer', 'Jamie', 'David'].map(name => {
+          ['Sabetta', 'Lauer', 'Jamie', 'Cory'].map(name => {
             return <AboutContainer name={name} key={name} />
           })
         }
