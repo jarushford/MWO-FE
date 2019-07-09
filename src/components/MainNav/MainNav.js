@@ -59,7 +59,6 @@ export default function MainNav() {
           </NavLink>
         </div>  
       </header>
-      <div className="banner-img" />
     </section>
   )
 }
