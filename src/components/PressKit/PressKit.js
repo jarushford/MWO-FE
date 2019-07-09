@@ -42,11 +42,21 @@ export default function PressKit() {
 			    <p id="best">2019 - Performed in Summer Camp On The Road at Cervantes' Masterpiece Ballroom in Denver, CO</p>
         </div>
         <div className="pictures">
-          <img className="bigpic" src="./assets/sabetta.jpg" alt="Sabetta singing" />
-          <img src="./assets/globe.jpg" alt="Globe Hall 6/15" />
-          <img src="./assets/outside.jpg" alt="CC Battle of the Bands" />
-          <img src="./assets/singing.jpg" alt="Jamie and David singing" />
-          <img src="./assets/goggles.jpg" alt="goggles" />
+          <a download="sabetta.jpg" href="./assets/sabetta.jpg" title="Download as JPG">
+            <img className="bigpic" src="./assets/sabetta.jpg" alt="Sabetta singing" />
+          </a>
+          <a download="globe.jpg" href="./assets/globe.jpg" title="Download as JPG">
+            <img src="./assets/globe.jpg" alt="Globe Hall 6/15" />
+          </a>
+          <a download="outside.jpg" href="./assets/outside.jpg" title="Download as JPG">
+            <img src="./assets/outside.jpg" alt="CC Battle of the Bands" />
+          </a>
+          <a download="singing.jpg" href="./assets/singing.jpg" title="Download as JPG">
+            <img src="./assets/singing.jpg" alt="Jamie and David singing" />
+          </a>
+          <a download="goggles.jpg" href="./assets/goggles.jpg" title="Download as JPG">
+            <img src="./assets/goggles.jpg" alt="goggles" />
+          </a>
         </div>
       </div>
     </main>
