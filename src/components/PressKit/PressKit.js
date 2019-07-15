@@ -22,7 +22,7 @@ export default function PressKit() {
         </div>
         <div className="pk-video">
           <h2>Video</h2>
-          <a href="https://www.youtube.com/embed/_EjPLSCx0LY"><iframe src="https://www.youtube.com/embed/_EjPLSCx0LY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></a>
+          <a href="https://www.youtube.com/embed/_EjPLSCx0LY"><iframe src="https://www.youtube.com/embed/_EjPLSCx0LY" title="presskit-youtube" frameBorder="0" allow="autoplay; encrypted-media" allowFullscreen></iframe></a>
           <p>Check out this video and more on our <a id="vidlink" href="https://www.youtube.com/channel/UC6N29y6h0Fqh7VmEObN6LHA/videos">YouTube channel</a></p>
         </div>
         <div className="pk-music">
