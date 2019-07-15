@@ -18,9 +18,9 @@ export const members = {
     bio: 'Jamie Rushford is a man of few words. His stoic nature and piercing gaze were bestowed upon him at birth by Antheia, the Greek goddess of flowery wreaths. Not one to waste time idly, Jamie has made use of his laser focus, becoming a magnificent climber of the rocks, as well as a Level 13 master picking wizard. Calm, cool, and collected, his sense of style is timeless. If Mad Wallace were a rabbit, Jamie would be the eyes.'
   },
   Cory: {
-    name: 'Cory Kauffman',
+    name: 'Cory Thomas',
     inst: 'Bass / Vocals',
     img: './assets/cory.jpg',
-    bio: ''
+    bio: 'Cory Thomas has a body that hasn’t aged a day since he was 19. In fact, it seems to get younger with each passing year. Mad Wallace’s very own Benjamin Button, Cory brings the youthful rage to the band’s sound despite being nearly 80 years older than the rest of the band. Yoga keeps him fit and his kids keep him out of shit. If Mad Wallace were the ocean, Cory would be the sea turtle. ‘Noggin’'
   }
 }
