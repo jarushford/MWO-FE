@@ -21,6 +21,6 @@ export const members = {
     name: 'Cory Thomas',
     inst: 'Bass / Vocals',
     img: './assets/cory.jpg',
-    bio: 'Cory Thomas has a body that hasn’t aged a day since he was 19. In fact, it seems to get younger with each passing year. Mad Wallace’s very own Benjamin Button, Cory brings the youthful rage to the band’s sound despite being nearly 80 years older than the rest of the band. Yoga keeps him fit and his kids keep him out of shit. If Mad Wallace were the ocean, Cory would be the sea turtle. ‘Noggin’'
+    bio: 'Cory Thomas has a body that hasn’t aged a day since he was 19. In fact, it seems to get younger with each passing year. Mad Wallace’s very own Benjamin Button, Cory brings youthful rage to the band’s sound despite being nearly 80 years older than the rest of the band. Yoga keeps him fit and his kids keep him out of shit. If Mad Wallace were the ocean, Cory would be the sea turtle. ‘Noggin’'
   }
 }
