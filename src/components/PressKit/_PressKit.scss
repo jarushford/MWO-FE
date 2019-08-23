@@ -1,8 +1,223 @@
+.back-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  font-size: 1.7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: $purple;
+  border: none;
+  color: white;
+  outline: none;
+
+  &:hover {
+    animation: back 3s ease infinite;
+  }
+}
+
+@keyframes back {
+  0%, 100% {
+    transform: translateX(0px) rotateY(0deg);
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+  }
+  50% {
+    transform: translateX(-10px) rotateY(30deg);
+    box-shadow: 20px 0 20px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+                         "bios pics"
+                         "bios pics"
+                         "vid  pics"
+                         "music pics"
+                         "press pics";
+  width: 1000px;
+  margin: 20px auto;
+  grid-gap: 20px;
+}
+
 .press-kit {
+
   h2 {
     color: lighten($purple, 10%);
     text-align: center;
     margin: 100px auto;
     padding: 0 30px;
+  }
+
+  section {
+    width: 100%;
+    height: 250px;
+    background: url('./assets/smaller-cover.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 4rem;
+    letter-spacing: 15px;
+    text-shadow: 0 0 20px rgba(0, 0, 0, .3);
+  }
+}
+
+.bios {
+  color: white;
+  width: 400px;
+  padding: 30px;
+  height: max-content;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 20px;
+  border-radius: 10px;
+  grid-area: bios;
+
+  h2 {
+    margin: 10px auto;
+    color: white;
+  }
+
+  p {
+    font-family: 'Open Sans';
+    font-size: .9rem;
+    line-height: 135%;
+  }
+}
+
+.pictures {
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 20px;
+  border-radius: 10px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  grid-area: pics;
+
+  img {
+    width: 375px;
+    display: block;
+    margin: 15px auto;
+  }
+}
+
+.press,
+.pk-music,
+.pk-video {
+  color: white;
+  width: 400px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.3);
+  margin: 20px;
+  border-radius: 10px;
+  height: max-content;
+
+  h2 {
+    margin: 10px auto;
+    color: white;
+  }
+
+  p, em, strong {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  a,
+  a:visited {
+    color: #f5cc8f;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
+  }
+
+  img {
+    display: block;
+    width: 350px;
+    margin: 20px auto;
+  }
+}
+
+.press {
+  width: 400px;
+}
+
+.pk-music p,
+.pk-video p {
+  text-align: center;
+}
+
+.pk-video iframe {
+  width: 400px;
+  height: 250px;
+  display: block;
+  margin: 20px auto;
+}
+
+.pk-video {
+  grid-area: vid;
+}
+
+.pk-music {
+  grid-area: music;
+}
+
+.press {
+  grid-area: press;
+}
+
+@media screen and (max-width: 1000px) {
+  .grid-container {
+    grid-template-areas: 
+                         "bios"
+                         "bios"
+                         "vid"
+                         "music"
+                         "press"
+                         "pics";
+    width: 500px;
+    grid-gap: 0px 20px;
+  }
+
+  .press-kit section {
+    font-size: 2.4rem;
+    align-items: flex-end;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bios,
+  .pk-video,
+  .pk-music,
+  .press,
+  .pictures {
+    width: 300px;
+    padding: 15px;
+    margin: 0 auto;
+  }
+
+  .pk-video iframe {
+    width: 250px;
+  }
+
+  .pk-music img {
+    width: 250px;
+  }
+
+  .pictures img {
+    width: 250px;
+  }
+
+  .grid-container {
+    width: 350px;
+    grid-gap: 30px 20px;
   }
 }

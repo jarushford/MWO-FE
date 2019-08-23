@@ -17,10 +17,10 @@ export const members = {
     img: './assets/jamie.jpg',
     bio: 'Jamie Rushford is a man of few words. His stoic nature and piercing gaze were bestowed upon him at birth by Antheia, the Greek goddess of flowery wreaths. Not one to waste time idly, Jamie has made use of his laser focus, becoming a magnificent climber of the rocks, as well as a Level 13 master picking wizard. Calm, cool, and collected, his sense of style is timeless. If Mad Wallace were a rabbit, Jamie would be the eyes.'
   },
-  David: {
-    name: 'David Becker',
+  Cory: {
+    name: 'Cory Thomas',
     inst: 'Bass / Vocals',
-    img: './assets/david.jpg',
-    bio: 'David Becker once lifted a pickup truck 2 feet into the air with only his right arm to retrieve a dying squirrel from underneath. The only thing stronger than David\'s massive shoulders is his tender heart. He would later resuscitate that squirrel with CPR techniques. David\'s easy-going personality meshes well with just about any human. David is also a master rock-climber. If Mad Wallace were a tortoise, David would be the shell.'
+    img: './assets/cory.jpg',
+    bio: 'Cory Thomas has a body that hasn’t aged a day since he was 19. In fact, it seems to get younger with each passing year. Mad Wallace’s very own Benjamin Button, Cory brings youthful rage to the band’s sound despite being nearly 80 years older than the rest of the band. Yoga keeps him fit and his kids keep him out of shit. If Mad Wallace were the ocean, Cory would be the sea turtle. ‘Noggin’'
   }
 }
