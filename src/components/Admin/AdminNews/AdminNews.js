@@ -18,7 +18,7 @@ export function AdminNews({ user }) {
       const photos = result.map(news => {
         return (
           <div key={news.id} className="photo">
-            <img src={news.link} alt={news.description} />
+            <img src={news.image_url} alt={news.description} />
             <div>
               <h3>{news.title}</h3>
               <p>{news.body}</p>
