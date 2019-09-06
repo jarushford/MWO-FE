@@ -40,7 +40,7 @@
   }
 
   button {
-    width: 240px;
+    width: 245px;
     height: 45px;
     background: none;
     border: 2px solid $purple;
@@ -182,5 +182,11 @@
   .fa-caret-left {
     font-size: 1.5rem;
     padding: 3px 12px 3px 8px;
+  }
+
+  .vid-container {
+    iframe {
+      height: 200px;
+    }
   }
 }
