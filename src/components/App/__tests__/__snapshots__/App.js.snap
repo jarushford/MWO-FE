@@ -22,6 +22,27 @@ ShallowWrapper {
         <Route
           exact={true}
           path="/"
+          render={[Function]}
+        />
+        <Route
+          exact={true}
+          path="/tour"
+          render={[Function]}
+        />
+        <Route
+          exact={true}
+          path="/media"
+          render={[Function]}
+        />
+        <Route
+          exact={true}
+          path="/about"
+          render={[Function]}
+        />
+        <Route
+          exact={true}
+          path="/contact"
+          render={[Function]}
         />
         <Route
           component={[Function]}
@@ -29,10 +50,33 @@ ShallowWrapper {
           path="/admin"
         />
         <Route
-          component={[Function]}
-          path="/admin/home"
+          path="/admin/tour"
+          render={[Function]}
         />
-        <Route />
+        <Route
+          path="/admin/photos"
+          render={[Function]}
+        />
+        <Route
+          path="/admin/news"
+          render={[Function]}
+        />
+        <Route
+          path="/admin/videos"
+          render={[Function]}
+        />
+        <Route
+          path="/admin/mailing"
+          render={[Function]}
+        />
+        <Route
+          path="/presskit"
+          render={[Function]}
+        />
+        <Route
+          component={[Function]}
+          path=""
+        />
       </Switch>,
       "className": "app",
     },
@@ -46,6 +90,27 @@ ShallowWrapper {
           <Route
             exact={true}
             path="/"
+            render={[Function]}
+          />,
+          <Route
+            exact={true}
+            path="/tour"
+            render={[Function]}
+          />,
+          <Route
+            exact={true}
+            path="/media"
+            render={[Function]}
+          />,
+          <Route
+            exact={true}
+            path="/about"
+            render={[Function]}
+          />,
+          <Route
+            exact={true}
+            path="/contact"
+            render={[Function]}
           />,
           <Route
             component={[Function]}
@@ -53,10 +118,33 @@ ShallowWrapper {
             path="/admin"
           />,
           <Route
-            component={[Function]}
-            path="/admin/home"
+            path="/admin/tour"
+            render={[Function]}
           />,
-          <Route />,
+          <Route
+            path="/admin/photos"
+            render={[Function]}
+          />,
+          <Route
+            path="/admin/news"
+            render={[Function]}
+          />,
+          <Route
+            path="/admin/videos"
+            render={[Function]}
+          />,
+          <Route
+            path="/admin/mailing"
+            render={[Function]}
+          />,
+          <Route
+            path="/presskit"
+            render={[Function]}
+          />,
+          <Route
+            component={[Function]}
+            path=""
+          />,
         ],
       },
       "ref": null,
@@ -68,6 +156,59 @@ ShallowWrapper {
           "props": Object {
             "exact": true,
             "path": "/",
+            "render": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "exact": true,
+            "path": "/tour",
+            "render": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "exact": true,
+            "path": "/media",
+            "render": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "exact": true,
+            "path": "/about",
+            "render": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "exact": true,
+            "path": "/contact",
+            "render": [Function],
           },
           "ref": null,
           "rendered": null,
@@ -91,8 +232,8 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "component": [Function],
-            "path": "/admin/home",
+            "path": "/admin/tour",
+            "render": [Function],
           },
           "ref": null,
           "rendered": null,
@@ -102,7 +243,70 @@ ShallowWrapper {
           "instance": null,
           "key": undefined,
           "nodeType": "class",
-          "props": Object {},
+          "props": Object {
+            "path": "/admin/photos",
+            "render": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "path": "/admin/news",
+            "render": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "path": "/admin/videos",
+            "render": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "path": "/admin/mailing",
+            "render": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "path": "/presskit",
+            "render": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "component": [Function],
+            "path": "",
+          },
           "ref": null,
           "rendered": null,
           "type": [Function],
@@ -122,6 +326,27 @@ ShallowWrapper {
           <Route
             exact={true}
             path="/"
+            render={[Function]}
+          />
+          <Route
+            exact={true}
+            path="/tour"
+            render={[Function]}
+          />
+          <Route
+            exact={true}
+            path="/media"
+            render={[Function]}
+          />
+          <Route
+            exact={true}
+            path="/about"
+            render={[Function]}
+          />
+          <Route
+            exact={true}
+            path="/contact"
+            render={[Function]}
           />
           <Route
             component={[Function]}
@@ -129,10 +354,33 @@ ShallowWrapper {
             path="/admin"
           />
           <Route
-            component={[Function]}
-            path="/admin/home"
+            path="/admin/tour"
+            render={[Function]}
           />
-          <Route />
+          <Route
+            path="/admin/photos"
+            render={[Function]}
+          />
+          <Route
+            path="/admin/news"
+            render={[Function]}
+          />
+          <Route
+            path="/admin/videos"
+            render={[Function]}
+          />
+          <Route
+            path="/admin/mailing"
+            render={[Function]}
+          />
+          <Route
+            path="/presskit"
+            render={[Function]}
+          />
+          <Route
+            component={[Function]}
+            path=""
+          />
         </Switch>,
         "className": "app",
       },
@@ -146,6 +394,27 @@ ShallowWrapper {
             <Route
               exact={true}
               path="/"
+              render={[Function]}
+            />,
+            <Route
+              exact={true}
+              path="/tour"
+              render={[Function]}
+            />,
+            <Route
+              exact={true}
+              path="/media"
+              render={[Function]}
+            />,
+            <Route
+              exact={true}
+              path="/about"
+              render={[Function]}
+            />,
+            <Route
+              exact={true}
+              path="/contact"
+              render={[Function]}
             />,
             <Route
               component={[Function]}
@@ -153,10 +422,33 @@ ShallowWrapper {
               path="/admin"
             />,
             <Route
-              component={[Function]}
-              path="/admin/home"
+              path="/admin/tour"
+              render={[Function]}
             />,
-            <Route />,
+            <Route
+              path="/admin/photos"
+              render={[Function]}
+            />,
+            <Route
+              path="/admin/news"
+              render={[Function]}
+            />,
+            <Route
+              path="/admin/videos"
+              render={[Function]}
+            />,
+            <Route
+              path="/admin/mailing"
+              render={[Function]}
+            />,
+            <Route
+              path="/presskit"
+              render={[Function]}
+            />,
+            <Route
+              component={[Function]}
+              path=""
+            />,
           ],
         },
         "ref": null,
@@ -168,6 +460,59 @@ ShallowWrapper {
             "props": Object {
               "exact": true,
               "path": "/",
+              "render": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "exact": true,
+              "path": "/tour",
+              "render": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "exact": true,
+              "path": "/media",
+              "render": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "exact": true,
+              "path": "/about",
+              "render": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "exact": true,
+              "path": "/contact",
+              "render": [Function],
             },
             "ref": null,
             "rendered": null,
@@ -191,8 +536,8 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "class",
             "props": Object {
-              "component": [Function],
-              "path": "/admin/home",
+              "path": "/admin/tour",
+              "render": [Function],
             },
             "ref": null,
             "rendered": null,
@@ -202,7 +547,70 @@ ShallowWrapper {
             "instance": null,
             "key": undefined,
             "nodeType": "class",
-            "props": Object {},
+            "props": Object {
+              "path": "/admin/photos",
+              "render": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "path": "/admin/news",
+              "render": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "path": "/admin/videos",
+              "render": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "path": "/admin/mailing",
+              "render": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "path": "/presskit",
+              "render": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "component": [Function],
+              "path": "",
+            },
             "ref": null,
             "rendered": null,
             "type": [Function],
