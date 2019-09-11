@@ -1,0 +1,254 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutConatiner should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <AboutContainer
+    name="Sabetta"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="photo"
+          style={
+            Object {
+              "background": "url('./assets/sabetta.jpg')",
+              "backgroundPosition": "center",
+              "backgroundSize": "cover",
+            }
+          }
+        >
+          <i
+            className="fas fa-angle-up"
+          />
+          <p>
+            Jake Sabetta is a passionate creature. His Italian blood runs hot, and that sultry emotion can be felt in every song he writes. His other lesser-known talent is in the kitchen. If ever in the mood for beans and rice, rice and beans, or beans and rice with some other stuff thrown in, Jake Sabetta is your man. He may not have as wide a breadth of dishes as Mario Batali, but his expertise with the simple things is unrivalled. If Mad Wallace were a lion, Sabetta would be the mane.
+          </p>
+        </div>,
+        <h3>
+          Jake Sabetta
+        </h3>,
+        <h4>
+          Guitar / Vocals
+        </h4>,
+      ],
+      "className": "about-photo-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <i
+              className="fas fa-angle-up"
+            />,
+            <p>
+              Jake Sabetta is a passionate creature. His Italian blood runs hot, and that sultry emotion can be felt in every song he writes. His other lesser-known talent is in the kitchen. If ever in the mood for beans and rice, rice and beans, or beans and rice with some other stuff thrown in, Jake Sabetta is your man. He may not have as wide a breadth of dishes as Mario Batali, but his expertise with the simple things is unrivalled. If Mad Wallace were a lion, Sabetta would be the mane.
+            </p>,
+          ],
+          "className": "photo",
+          "style": Object {
+            "background": "url('./assets/sabetta.jpg')",
+            "backgroundPosition": "center",
+            "backgroundSize": "cover",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "fas fa-angle-up",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "i",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Jake Sabetta is a passionate creature. His Italian blood runs hot, and that sultry emotion can be felt in every song he writes. His other lesser-known talent is in the kitchen. If ever in the mood for beans and rice, rice and beans, or beans and rice with some other stuff thrown in, Jake Sabetta is your man. He may not have as wide a breadth of dishes as Mario Batali, but his expertise with the simple things is unrivalled. If Mad Wallace were a lion, Sabetta would be the mane.",
+            },
+            "ref": null,
+            "rendered": "Jake Sabetta is a passionate creature. His Italian blood runs hot, and that sultry emotion can be felt in every song he writes. His other lesser-known talent is in the kitchen. If ever in the mood for beans and rice, rice and beans, or beans and rice with some other stuff thrown in, Jake Sabetta is your man. He may not have as wide a breadth of dishes as Mario Batali, but his expertise with the simple things is unrivalled. If Mad Wallace were a lion, Sabetta would be the mane.",
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Jake Sabetta",
+        },
+        "ref": null,
+        "rendered": "Jake Sabetta",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Guitar / Vocals",
+        },
+        "ref": null,
+        "rendered": "Guitar / Vocals",
+        "type": "h4",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="photo"
+            style={
+              Object {
+                "background": "url('./assets/sabetta.jpg')",
+                "backgroundPosition": "center",
+                "backgroundSize": "cover",
+              }
+            }
+          >
+            <i
+              className="fas fa-angle-up"
+            />
+            <p>
+              Jake Sabetta is a passionate creature. His Italian blood runs hot, and that sultry emotion can be felt in every song he writes. His other lesser-known talent is in the kitchen. If ever in the mood for beans and rice, rice and beans, or beans and rice with some other stuff thrown in, Jake Sabetta is your man. He may not have as wide a breadth of dishes as Mario Batali, but his expertise with the simple things is unrivalled. If Mad Wallace were a lion, Sabetta would be the mane.
+            </p>
+          </div>,
+          <h3>
+            Jake Sabetta
+          </h3>,
+          <h4>
+            Guitar / Vocals
+          </h4>,
+        ],
+        "className": "about-photo-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <i
+                className="fas fa-angle-up"
+              />,
+              <p>
+                Jake Sabetta is a passionate creature. His Italian blood runs hot, and that sultry emotion can be felt in every song he writes. His other lesser-known talent is in the kitchen. If ever in the mood for beans and rice, rice and beans, or beans and rice with some other stuff thrown in, Jake Sabetta is your man. He may not have as wide a breadth of dishes as Mario Batali, but his expertise with the simple things is unrivalled. If Mad Wallace were a lion, Sabetta would be the mane.
+              </p>,
+            ],
+            "className": "photo",
+            "style": Object {
+              "background": "url('./assets/sabetta.jpg')",
+              "backgroundPosition": "center",
+              "backgroundSize": "cover",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "fas fa-angle-up",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "i",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Jake Sabetta is a passionate creature. His Italian blood runs hot, and that sultry emotion can be felt in every song he writes. His other lesser-known talent is in the kitchen. If ever in the mood for beans and rice, rice and beans, or beans and rice with some other stuff thrown in, Jake Sabetta is your man. He may not have as wide a breadth of dishes as Mario Batali, but his expertise with the simple things is unrivalled. If Mad Wallace were a lion, Sabetta would be the mane.",
+              },
+              "ref": null,
+              "rendered": "Jake Sabetta is a passionate creature. His Italian blood runs hot, and that sultry emotion can be felt in every song he writes. His other lesser-known talent is in the kitchen. If ever in the mood for beans and rice, rice and beans, or beans and rice with some other stuff thrown in, Jake Sabetta is your man. He may not have as wide a breadth of dishes as Mario Batali, but his expertise with the simple things is unrivalled. If Mad Wallace were a lion, Sabetta would be the mane.",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Jake Sabetta",
+          },
+          "ref": null,
+          "rendered": "Jake Sabetta",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Guitar / Vocals",
+          },
+          "ref": null,
+          "rendered": "Guitar / Vocals",
+          "type": "h4",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

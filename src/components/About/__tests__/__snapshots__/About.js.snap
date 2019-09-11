@@ -1,0 +1,610 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <About />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          about
+        </h1>,
+        <img
+          alt="Mad Wallace in front of Denver skyline"
+          src="./assets/about-cover.jpg"
+        />,
+        <p>
+          Who is Mad Wallace? A person? A place? A specter in the night? You’re on the right track. Mad Wallace is a family that entered into a legally binding agreement to split everything from food and shelter, to showers and future children. Sometimes they love each other and sometimes they don’t. Mad Wallace is a couple of ornery Jakes, an unflappable Jamie, and a super nice dude named Cory. Formed in the Spring of 2017, this group has perfected the art of bringing the overwhelming energy of house parties to whatever venue they play. Mad Wallace’s dynamic sound keeps audiences dancing through rock-y, heav-y, Latin-y, and hipp-y grooves that somehow wind their way into a coherent set. Based out of Denver, Mad Wallace has made its home along the Front Range, playing at venues like Cervantes, Summit Music Hall, and Larimer Lounge while sharing the stage with bands like Perpetual Groove and Legato. However, the band is most at home in a grungy house playing into the wee hours of the nightfall.
+        </p>,
+        <p
+          className="center-p"
+        >
+          “So if you are feeling down and kinda beat, just grab a hold of your old friend Pete.
+        </p>,
+        <p
+          className="center-p"
+        >
+          If you are feeling hungry and need to eat, just grab a hold of your old friend Pete.
+        </p>,
+        <p
+          className="center-p"
+        >
+          If you’re feeling tired and need to sleep, just grab a hold of your old friend Pete.”
+        </p>,
+        <p
+          className="center-p"
+        >
+          If you’re feeling lost and can’t find the beat, Grab a hold of your old friend Pete!”
+        </p>,
+        <p
+          className="center-p"
+        >
+          <strong>
+            And Pete 
+          </strong>
+          - Mad Wallace
+        </p>,
+        <div
+          className="photo-container"
+        >
+          <AboutContainer
+            name="Sabetta"
+          />
+          <AboutContainer
+            name="Lauer"
+          />
+          <AboutContainer
+            name="Jamie"
+          />
+          <AboutContainer
+            name="Cory"
+          />
+        </div>,
+        <a
+          href="http://www.ciphermagazine.com/mad-wallace/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <button>
+            Want to know more about the band?
+          </button>
+        </a>,
+      ],
+      "className": "about-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "about",
+        },
+        "ref": null,
+        "rendered": "about",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "alt": "Mad Wallace in front of Denver skyline",
+          "src": "./assets/about-cover.jpg",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Who is Mad Wallace? A person? A place? A specter in the night? You’re on the right track. Mad Wallace is a family that entered into a legally binding agreement to split everything from food and shelter, to showers and future children. Sometimes they love each other and sometimes they don’t. Mad Wallace is a couple of ornery Jakes, an unflappable Jamie, and a super nice dude named Cory. Formed in the Spring of 2017, this group has perfected the art of bringing the overwhelming energy of house parties to whatever venue they play. Mad Wallace’s dynamic sound keeps audiences dancing through rock-y, heav-y, Latin-y, and hipp-y grooves that somehow wind their way into a coherent set. Based out of Denver, Mad Wallace has made its home along the Front Range, playing at venues like Cervantes, Summit Music Hall, and Larimer Lounge while sharing the stage with bands like Perpetual Groove and Legato. However, the band is most at home in a grungy house playing into the wee hours of the nightfall.",
+        },
+        "ref": null,
+        "rendered": "Who is Mad Wallace? A person? A place? A specter in the night? You’re on the right track. Mad Wallace is a family that entered into a legally binding agreement to split everything from food and shelter, to showers and future children. Sometimes they love each other and sometimes they don’t. Mad Wallace is a couple of ornery Jakes, an unflappable Jamie, and a super nice dude named Cory. Formed in the Spring of 2017, this group has perfected the art of bringing the overwhelming energy of house parties to whatever venue they play. Mad Wallace’s dynamic sound keeps audiences dancing through rock-y, heav-y, Latin-y, and hipp-y grooves that somehow wind their way into a coherent set. Based out of Denver, Mad Wallace has made its home along the Front Range, playing at venues like Cervantes, Summit Music Hall, and Larimer Lounge while sharing the stage with bands like Perpetual Groove and Legato. However, the band is most at home in a grungy house playing into the wee hours of the nightfall.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "“So if you are feeling down and kinda beat, just grab a hold of your old friend Pete.",
+          "className": "center-p",
+        },
+        "ref": null,
+        "rendered": "“So if you are feeling down and kinda beat, just grab a hold of your old friend Pete.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "If you are feeling hungry and need to eat, just grab a hold of your old friend Pete.",
+          "className": "center-p",
+        },
+        "ref": null,
+        "rendered": "If you are feeling hungry and need to eat, just grab a hold of your old friend Pete.",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "If you’re feeling tired and need to sleep, just grab a hold of your old friend Pete.”",
+          "className": "center-p",
+        },
+        "ref": null,
+        "rendered": "If you’re feeling tired and need to sleep, just grab a hold of your old friend Pete.”",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "If you’re feeling lost and can’t find the beat, Grab a hold of your old friend Pete!”",
+          "className": "center-p",
+        },
+        "ref": null,
+        "rendered": "If you’re feeling lost and can’t find the beat, Grab a hold of your old friend Pete!”",
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <strong>
+              And Pete 
+            </strong>,
+            "- Mad Wallace",
+          ],
+          "className": "center-p",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "And Pete ",
+            },
+            "ref": null,
+            "rendered": "And Pete ",
+            "type": "strong",
+          },
+          "- Mad Wallace",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <AboutContainer
+              name="Sabetta"
+            />,
+            <AboutContainer
+              name="Lauer"
+            />,
+            <AboutContainer
+              name="Jamie"
+            />,
+            <AboutContainer
+              name="Cory"
+            />,
+          ],
+          "className": "photo-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "Sabetta",
+            "nodeType": "function",
+            "props": Object {
+              "name": "Sabetta",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Lauer",
+            "nodeType": "function",
+            "props": Object {
+              "name": "Lauer",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Jamie",
+            "nodeType": "function",
+            "props": Object {
+              "name": "Jamie",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "Cory",
+            "nodeType": "function",
+            "props": Object {
+              "name": "Cory",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <button>
+            Want to know more about the band?
+          </button>,
+          "href": "http://www.ciphermagazine.com/mad-wallace/",
+          "rel": "noopener noreferrer",
+          "target": "_blank",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Want to know more about the band?",
+          },
+          "ref": null,
+          "rendered": "Want to know more about the band?",
+          "type": "button",
+        },
+        "type": "a",
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            about
+          </h1>,
+          <img
+            alt="Mad Wallace in front of Denver skyline"
+            src="./assets/about-cover.jpg"
+          />,
+          <p>
+            Who is Mad Wallace? A person? A place? A specter in the night? You’re on the right track. Mad Wallace is a family that entered into a legally binding agreement to split everything from food and shelter, to showers and future children. Sometimes they love each other and sometimes they don’t. Mad Wallace is a couple of ornery Jakes, an unflappable Jamie, and a super nice dude named Cory. Formed in the Spring of 2017, this group has perfected the art of bringing the overwhelming energy of house parties to whatever venue they play. Mad Wallace’s dynamic sound keeps audiences dancing through rock-y, heav-y, Latin-y, and hipp-y grooves that somehow wind their way into a coherent set. Based out of Denver, Mad Wallace has made its home along the Front Range, playing at venues like Cervantes, Summit Music Hall, and Larimer Lounge while sharing the stage with bands like Perpetual Groove and Legato. However, the band is most at home in a grungy house playing into the wee hours of the nightfall.
+          </p>,
+          <p
+            className="center-p"
+          >
+            “So if you are feeling down and kinda beat, just grab a hold of your old friend Pete.
+          </p>,
+          <p
+            className="center-p"
+          >
+            If you are feeling hungry and need to eat, just grab a hold of your old friend Pete.
+          </p>,
+          <p
+            className="center-p"
+          >
+            If you’re feeling tired and need to sleep, just grab a hold of your old friend Pete.”
+          </p>,
+          <p
+            className="center-p"
+          >
+            If you’re feeling lost and can’t find the beat, Grab a hold of your old friend Pete!”
+          </p>,
+          <p
+            className="center-p"
+          >
+            <strong>
+              And Pete 
+            </strong>
+            - Mad Wallace
+          </p>,
+          <div
+            className="photo-container"
+          >
+            <AboutContainer
+              name="Sabetta"
+            />
+            <AboutContainer
+              name="Lauer"
+            />
+            <AboutContainer
+              name="Jamie"
+            />
+            <AboutContainer
+              name="Cory"
+            />
+          </div>,
+          <a
+            href="http://www.ciphermagazine.com/mad-wallace/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <button>
+              Want to know more about the band?
+            </button>
+          </a>,
+        ],
+        "className": "about-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "about",
+          },
+          "ref": null,
+          "rendered": "about",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "Mad Wallace in front of Denver skyline",
+            "src": "./assets/about-cover.jpg",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Who is Mad Wallace? A person? A place? A specter in the night? You’re on the right track. Mad Wallace is a family that entered into a legally binding agreement to split everything from food and shelter, to showers and future children. Sometimes they love each other and sometimes they don’t. Mad Wallace is a couple of ornery Jakes, an unflappable Jamie, and a super nice dude named Cory. Formed in the Spring of 2017, this group has perfected the art of bringing the overwhelming energy of house parties to whatever venue they play. Mad Wallace’s dynamic sound keeps audiences dancing through rock-y, heav-y, Latin-y, and hipp-y grooves that somehow wind their way into a coherent set. Based out of Denver, Mad Wallace has made its home along the Front Range, playing at venues like Cervantes, Summit Music Hall, and Larimer Lounge while sharing the stage with bands like Perpetual Groove and Legato. However, the band is most at home in a grungy house playing into the wee hours of the nightfall.",
+          },
+          "ref": null,
+          "rendered": "Who is Mad Wallace? A person? A place? A specter in the night? You’re on the right track. Mad Wallace is a family that entered into a legally binding agreement to split everything from food and shelter, to showers and future children. Sometimes they love each other and sometimes they don’t. Mad Wallace is a couple of ornery Jakes, an unflappable Jamie, and a super nice dude named Cory. Formed in the Spring of 2017, this group has perfected the art of bringing the overwhelming energy of house parties to whatever venue they play. Mad Wallace’s dynamic sound keeps audiences dancing through rock-y, heav-y, Latin-y, and hipp-y grooves that somehow wind their way into a coherent set. Based out of Denver, Mad Wallace has made its home along the Front Range, playing at venues like Cervantes, Summit Music Hall, and Larimer Lounge while sharing the stage with bands like Perpetual Groove and Legato. However, the band is most at home in a grungy house playing into the wee hours of the nightfall.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "“So if you are feeling down and kinda beat, just grab a hold of your old friend Pete.",
+            "className": "center-p",
+          },
+          "ref": null,
+          "rendered": "“So if you are feeling down and kinda beat, just grab a hold of your old friend Pete.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "If you are feeling hungry and need to eat, just grab a hold of your old friend Pete.",
+            "className": "center-p",
+          },
+          "ref": null,
+          "rendered": "If you are feeling hungry and need to eat, just grab a hold of your old friend Pete.",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "If you’re feeling tired and need to sleep, just grab a hold of your old friend Pete.”",
+            "className": "center-p",
+          },
+          "ref": null,
+          "rendered": "If you’re feeling tired and need to sleep, just grab a hold of your old friend Pete.”",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "If you’re feeling lost and can’t find the beat, Grab a hold of your old friend Pete!”",
+            "className": "center-p",
+          },
+          "ref": null,
+          "rendered": "If you’re feeling lost and can’t find the beat, Grab a hold of your old friend Pete!”",
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <strong>
+                And Pete 
+              </strong>,
+              "- Mad Wallace",
+            ],
+            "className": "center-p",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "And Pete ",
+              },
+              "ref": null,
+              "rendered": "And Pete ",
+              "type": "strong",
+            },
+            "- Mad Wallace",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <AboutContainer
+                name="Sabetta"
+              />,
+              <AboutContainer
+                name="Lauer"
+              />,
+              <AboutContainer
+                name="Jamie"
+              />,
+              <AboutContainer
+                name="Cory"
+              />,
+            ],
+            "className": "photo-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "Sabetta",
+              "nodeType": "function",
+              "props": Object {
+                "name": "Sabetta",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Lauer",
+              "nodeType": "function",
+              "props": Object {
+                "name": "Lauer",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Jamie",
+              "nodeType": "function",
+              "props": Object {
+                "name": "Jamie",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "Cory",
+              "nodeType": "function",
+              "props": Object {
+                "name": "Cory",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <button>
+              Want to know more about the band?
+            </button>,
+            "href": "http://www.ciphermagazine.com/mad-wallace/",
+            "rel": "noopener noreferrer",
+            "target": "_blank",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Want to know more about the band?",
+            },
+            "ref": null,
+            "rendered": "Want to know more about the band?",
+            "type": "button",
+          },
+          "type": "a",
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

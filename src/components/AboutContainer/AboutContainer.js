@@ -1,5 +1,6 @@
 import React from 'react'
 import { members } from './members'
+import PropTypes from 'prop-types'
 import '../../main.scss'
 
 export default function AboutContainer({ name }) {
@@ -19,4 +20,8 @@ export default function AboutContainer({ name }) {
       <h4>{memberCopy.inst}</h4>
     </div>
   )
+}
+
+AboutContainer.propTypes = {
+  name: PropTypes.string.isRequired
 }
