@@ -66,7 +66,7 @@ ShallowWrapper {
             >
               <iframe
                 allow="autoplay; encrypted-media"
-                allowFullscreen={true}
+                allowFullScreen={true}
                 frameBorder="0"
                 src="https://www.youtube.com/embed/_EjPLSCx0LY"
                 title="presskit-youtube"
@@ -311,7 +311,7 @@ ShallowWrapper {
               >
                 <iframe
                   allow="autoplay; encrypted-media"
-                  allowFullscreen={true}
+                  allowFullScreen={true}
                   frameBorder="0"
                   src="https://www.youtube.com/embed/_EjPLSCx0LY"
                   title="presskit-youtube"
@@ -555,7 +555,7 @@ ShallowWrapper {
                 >
                   <iframe
                     allow="autoplay; encrypted-media"
-                    allowFullscreen={true}
+                    allowFullScreen={true}
                     frameBorder="0"
                     src="https://www.youtube.com/embed/_EjPLSCx0LY"
                     title="presskit-youtube"
@@ -593,7 +593,7 @@ ShallowWrapper {
                 "props": Object {
                   "children": <iframe
                     allow="autoplay; encrypted-media"
-                    allowFullscreen={true}
+                    allowFullScreen={true}
                     frameBorder="0"
                     src="https://www.youtube.com/embed/_EjPLSCx0LY"
                     title="presskit-youtube"
@@ -607,7 +607,7 @@ ShallowWrapper {
                   "nodeType": "host",
                   "props": Object {
                     "allow": "autoplay; encrypted-media",
-                    "allowFullscreen": true,
+                    "allowFullScreen": true,
                     "frameBorder": "0",
                     "src": "https://www.youtube.com/embed/_EjPLSCx0LY",
                     "title": "presskit-youtube",
@@ -1248,7 +1248,7 @@ ShallowWrapper {
               >
                 <iframe
                   allow="autoplay; encrypted-media"
-                  allowFullscreen={true}
+                  allowFullScreen={true}
                   frameBorder="0"
                   src="https://www.youtube.com/embed/_EjPLSCx0LY"
                   title="presskit-youtube"
@@ -1493,7 +1493,7 @@ ShallowWrapper {
                 >
                   <iframe
                     allow="autoplay; encrypted-media"
-                    allowFullscreen={true}
+                    allowFullScreen={true}
                     frameBorder="0"
                     src="https://www.youtube.com/embed/_EjPLSCx0LY"
                     title="presskit-youtube"
@@ -1737,7 +1737,7 @@ ShallowWrapper {
                   >
                     <iframe
                       allow="autoplay; encrypted-media"
-                      allowFullscreen={true}
+                      allowFullScreen={true}
                       frameBorder="0"
                       src="https://www.youtube.com/embed/_EjPLSCx0LY"
                       title="presskit-youtube"
@@ -1775,7 +1775,7 @@ ShallowWrapper {
                   "props": Object {
                     "children": <iframe
                       allow="autoplay; encrypted-media"
-                      allowFullscreen={true}
+                      allowFullScreen={true}
                       frameBorder="0"
                       src="https://www.youtube.com/embed/_EjPLSCx0LY"
                       title="presskit-youtube"
@@ -1789,7 +1789,7 @@ ShallowWrapper {
                     "nodeType": "host",
                     "props": Object {
                       "allow": "autoplay; encrypted-media",
-                      "allowFullscreen": true,
+                      "allowFullScreen": true,
                       "frameBorder": "0",
                       "src": "https://www.youtube.com/embed/_EjPLSCx0LY",
                       "title": "presskit-youtube",
