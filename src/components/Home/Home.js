@@ -3,9 +3,10 @@ import { connect } from 'react-redux'
 import { setTourDates, setVideos, setPhotos, setNews } from '../../actions'
 import Loader from '../Loader/Loader'
 import ErrorPage from '../Error/Error'
+import PropTypes from 'prop-types'
 import '../../main.scss'
 
-class Home extends Component {
+export class Home extends Component {
   constructor() {
     super()
     this.state = {
@@ -144,14 +145,14 @@ class Home extends Component {
   }
 }
 
-const mapStateToProps = state => ({
+export const mapStateToProps = state => ({
   tourDates: state.tourDates,
   videos: state.videos,
   photos: state.photos,
   news: state.news
 })
 
-const mapDispatchToProps = dispatch => ({
+export const mapDispatchToProps = dispatch => ({
   setTourDates: dates => dispatch(setTourDates(dates)),
   setVideos: videos => dispatch(setVideos(videos)),
   setPhotos: photos => dispatch(setPhotos(photos)),
@@ -159,3 +160,14 @@ const mapDispatchToProps = dispatch => ({
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(Home)
+
+Home.propTypes = {
+  tourDates: PropTypes.array.isRequired,
+  videos: PropTypes.array.isRequired,
+  photos: PropTypes.array.isRequired,
+  news: PropTypes.array.isRequired,
+  setTourDates: PropTypes.func.isRequired,
+  setVideos: PropTypes.func.isRequired,
+  setPhotos: PropTypes.func.isRequired,
+  setNews: PropTypes.func.isRequired
+}
