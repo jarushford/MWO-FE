@@ -8,15 +8,15 @@ export default function MainNav() {
   return (
     <section>
       <header className="main-nav nav">
-        <NavLink to="/tour">tour</NavLink>
-        <NavLink to="/media">media</NavLink>
-        <Link to="/">
+        <NavLink to="/tour" onClick={() => window.scrollTo(0, 0)}>tour</NavLink>
+        <NavLink to="/media" onClick={() => window.scrollTo(0, 0)}>media</NavLink>
+        <Link to="/" onClick={() => window.scrollTo(0, 0)}>
           <div className="header-logo">
             <img alt="mw-logo" src="./assets/main-logo.png" />
           </div>
         </Link>  
-        <NavLink to="/about">about</NavLink>
-        <NavLink to="/contact">contact</NavLink>
+        <NavLink to="/about" onClick={() => window.scrollTo(0, 0)}>about</NavLink>
+        <NavLink to="/contact" onClick={() => window.scrollTo(0, 0)}>contact</NavLink>
       </header>
       <header className="mobile-nav nav">
         <Link to="/" onClick={() => {
