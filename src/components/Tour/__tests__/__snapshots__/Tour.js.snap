@@ -1,0 +1,1066 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tour Tour component should match the default snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Tour
+    setTourDates={[MockFunction]}
+    tourDates={
+      Array [
+        Object {
+          "city": "Town",
+          "date": "12/12/1212",
+          "day_of_week": "Friday",
+          "id": 123,
+          "ticket_link": "isfs4fijrhxdff",
+          "venue": "Place",
+        },
+        Object {
+          "city": "Town",
+          "date": "12/23/1212",
+          "day_of_week": "Friday",
+          "id": 123,
+          "ticket_link": "isfs4fijrhxdff",
+          "venue": "Place",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          tour
+        </h1>,
+        <table
+          cellPadding="10"
+          cellSpacing="0"
+        >
+          <thead>
+            <tr>
+              <th>
+                when
+              </th>
+              <th>
+                where
+              </th>
+              <th>
+                wait... where?
+              </th>
+              <th>
+                how
+              </th>
+            </tr>
+          </thead>
+          <tbody />
+        </table>,
+        <h3>
+          No tour dates right now, check back soon!
+        </h3>,
+      ],
+      "className": "tour-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "tour",
+        },
+        "ref": null,
+        "rendered": "tour",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "cellPadding": "10",
+          "cellSpacing": "0",
+          "children": Array [
+            <thead>
+              <tr>
+                <th>
+                  when
+                </th>
+                <th>
+                  where
+                </th>
+                <th>
+                  wait... where?
+                </th>
+                <th>
+                  how
+                </th>
+              </tr>
+            </thead>,
+            <tbody />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <tr>
+                <th>
+                  when
+                </th>
+                <th>
+                  where
+                </th>
+                <th>
+                  wait... where?
+                </th>
+                <th>
+                  how
+                </th>
+              </tr>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <th>
+                    when
+                  </th>,
+                  <th>
+                    where
+                  </th>,
+                  <th>
+                    wait... where?
+                  </th>,
+                  <th>
+                    how
+                  </th>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "when",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "when",
+                  },
+                  "ref": null,
+                  "rendered": "when",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": "where",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "where",
+                  },
+                  "ref": null,
+                  "rendered": "where",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": "wait... where?",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "wait... where?",
+                  },
+                  "ref": null,
+                  "rendered": "wait... where?",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": "how",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "how",
+                  },
+                  "ref": null,
+                  "rendered": "how",
+                  "type": "th",
+                },
+              ],
+              "type": "tr",
+            },
+            "type": "thead",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "tbody",
+          },
+        ],
+        "type": "table",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "No tour dates right now, check back soon!",
+        },
+        "ref": null,
+        "rendered": "No tour dates right now, check back soon!",
+        "type": "h3",
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            tour
+          </h1>,
+          <table
+            cellPadding="10"
+            cellSpacing="0"
+          >
+            <thead>
+              <tr>
+                <th>
+                  when
+                </th>
+                <th>
+                  where
+                </th>
+                <th>
+                  wait... where?
+                </th>
+                <th>
+                  how
+                </th>
+              </tr>
+            </thead>
+            <tbody />
+          </table>,
+          <h3>
+            No tour dates right now, check back soon!
+          </h3>,
+        ],
+        "className": "tour-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "tour",
+          },
+          "ref": null,
+          "rendered": "tour",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "cellPadding": "10",
+            "cellSpacing": "0",
+            "children": Array [
+              <thead>
+                <tr>
+                  <th>
+                    when
+                  </th>
+                  <th>
+                    where
+                  </th>
+                  <th>
+                    wait... where?
+                  </th>
+                  <th>
+                    how
+                  </th>
+                </tr>
+              </thead>,
+              <tbody />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <tr>
+                  <th>
+                    when
+                  </th>
+                  <th>
+                    where
+                  </th>
+                  <th>
+                    wait... where?
+                  </th>
+                  <th>
+                    how
+                  </th>
+                </tr>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <th>
+                      when
+                    </th>,
+                    <th>
+                      where
+                    </th>,
+                    <th>
+                      wait... where?
+                    </th>,
+                    <th>
+                      how
+                    </th>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "when",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "when",
+                    },
+                    "ref": null,
+                    "rendered": "when",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "where",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "where",
+                    },
+                    "ref": null,
+                    "rendered": "where",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "wait... where?",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "wait... where?",
+                    },
+                    "ref": null,
+                    "rendered": "wait... where?",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "how",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "how",
+                    },
+                    "ref": null,
+                    "rendered": "how",
+                    "type": "th",
+                  },
+                ],
+                "type": "tr",
+              },
+              "type": "thead",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "tbody",
+            },
+          ],
+          "type": "table",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "No tour dates right now, check back soon!",
+          },
+          "ref": null,
+          "rendered": "No tour dates right now, check back soon!",
+          "type": "h3",
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
+
+exports[`Tour Tour component should match the snapshot if errored 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Tour
+    setTourDates={[MockFunction]}
+    tourDates={
+      Array [
+        Object {
+          "city": "Town",
+          "date": "12/12/1212",
+          "day_of_week": "Friday",
+          "id": 123,
+          "ticket_link": "isfs4fijrhxdff",
+          "venue": "Place",
+        },
+        Object {
+          "city": "Town",
+          "date": "12/23/1212",
+          "day_of_week": "Friday",
+          "id": 123,
+          "ticket_link": "isfs4fijrhxdff",
+          "venue": "Place",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "message": "Bad stuff!",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "message": "Bad stuff!",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
+
+exports[`Tour Tour component should match the snapshot if loading 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Tour
+    setTourDates={[MockFunction]}
+    tourDates={
+      Array [
+        Object {
+          "city": "Town",
+          "date": "12/12/1212",
+          "day_of_week": "Friday",
+          "id": 123,
+          "ticket_link": "isfs4fijrhxdff",
+          "venue": "Place",
+        },
+        Object {
+          "city": "Town",
+          "date": "12/23/1212",
+          "day_of_week": "Friday",
+          "id": 123,
+          "ticket_link": "isfs4fijrhxdff",
+          "venue": "Place",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {},
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {},
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
+
+exports[`Tour Tour component should match the snapshot with no tour dates 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Tour
+    setTourDates={[MockFunction]}
+    tourDates={Array []}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          tour
+        </h1>,
+        <table
+          cellPadding="10"
+          cellSpacing="0"
+        >
+          <thead>
+            <tr>
+              <th>
+                when
+              </th>
+              <th>
+                where
+              </th>
+              <th>
+                wait... where?
+              </th>
+              <th>
+                how
+              </th>
+            </tr>
+          </thead>
+          <tbody />
+        </table>,
+        <h3>
+          No tour dates right now, check back soon!
+        </h3>,
+      ],
+      "className": "tour-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "tour",
+        },
+        "ref": null,
+        "rendered": "tour",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "cellPadding": "10",
+          "cellSpacing": "0",
+          "children": Array [
+            <thead>
+              <tr>
+                <th>
+                  when
+                </th>
+                <th>
+                  where
+                </th>
+                <th>
+                  wait... where?
+                </th>
+                <th>
+                  how
+                </th>
+              </tr>
+            </thead>,
+            <tbody />,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <tr>
+                <th>
+                  when
+                </th>
+                <th>
+                  where
+                </th>
+                <th>
+                  wait... where?
+                </th>
+                <th>
+                  how
+                </th>
+              </tr>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <th>
+                    when
+                  </th>,
+                  <th>
+                    where
+                  </th>,
+                  <th>
+                    wait... where?
+                  </th>,
+                  <th>
+                    how
+                  </th>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "when",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "when",
+                  },
+                  "ref": null,
+                  "rendered": "when",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": "where",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "where",
+                  },
+                  "ref": null,
+                  "rendered": "where",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": "wait... where?",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "wait... where?",
+                  },
+                  "ref": null,
+                  "rendered": "wait... where?",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": "how",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "how",
+                  },
+                  "ref": null,
+                  "rendered": "how",
+                  "type": "th",
+                },
+              ],
+              "type": "tr",
+            },
+            "type": "thead",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "tbody",
+          },
+        ],
+        "type": "table",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "No tour dates right now, check back soon!",
+        },
+        "ref": null,
+        "rendered": "No tour dates right now, check back soon!",
+        "type": "h3",
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            tour
+          </h1>,
+          <table
+            cellPadding="10"
+            cellSpacing="0"
+          >
+            <thead>
+              <tr>
+                <th>
+                  when
+                </th>
+                <th>
+                  where
+                </th>
+                <th>
+                  wait... where?
+                </th>
+                <th>
+                  how
+                </th>
+              </tr>
+            </thead>
+            <tbody />
+          </table>,
+          <h3>
+            No tour dates right now, check back soon!
+          </h3>,
+        ],
+        "className": "tour-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "tour",
+          },
+          "ref": null,
+          "rendered": "tour",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "cellPadding": "10",
+            "cellSpacing": "0",
+            "children": Array [
+              <thead>
+                <tr>
+                  <th>
+                    when
+                  </th>
+                  <th>
+                    where
+                  </th>
+                  <th>
+                    wait... where?
+                  </th>
+                  <th>
+                    how
+                  </th>
+                </tr>
+              </thead>,
+              <tbody />,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <tr>
+                  <th>
+                    when
+                  </th>
+                  <th>
+                    where
+                  </th>
+                  <th>
+                    wait... where?
+                  </th>
+                  <th>
+                    how
+                  </th>
+                </tr>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <th>
+                      when
+                    </th>,
+                    <th>
+                      where
+                    </th>,
+                    <th>
+                      wait... where?
+                    </th>,
+                    <th>
+                      how
+                    </th>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "when",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "when",
+                    },
+                    "ref": null,
+                    "rendered": "when",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "where",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "where",
+                    },
+                    "ref": null,
+                    "rendered": "where",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "wait... where?",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "wait... where?",
+                    },
+                    "ref": null,
+                    "rendered": "wait... where?",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "how",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "how",
+                    },
+                    "ref": null,
+                    "rendered": "how",
+                    "type": "th",
+                  },
+                ],
+                "type": "tr",
+              },
+              "type": "thead",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": undefined,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "tbody",
+            },
+          ],
+          "type": "table",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "No tour dates right now, check back soon!",
+          },
+          "ref": null,
+          "rendered": "No tour dates right now, check back soon!",
+          "type": "h3",
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;

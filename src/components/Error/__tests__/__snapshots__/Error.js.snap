@@ -1,0 +1,282 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <ErrorPage
+    message="ReferenceError..."
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2>
+          Something has gone terribly wrong...
+        </h2>,
+        <img
+          alt="Error GIF"
+          src="https://media.giphy.com/media/IR24B7tPNFk2c/giphy.gif"
+        />,
+        <Link
+          replace={false}
+          to="/"
+        >
+          <button>
+            Reload Site
+          </button>
+        </Link>,
+        <p>
+          If you think that something is wrong on our end feel free to 
+          <a
+            href="mailto:madwallaceband@gmail.com?subject=Report Issue&body=Hi, I ran into some issues while trying to use madwallace.com that I would like to provide you further details on. Here are some details from the error on the site: ReferenceError.... If you would like to include any additional comments please do to here: "
+          >
+            let us know
+          </a>
+           too and we'll get right on it. Thanks!
+        </p>,
+      ],
+      "className": "error-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Something has gone terribly wrong...",
+        },
+        "ref": null,
+        "rendered": "Something has gone terribly wrong...",
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "alt": "Error GIF",
+          "src": "https://media.giphy.com/media/IR24B7tPNFk2c/giphy.gif",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "img",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <button>
+            Reload Site
+          </button>,
+          "replace": false,
+          "to": "/",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Reload Site",
+          },
+          "ref": null,
+          "rendered": "Reload Site",
+          "type": "button",
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "If you think that something is wrong on our end feel free to ",
+            <a
+              href="mailto:madwallaceband@gmail.com?subject=Report Issue&body=Hi, I ran into some issues while trying to use madwallace.com that I would like to provide you further details on. Here are some details from the error on the site: ReferenceError.... If you would like to include any additional comments please do to here: "
+            >
+              let us know
+            </a>,
+            " too and we'll get right on it. Thanks!",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "If you think that something is wrong on our end feel free to ",
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "let us know",
+              "href": "mailto:madwallaceband@gmail.com?subject=Report Issue&body=Hi, I ran into some issues while trying to use madwallace.com that I would like to provide you further details on. Here are some details from the error on the site: ReferenceError.... If you would like to include any additional comments please do to here: ",
+            },
+            "ref": null,
+            "rendered": "let us know",
+            "type": "a",
+          },
+          " too and we'll get right on it. Thanks!",
+        ],
+        "type": "p",
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2>
+            Something has gone terribly wrong...
+          </h2>,
+          <img
+            alt="Error GIF"
+            src="https://media.giphy.com/media/IR24B7tPNFk2c/giphy.gif"
+          />,
+          <Link
+            replace={false}
+            to="/"
+          >
+            <button>
+              Reload Site
+            </button>
+          </Link>,
+          <p>
+            If you think that something is wrong on our end feel free to 
+            <a
+              href="mailto:madwallaceband@gmail.com?subject=Report Issue&body=Hi, I ran into some issues while trying to use madwallace.com that I would like to provide you further details on. Here are some details from the error on the site: ReferenceError.... If you would like to include any additional comments please do to here: "
+            >
+              let us know
+            </a>
+             too and we'll get right on it. Thanks!
+          </p>,
+        ],
+        "className": "error-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Something has gone terribly wrong...",
+          },
+          "ref": null,
+          "rendered": "Something has gone terribly wrong...",
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "Error GIF",
+            "src": "https://media.giphy.com/media/IR24B7tPNFk2c/giphy.gif",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <button>
+              Reload Site
+            </button>,
+            "replace": false,
+            "to": "/",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Reload Site",
+            },
+            "ref": null,
+            "rendered": "Reload Site",
+            "type": "button",
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "If you think that something is wrong on our end feel free to ",
+              <a
+                href="mailto:madwallaceband@gmail.com?subject=Report Issue&body=Hi, I ran into some issues while trying to use madwallace.com that I would like to provide you further details on. Here are some details from the error on the site: ReferenceError.... If you would like to include any additional comments please do to here: "
+              >
+                let us know
+              </a>,
+              " too and we'll get right on it. Thanks!",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "If you think that something is wrong on our end feel free to ",
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "let us know",
+                "href": "mailto:madwallaceband@gmail.com?subject=Report Issue&body=Hi, I ran into some issues while trying to use madwallace.com that I would like to provide you further details on. Here are some details from the error on the site: ReferenceError.... If you would like to include any additional comments please do to here: ",
+              },
+              "ref": null,
+              "rendered": "let us know",
+              "type": "a",
+            },
+            " too and we'll get right on it. Thanks!",
+          ],
+          "type": "p",
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

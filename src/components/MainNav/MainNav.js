@@ -19,7 +19,10 @@ export default function MainNav() {
         <NavLink to="/contact">contact</NavLink>
       </header>
       <header className="mobile-nav nav">
-        <Link to="/" onClick={() => setMenu(false)}>
+        <Link to="/" onClick={() => {
+          setMenu(false)
+          window.scrollTo(0, 0)
+        }}>
           <div className="header-logo">
             <img alt="mw-logo" src="./assets/main-logo.png" />
           </div>
@@ -34,25 +37,37 @@ export default function MainNav() {
         </div>
         <div className={`dropdown-container ${menu && 'show'}`}>
           <NavLink
-            onClick={() => setMenu(false)}
+            onClick={() => {
+              setMenu(false)
+              window.scrollTo(0, 0)
+            }}
             to="/tour"
           >
             tour
           </NavLink>
           <NavLink
-            onClick={() => setMenu(false)}
+            onClick={() => {
+              setMenu(false)
+              window.scrollTo(0, 0)
+            }}
             to="/media"
           >
             media
           </NavLink>
           <NavLink
-            onClick={() => setMenu(false)}
+            onClick={() => {
+              setMenu(false)
+              window.scrollTo(0, 0)
+            }}
             to="/about"
           >
             about
           </NavLink>
           <NavLink
-            onClick={() => setMenu(false)}
+            onClick={() => {
+              setMenu(false)
+              window.scrollTo(0, 0)
+            }}
             to="/contact"
           >
             contact

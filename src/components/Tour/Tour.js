@@ -3,9 +3,10 @@ import Loader from '../Loader/Loader'
 import ErrorPage from '../Error/Error'
 import { connect } from 'react-redux'
 import { setTourDates } from '../../actions'
+import PropTypes from 'prop-types'
 import '../../main.scss'
 
-class Tour extends Component {
+export class Tour extends Component {
   constructor() {
     super()
     this.state = {
@@ -115,12 +116,17 @@ class Tour extends Component {
   }
 }
 
-const mapStateToProps = state => ({
+export const mapStateToProps = state => ({
   tourDates: state.tourDates
 })
 
-const mapDispatchToProps = dispatch => ({
+export const mapDispatchToProps = dispatch => ({
   setTourDates: dates => dispatch(setTourDates(dates))
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(Tour)
+
+Tour.propTypes = {
+  tourDates: PropTypes.array.isRequired,
+  setTourDates: PropTypes.func.isRequired
+}

@@ -3,10 +3,11 @@ import Loader from '../Loader/Loader'
 import ErrorPage from '../Error/Error'
 import { connect } from 'react-redux'
 import { setVideos, setPhotos } from '../../actions'
+import PropTypes from 'prop-types'
 import '../../main.scss'
 
 
-class Media extends Component {
+export class Media extends Component {
   constructor() {
     super()
     this.state = {
@@ -18,11 +19,11 @@ class Media extends Component {
     }
   }
 
-  componentDidMount() {
+  async componentDidMount() {
     if (!this.props.videos.length || !this.props.photos.length) {
       this.setState({ isLoading: true })
-      this.getVideos() 
-      this.getPhotos()
+      await this.getVideos() 
+      await this.getPhotos()
       this.setState({ isLoading: false }) 
     } else {
       this.setState({ videos: this.props.videos, photos: this.props.photos })
@@ -184,14 +185,21 @@ class Media extends Component {
   }
 }
 
-const mapStateToProps = state => ({
+export const mapStateToProps = state => ({
   videos: state.videos,
   photos: state.photos
 })
 
-const mapDispatchToProps = dispatch => ({
+export const mapDispatchToProps = dispatch => ({
   setVideos: videos => dispatch(setVideos(videos)),
   setPhotos: photos => dispatch(setPhotos(photos))
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(Media)
+
+Media.propTypes = {
+  videos: PropTypes.array.isRequired,
+  photos: PropTypes.array.isRequired,
+  setVideos: PropTypes.func.isRequired,
+  setPhotos: PropTypes.func.isRequired
+}

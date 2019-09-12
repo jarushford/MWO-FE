@@ -1,0 +1,3594 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Media Media component should match the default snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Media
+    photos={
+      Array [
+        Object {
+          "description": "more stuff!",
+          "link": "a link",
+        },
+      ]
+    }
+    setPhotos={[MockFunction]}
+    setVideos={[MockFunction]}
+    videos={
+      Array [
+        Object {
+          "id": 234,
+          "link": "link",
+          "thumbnail": "thumb",
+          "title": "Stuff!",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          media
+        </h1>,
+        <section
+          className="music-container"
+        >
+          <h2>
+            music
+          </h2>
+          <div>
+            <div>
+              <iframe
+                allow="encrypted-media"
+                allowtransparency="true"
+                frameBorder="0"
+                height="300px"
+                id="spotifyPlayer"
+                src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC"
+                title="spotify player"
+                width="300px"
+              />
+              <a
+                href="https://madwallace.bandcamp.com/album/hook-line-sinker"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="Hook Line and Sinker"
+                  id="hookline"
+                  src="./assets/hookline-album-art.jpg"
+                />
+              </a>
+              <a
+                href="https://madwallace.bandcamp.com/album/2804"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="2804"
+                  id="twenty804"
+                  src="./assets/2804-album-art.jpg"
+                />
+              </a>
+            </div>
+          </div>
+          <a
+            href="https://open.spotify.com/artist/6H2CmXWubR7YVd6n1hlXq7"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <button>
+              follow on spotify 
+              <i
+                className="fab fa-spotify"
+              />
+            </button>
+          </a>
+        </section>,
+        <section
+          className="videos-container"
+        >
+          <h2>
+            videos
+          </h2>
+          <h3>
+            videos are loading
+          </h3>
+        </section>,
+        <section
+          className="photos-container"
+        >
+          <h2>
+            photos
+          </h2>
+          <div>
+            <i
+              className="fas fa-caret-left"
+              onClick={[Function]}
+            />
+            <h3>
+              photos are loading
+            </h3>
+            <i
+              className="fas fa-caret-right"
+              onClick={[Function]}
+            />
+          </div>
+        </section>,
+      ],
+      "className": "media-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "media",
+        },
+        "ref": null,
+        "rendered": "media",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2>
+              music
+            </h2>,
+            <div>
+              <div>
+                <iframe
+                  allow="encrypted-media"
+                  allowtransparency="true"
+                  frameBorder="0"
+                  height="300px"
+                  id="spotifyPlayer"
+                  src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC"
+                  title="spotify player"
+                  width="300px"
+                />
+                <a
+                  href="https://madwallace.bandcamp.com/album/hook-line-sinker"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Hook Line and Sinker"
+                    id="hookline"
+                    src="./assets/hookline-album-art.jpg"
+                  />
+                </a>
+                <a
+                  href="https://madwallace.bandcamp.com/album/2804"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="2804"
+                    id="twenty804"
+                    src="./assets/2804-album-art.jpg"
+                  />
+                </a>
+              </div>
+            </div>,
+            <a
+              href="https://open.spotify.com/artist/6H2CmXWubR7YVd6n1hlXq7"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <button>
+                follow on spotify 
+                <i
+                  className="fab fa-spotify"
+                />
+              </button>
+            </a>,
+          ],
+          "className": "music-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "music",
+            },
+            "ref": null,
+            "rendered": "music",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div>
+                <iframe
+                  allow="encrypted-media"
+                  allowtransparency="true"
+                  frameBorder="0"
+                  height="300px"
+                  id="spotifyPlayer"
+                  src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC"
+                  title="spotify player"
+                  width="300px"
+                />
+                <a
+                  href="https://madwallace.bandcamp.com/album/hook-line-sinker"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Hook Line and Sinker"
+                    id="hookline"
+                    src="./assets/hookline-album-art.jpg"
+                  />
+                </a>
+                <a
+                  href="https://madwallace.bandcamp.com/album/2804"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="2804"
+                    id="twenty804"
+                    src="./assets/2804-album-art.jpg"
+                  />
+                </a>
+              </div>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <iframe
+                    allow="encrypted-media"
+                    allowtransparency="true"
+                    frameBorder="0"
+                    height="300px"
+                    id="spotifyPlayer"
+                    src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC"
+                    title="spotify player"
+                    width="300px"
+                  />,
+                  <a
+                    href="https://madwallace.bandcamp.com/album/hook-line-sinker"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="Hook Line and Sinker"
+                      id="hookline"
+                      src="./assets/hookline-album-art.jpg"
+                    />
+                  </a>,
+                  <a
+                    href="https://madwallace.bandcamp.com/album/2804"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="2804"
+                      id="twenty804"
+                      src="./assets/2804-album-art.jpg"
+                    />
+                  </a>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "allow": "encrypted-media",
+                    "allowtransparency": "true",
+                    "frameBorder": "0",
+                    "height": "300px",
+                    "id": "spotifyPlayer",
+                    "src": "https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC",
+                    "title": "spotify player",
+                    "width": "300px",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "iframe",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <img
+                      alt="Hook Line and Sinker"
+                      id="hookline"
+                      src="./assets/hookline-album-art.jpg"
+                    />,
+                    "href": "https://madwallace.bandcamp.com/album/hook-line-sinker",
+                    "rel": "noopener noreferrer",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "Hook Line and Sinker",
+                      "id": "hookline",
+                      "src": "./assets/hookline-album-art.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <img
+                      alt="2804"
+                      id="twenty804"
+                      src="./assets/2804-album-art.jpg"
+                    />,
+                    "href": "https://madwallace.bandcamp.com/album/2804",
+                    "rel": "noopener noreferrer",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "2804",
+                      "id": "twenty804",
+                      "src": "./assets/2804-album-art.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  "type": "a",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <button>
+                follow on spotify 
+                <i
+                  className="fab fa-spotify"
+                />
+              </button>,
+              "href": "https://open.spotify.com/artist/6H2CmXWubR7YVd6n1hlXq7",
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "follow on spotify ",
+                  <i
+                    className="fab fa-spotify"
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "follow on spotify ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fab fa-spotify",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+              ],
+              "type": "button",
+            },
+            "type": "a",
+          },
+        ],
+        "type": "section",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2>
+              videos
+            </h2>,
+            <h3>
+              videos are loading
+            </h3>,
+          ],
+          "className": "videos-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "videos",
+            },
+            "ref": null,
+            "rendered": "videos",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "videos are loading",
+            },
+            "ref": null,
+            "rendered": "videos are loading",
+            "type": "h3",
+          },
+        ],
+        "type": "section",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2>
+              photos
+            </h2>,
+            <div>
+              <i
+                className="fas fa-caret-left"
+                onClick={[Function]}
+              />
+              <h3>
+                photos are loading
+              </h3>
+              <i
+                className="fas fa-caret-right"
+                onClick={[Function]}
+              />
+            </div>,
+          ],
+          "className": "photos-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "photos",
+            },
+            "ref": null,
+            "rendered": "photos",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <i
+                  className="fas fa-caret-left"
+                  onClick={[Function]}
+                />,
+                <h3>
+                  photos are loading
+                </h3>,
+                <i
+                  className="fas fa-caret-right"
+                  onClick={[Function]}
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fas fa-caret-left",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "photos are loading",
+                },
+                "ref": null,
+                "rendered": "photos are loading",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fas fa-caret-right",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "section",
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            media
+          </h1>,
+          <section
+            className="music-container"
+          >
+            <h2>
+              music
+            </h2>
+            <div>
+              <div>
+                <iframe
+                  allow="encrypted-media"
+                  allowtransparency="true"
+                  frameBorder="0"
+                  height="300px"
+                  id="spotifyPlayer"
+                  src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC"
+                  title="spotify player"
+                  width="300px"
+                />
+                <a
+                  href="https://madwallace.bandcamp.com/album/hook-line-sinker"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Hook Line and Sinker"
+                    id="hookline"
+                    src="./assets/hookline-album-art.jpg"
+                  />
+                </a>
+                <a
+                  href="https://madwallace.bandcamp.com/album/2804"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="2804"
+                    id="twenty804"
+                    src="./assets/2804-album-art.jpg"
+                  />
+                </a>
+              </div>
+            </div>
+            <a
+              href="https://open.spotify.com/artist/6H2CmXWubR7YVd6n1hlXq7"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <button>
+                follow on spotify 
+                <i
+                  className="fab fa-spotify"
+                />
+              </button>
+            </a>
+          </section>,
+          <section
+            className="videos-container"
+          >
+            <h2>
+              videos
+            </h2>
+            <h3>
+              videos are loading
+            </h3>
+          </section>,
+          <section
+            className="photos-container"
+          >
+            <h2>
+              photos
+            </h2>
+            <div>
+              <i
+                className="fas fa-caret-left"
+                onClick={[Function]}
+              />
+              <h3>
+                photos are loading
+              </h3>
+              <i
+                className="fas fa-caret-right"
+                onClick={[Function]}
+              />
+            </div>
+          </section>,
+        ],
+        "className": "media-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "media",
+          },
+          "ref": null,
+          "rendered": "media",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                music
+              </h2>,
+              <div>
+                <div>
+                  <iframe
+                    allow="encrypted-media"
+                    allowtransparency="true"
+                    frameBorder="0"
+                    height="300px"
+                    id="spotifyPlayer"
+                    src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC"
+                    title="spotify player"
+                    width="300px"
+                  />
+                  <a
+                    href="https://madwallace.bandcamp.com/album/hook-line-sinker"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="Hook Line and Sinker"
+                      id="hookline"
+                      src="./assets/hookline-album-art.jpg"
+                    />
+                  </a>
+                  <a
+                    href="https://madwallace.bandcamp.com/album/2804"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="2804"
+                      id="twenty804"
+                      src="./assets/2804-album-art.jpg"
+                    />
+                  </a>
+                </div>
+              </div>,
+              <a
+                href="https://open.spotify.com/artist/6H2CmXWubR7YVd6n1hlXq7"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <button>
+                  follow on spotify 
+                  <i
+                    className="fab fa-spotify"
+                  />
+                </button>
+              </a>,
+            ],
+            "className": "music-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "music",
+              },
+              "ref": null,
+              "rendered": "music",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div>
+                  <iframe
+                    allow="encrypted-media"
+                    allowtransparency="true"
+                    frameBorder="0"
+                    height="300px"
+                    id="spotifyPlayer"
+                    src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC"
+                    title="spotify player"
+                    width="300px"
+                  />
+                  <a
+                    href="https://madwallace.bandcamp.com/album/hook-line-sinker"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="Hook Line and Sinker"
+                      id="hookline"
+                      src="./assets/hookline-album-art.jpg"
+                    />
+                  </a>
+                  <a
+                    href="https://madwallace.bandcamp.com/album/2804"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="2804"
+                      id="twenty804"
+                      src="./assets/2804-album-art.jpg"
+                    />
+                  </a>
+                </div>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <iframe
+                      allow="encrypted-media"
+                      allowtransparency="true"
+                      frameBorder="0"
+                      height="300px"
+                      id="spotifyPlayer"
+                      src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC"
+                      title="spotify player"
+                      width="300px"
+                    />,
+                    <a
+                      href="https://madwallace.bandcamp.com/album/hook-line-sinker"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <img
+                        alt="Hook Line and Sinker"
+                        id="hookline"
+                        src="./assets/hookline-album-art.jpg"
+                      />
+                    </a>,
+                    <a
+                      href="https://madwallace.bandcamp.com/album/2804"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <img
+                        alt="2804"
+                        id="twenty804"
+                        src="./assets/2804-album-art.jpg"
+                      />
+                    </a>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "allow": "encrypted-media",
+                      "allowtransparency": "true",
+                      "frameBorder": "0",
+                      "height": "300px",
+                      "id": "spotifyPlayer",
+                      "src": "https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC",
+                      "title": "spotify player",
+                      "width": "300px",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "iframe",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <img
+                        alt="Hook Line and Sinker"
+                        id="hookline"
+                        src="./assets/hookline-album-art.jpg"
+                      />,
+                      "href": "https://madwallace.bandcamp.com/album/hook-line-sinker",
+                      "rel": "noopener noreferrer",
+                      "target": "_blank",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "Hook Line and Sinker",
+                        "id": "hookline",
+                        "src": "./assets/hookline-album-art.jpg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    "type": "a",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <img
+                        alt="2804"
+                        id="twenty804"
+                        src="./assets/2804-album-art.jpg"
+                      />,
+                      "href": "https://madwallace.bandcamp.com/album/2804",
+                      "rel": "noopener noreferrer",
+                      "target": "_blank",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "2804",
+                        "id": "twenty804",
+                        "src": "./assets/2804-album-art.jpg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    "type": "a",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <button>
+                  follow on spotify 
+                  <i
+                    className="fab fa-spotify"
+                  />
+                </button>,
+                "href": "https://open.spotify.com/artist/6H2CmXWubR7YVd6n1hlXq7",
+                "rel": "noopener noreferrer",
+                "target": "_blank",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "follow on spotify ",
+                    <i
+                      className="fab fa-spotify"
+                    />,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "follow on spotify ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "fab fa-spotify",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                ],
+                "type": "button",
+              },
+              "type": "a",
+            },
+          ],
+          "type": "section",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                videos
+              </h2>,
+              <h3>
+                videos are loading
+              </h3>,
+            ],
+            "className": "videos-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "videos",
+              },
+              "ref": null,
+              "rendered": "videos",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "videos are loading",
+              },
+              "ref": null,
+              "rendered": "videos are loading",
+              "type": "h3",
+            },
+          ],
+          "type": "section",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                photos
+              </h2>,
+              <div>
+                <i
+                  className="fas fa-caret-left"
+                  onClick={[Function]}
+                />
+                <h3>
+                  photos are loading
+                </h3>
+                <i
+                  className="fas fa-caret-right"
+                  onClick={[Function]}
+                />
+              </div>,
+            ],
+            "className": "photos-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "photos",
+              },
+              "ref": null,
+              "rendered": "photos",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <i
+                    className="fas fa-caret-left"
+                    onClick={[Function]}
+                  />,
+                  <h3>
+                    photos are loading
+                  </h3>,
+                  <i
+                    className="fas fa-caret-right"
+                    onClick={[Function]}
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fas fa-caret-left",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "photos are loading",
+                  },
+                  "ref": null,
+                  "rendered": "photos are loading",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fas fa-caret-right",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "section",
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
+
+exports[`Media Media component should match the snapshot when errored 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Media
+    photos={
+      Array [
+        Object {
+          "description": "more stuff!",
+          "link": "a link",
+        },
+      ]
+    }
+    setPhotos={[MockFunction]}
+    setVideos={[MockFunction]}
+    videos={
+      Array [
+        Object {
+          "id": 234,
+          "link": "link",
+          "thumbnail": "thumb",
+          "title": "Stuff!",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "message": "done fucked up",
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "message": "done fucked up",
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
+
+exports[`Media Media component should match the snapshot when loading 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Media
+    photos={
+      Array [
+        Object {
+          "description": "more stuff!",
+          "link": "a link",
+        },
+      ]
+    }
+    setPhotos={[MockFunction]}
+    setVideos={[MockFunction]}
+    videos={
+      Array [
+        Object {
+          "id": 234,
+          "link": "link",
+          "thumbnail": "thumb",
+          "title": "Stuff!",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {},
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {},
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
+
+exports[`Media Media component should match the snapshot with no photos 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Media
+    photos={Array []}
+    setPhotos={[MockFunction]}
+    setVideos={[MockFunction]}
+    videos={
+      Array [
+        Object {
+          "id": 234,
+          "link": "link",
+          "thumbnail": "thumb",
+          "title": "Stuff!",
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          media
+        </h1>,
+        <section
+          className="music-container"
+        >
+          <h2>
+            music
+          </h2>
+          <div>
+            <div>
+              <iframe
+                allow="encrypted-media"
+                allowtransparency="true"
+                frameBorder="0"
+                height="300px"
+                id="spotifyPlayer"
+                src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC"
+                title="spotify player"
+                width="300px"
+              />
+              <a
+                href="https://madwallace.bandcamp.com/album/hook-line-sinker"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="Hook Line and Sinker"
+                  id="hookline"
+                  src="./assets/hookline-album-art.jpg"
+                />
+              </a>
+              <a
+                href="https://madwallace.bandcamp.com/album/2804"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="2804"
+                  id="twenty804"
+                  src="./assets/2804-album-art.jpg"
+                />
+              </a>
+            </div>
+          </div>
+          <a
+            href="https://open.spotify.com/artist/6H2CmXWubR7YVd6n1hlXq7"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <button>
+              follow on spotify 
+              <i
+                className="fab fa-spotify"
+              />
+            </button>
+          </a>
+        </section>,
+        <section
+          className="videos-container"
+        >
+          <h2>
+            videos
+          </h2>
+          <h3>
+            videos are loading
+          </h3>
+        </section>,
+        <section
+          className="photos-container"
+        >
+          <h2>
+            photos
+          </h2>
+          <div>
+            <i
+              className="fas fa-caret-left"
+              onClick={[Function]}
+            />
+            <h3>
+              photos are loading
+            </h3>
+            <i
+              className="fas fa-caret-right"
+              onClick={[Function]}
+            />
+          </div>
+        </section>,
+      ],
+      "className": "media-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "media",
+        },
+        "ref": null,
+        "rendered": "media",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2>
+              music
+            </h2>,
+            <div>
+              <div>
+                <iframe
+                  allow="encrypted-media"
+                  allowtransparency="true"
+                  frameBorder="0"
+                  height="300px"
+                  id="spotifyPlayer"
+                  src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC"
+                  title="spotify player"
+                  width="300px"
+                />
+                <a
+                  href="https://madwallace.bandcamp.com/album/hook-line-sinker"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Hook Line and Sinker"
+                    id="hookline"
+                    src="./assets/hookline-album-art.jpg"
+                  />
+                </a>
+                <a
+                  href="https://madwallace.bandcamp.com/album/2804"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="2804"
+                    id="twenty804"
+                    src="./assets/2804-album-art.jpg"
+                  />
+                </a>
+              </div>
+            </div>,
+            <a
+              href="https://open.spotify.com/artist/6H2CmXWubR7YVd6n1hlXq7"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <button>
+                follow on spotify 
+                <i
+                  className="fab fa-spotify"
+                />
+              </button>
+            </a>,
+          ],
+          "className": "music-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "music",
+            },
+            "ref": null,
+            "rendered": "music",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div>
+                <iframe
+                  allow="encrypted-media"
+                  allowtransparency="true"
+                  frameBorder="0"
+                  height="300px"
+                  id="spotifyPlayer"
+                  src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC"
+                  title="spotify player"
+                  width="300px"
+                />
+                <a
+                  href="https://madwallace.bandcamp.com/album/hook-line-sinker"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Hook Line and Sinker"
+                    id="hookline"
+                    src="./assets/hookline-album-art.jpg"
+                  />
+                </a>
+                <a
+                  href="https://madwallace.bandcamp.com/album/2804"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="2804"
+                    id="twenty804"
+                    src="./assets/2804-album-art.jpg"
+                  />
+                </a>
+              </div>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <iframe
+                    allow="encrypted-media"
+                    allowtransparency="true"
+                    frameBorder="0"
+                    height="300px"
+                    id="spotifyPlayer"
+                    src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC"
+                    title="spotify player"
+                    width="300px"
+                  />,
+                  <a
+                    href="https://madwallace.bandcamp.com/album/hook-line-sinker"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="Hook Line and Sinker"
+                      id="hookline"
+                      src="./assets/hookline-album-art.jpg"
+                    />
+                  </a>,
+                  <a
+                    href="https://madwallace.bandcamp.com/album/2804"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="2804"
+                      id="twenty804"
+                      src="./assets/2804-album-art.jpg"
+                    />
+                  </a>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "allow": "encrypted-media",
+                    "allowtransparency": "true",
+                    "frameBorder": "0",
+                    "height": "300px",
+                    "id": "spotifyPlayer",
+                    "src": "https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC",
+                    "title": "spotify player",
+                    "width": "300px",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "iframe",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <img
+                      alt="Hook Line and Sinker"
+                      id="hookline"
+                      src="./assets/hookline-album-art.jpg"
+                    />,
+                    "href": "https://madwallace.bandcamp.com/album/hook-line-sinker",
+                    "rel": "noopener noreferrer",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "Hook Line and Sinker",
+                      "id": "hookline",
+                      "src": "./assets/hookline-album-art.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <img
+                      alt="2804"
+                      id="twenty804"
+                      src="./assets/2804-album-art.jpg"
+                    />,
+                    "href": "https://madwallace.bandcamp.com/album/2804",
+                    "rel": "noopener noreferrer",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "2804",
+                      "id": "twenty804",
+                      "src": "./assets/2804-album-art.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  "type": "a",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <button>
+                follow on spotify 
+                <i
+                  className="fab fa-spotify"
+                />
+              </button>,
+              "href": "https://open.spotify.com/artist/6H2CmXWubR7YVd6n1hlXq7",
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "follow on spotify ",
+                  <i
+                    className="fab fa-spotify"
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "follow on spotify ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fab fa-spotify",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+              ],
+              "type": "button",
+            },
+            "type": "a",
+          },
+        ],
+        "type": "section",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2>
+              videos
+            </h2>,
+            <h3>
+              videos are loading
+            </h3>,
+          ],
+          "className": "videos-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "videos",
+            },
+            "ref": null,
+            "rendered": "videos",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "videos are loading",
+            },
+            "ref": null,
+            "rendered": "videos are loading",
+            "type": "h3",
+          },
+        ],
+        "type": "section",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2>
+              photos
+            </h2>,
+            <div>
+              <i
+                className="fas fa-caret-left"
+                onClick={[Function]}
+              />
+              <h3>
+                photos are loading
+              </h3>
+              <i
+                className="fas fa-caret-right"
+                onClick={[Function]}
+              />
+            </div>,
+          ],
+          "className": "photos-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "photos",
+            },
+            "ref": null,
+            "rendered": "photos",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <i
+                  className="fas fa-caret-left"
+                  onClick={[Function]}
+                />,
+                <h3>
+                  photos are loading
+                </h3>,
+                <i
+                  className="fas fa-caret-right"
+                  onClick={[Function]}
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fas fa-caret-left",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "photos are loading",
+                },
+                "ref": null,
+                "rendered": "photos are loading",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fas fa-caret-right",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "section",
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            media
+          </h1>,
+          <section
+            className="music-container"
+          >
+            <h2>
+              music
+            </h2>
+            <div>
+              <div>
+                <iframe
+                  allow="encrypted-media"
+                  allowtransparency="true"
+                  frameBorder="0"
+                  height="300px"
+                  id="spotifyPlayer"
+                  src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC"
+                  title="spotify player"
+                  width="300px"
+                />
+                <a
+                  href="https://madwallace.bandcamp.com/album/hook-line-sinker"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Hook Line and Sinker"
+                    id="hookline"
+                    src="./assets/hookline-album-art.jpg"
+                  />
+                </a>
+                <a
+                  href="https://madwallace.bandcamp.com/album/2804"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="2804"
+                    id="twenty804"
+                    src="./assets/2804-album-art.jpg"
+                  />
+                </a>
+              </div>
+            </div>
+            <a
+              href="https://open.spotify.com/artist/6H2CmXWubR7YVd6n1hlXq7"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <button>
+                follow on spotify 
+                <i
+                  className="fab fa-spotify"
+                />
+              </button>
+            </a>
+          </section>,
+          <section
+            className="videos-container"
+          >
+            <h2>
+              videos
+            </h2>
+            <h3>
+              videos are loading
+            </h3>
+          </section>,
+          <section
+            className="photos-container"
+          >
+            <h2>
+              photos
+            </h2>
+            <div>
+              <i
+                className="fas fa-caret-left"
+                onClick={[Function]}
+              />
+              <h3>
+                photos are loading
+              </h3>
+              <i
+                className="fas fa-caret-right"
+                onClick={[Function]}
+              />
+            </div>
+          </section>,
+        ],
+        "className": "media-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "media",
+          },
+          "ref": null,
+          "rendered": "media",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                music
+              </h2>,
+              <div>
+                <div>
+                  <iframe
+                    allow="encrypted-media"
+                    allowtransparency="true"
+                    frameBorder="0"
+                    height="300px"
+                    id="spotifyPlayer"
+                    src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC"
+                    title="spotify player"
+                    width="300px"
+                  />
+                  <a
+                    href="https://madwallace.bandcamp.com/album/hook-line-sinker"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="Hook Line and Sinker"
+                      id="hookline"
+                      src="./assets/hookline-album-art.jpg"
+                    />
+                  </a>
+                  <a
+                    href="https://madwallace.bandcamp.com/album/2804"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="2804"
+                      id="twenty804"
+                      src="./assets/2804-album-art.jpg"
+                    />
+                  </a>
+                </div>
+              </div>,
+              <a
+                href="https://open.spotify.com/artist/6H2CmXWubR7YVd6n1hlXq7"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <button>
+                  follow on spotify 
+                  <i
+                    className="fab fa-spotify"
+                  />
+                </button>
+              </a>,
+            ],
+            "className": "music-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "music",
+              },
+              "ref": null,
+              "rendered": "music",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div>
+                  <iframe
+                    allow="encrypted-media"
+                    allowtransparency="true"
+                    frameBorder="0"
+                    height="300px"
+                    id="spotifyPlayer"
+                    src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC"
+                    title="spotify player"
+                    width="300px"
+                  />
+                  <a
+                    href="https://madwallace.bandcamp.com/album/hook-line-sinker"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="Hook Line and Sinker"
+                      id="hookline"
+                      src="./assets/hookline-album-art.jpg"
+                    />
+                  </a>
+                  <a
+                    href="https://madwallace.bandcamp.com/album/2804"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="2804"
+                      id="twenty804"
+                      src="./assets/2804-album-art.jpg"
+                    />
+                  </a>
+                </div>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <iframe
+                      allow="encrypted-media"
+                      allowtransparency="true"
+                      frameBorder="0"
+                      height="300px"
+                      id="spotifyPlayer"
+                      src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC"
+                      title="spotify player"
+                      width="300px"
+                    />,
+                    <a
+                      href="https://madwallace.bandcamp.com/album/hook-line-sinker"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <img
+                        alt="Hook Line and Sinker"
+                        id="hookline"
+                        src="./assets/hookline-album-art.jpg"
+                      />
+                    </a>,
+                    <a
+                      href="https://madwallace.bandcamp.com/album/2804"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <img
+                        alt="2804"
+                        id="twenty804"
+                        src="./assets/2804-album-art.jpg"
+                      />
+                    </a>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "allow": "encrypted-media",
+                      "allowtransparency": "true",
+                      "frameBorder": "0",
+                      "height": "300px",
+                      "id": "spotifyPlayer",
+                      "src": "https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC",
+                      "title": "spotify player",
+                      "width": "300px",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "iframe",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <img
+                        alt="Hook Line and Sinker"
+                        id="hookline"
+                        src="./assets/hookline-album-art.jpg"
+                      />,
+                      "href": "https://madwallace.bandcamp.com/album/hook-line-sinker",
+                      "rel": "noopener noreferrer",
+                      "target": "_blank",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "Hook Line and Sinker",
+                        "id": "hookline",
+                        "src": "./assets/hookline-album-art.jpg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    "type": "a",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <img
+                        alt="2804"
+                        id="twenty804"
+                        src="./assets/2804-album-art.jpg"
+                      />,
+                      "href": "https://madwallace.bandcamp.com/album/2804",
+                      "rel": "noopener noreferrer",
+                      "target": "_blank",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "2804",
+                        "id": "twenty804",
+                        "src": "./assets/2804-album-art.jpg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    "type": "a",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <button>
+                  follow on spotify 
+                  <i
+                    className="fab fa-spotify"
+                  />
+                </button>,
+                "href": "https://open.spotify.com/artist/6H2CmXWubR7YVd6n1hlXq7",
+                "rel": "noopener noreferrer",
+                "target": "_blank",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "follow on spotify ",
+                    <i
+                      className="fab fa-spotify"
+                    />,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "follow on spotify ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "fab fa-spotify",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                ],
+                "type": "button",
+              },
+              "type": "a",
+            },
+          ],
+          "type": "section",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                videos
+              </h2>,
+              <h3>
+                videos are loading
+              </h3>,
+            ],
+            "className": "videos-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "videos",
+              },
+              "ref": null,
+              "rendered": "videos",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "videos are loading",
+              },
+              "ref": null,
+              "rendered": "videos are loading",
+              "type": "h3",
+            },
+          ],
+          "type": "section",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                photos
+              </h2>,
+              <div>
+                <i
+                  className="fas fa-caret-left"
+                  onClick={[Function]}
+                />
+                <h3>
+                  photos are loading
+                </h3>
+                <i
+                  className="fas fa-caret-right"
+                  onClick={[Function]}
+                />
+              </div>,
+            ],
+            "className": "photos-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "photos",
+              },
+              "ref": null,
+              "rendered": "photos",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <i
+                    className="fas fa-caret-left"
+                    onClick={[Function]}
+                  />,
+                  <h3>
+                    photos are loading
+                  </h3>,
+                  <i
+                    className="fas fa-caret-right"
+                    onClick={[Function]}
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fas fa-caret-left",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "photos are loading",
+                  },
+                  "ref": null,
+                  "rendered": "photos are loading",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fas fa-caret-right",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "section",
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
+
+exports[`Media Media component should match the snapshot with no videos 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Media
+    photos={
+      Array [
+        Object {
+          "description": "more stuff!",
+          "link": "a link",
+        },
+      ]
+    }
+    setPhotos={[MockFunction]}
+    setVideos={[MockFunction]}
+    videos={Array []}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          media
+        </h1>,
+        <section
+          className="music-container"
+        >
+          <h2>
+            music
+          </h2>
+          <div>
+            <div>
+              <iframe
+                allow="encrypted-media"
+                allowtransparency="true"
+                frameBorder="0"
+                height="300px"
+                id="spotifyPlayer"
+                src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC"
+                title="spotify player"
+                width="300px"
+              />
+              <a
+                href="https://madwallace.bandcamp.com/album/hook-line-sinker"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="Hook Line and Sinker"
+                  id="hookline"
+                  src="./assets/hookline-album-art.jpg"
+                />
+              </a>
+              <a
+                href="https://madwallace.bandcamp.com/album/2804"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <img
+                  alt="2804"
+                  id="twenty804"
+                  src="./assets/2804-album-art.jpg"
+                />
+              </a>
+            </div>
+          </div>
+          <a
+            href="https://open.spotify.com/artist/6H2CmXWubR7YVd6n1hlXq7"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <button>
+              follow on spotify 
+              <i
+                className="fab fa-spotify"
+              />
+            </button>
+          </a>
+        </section>,
+        <section
+          className="videos-container"
+        >
+          <h2>
+            videos
+          </h2>
+          <h3>
+            videos are loading
+          </h3>
+        </section>,
+        <section
+          className="photos-container"
+        >
+          <h2>
+            photos
+          </h2>
+          <div>
+            <i
+              className="fas fa-caret-left"
+              onClick={[Function]}
+            />
+            <h3>
+              photos are loading
+            </h3>
+            <i
+              className="fas fa-caret-right"
+              onClick={[Function]}
+            />
+          </div>
+        </section>,
+      ],
+      "className": "media-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "media",
+        },
+        "ref": null,
+        "rendered": "media",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2>
+              music
+            </h2>,
+            <div>
+              <div>
+                <iframe
+                  allow="encrypted-media"
+                  allowtransparency="true"
+                  frameBorder="0"
+                  height="300px"
+                  id="spotifyPlayer"
+                  src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC"
+                  title="spotify player"
+                  width="300px"
+                />
+                <a
+                  href="https://madwallace.bandcamp.com/album/hook-line-sinker"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Hook Line and Sinker"
+                    id="hookline"
+                    src="./assets/hookline-album-art.jpg"
+                  />
+                </a>
+                <a
+                  href="https://madwallace.bandcamp.com/album/2804"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="2804"
+                    id="twenty804"
+                    src="./assets/2804-album-art.jpg"
+                  />
+                </a>
+              </div>
+            </div>,
+            <a
+              href="https://open.spotify.com/artist/6H2CmXWubR7YVd6n1hlXq7"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <button>
+                follow on spotify 
+                <i
+                  className="fab fa-spotify"
+                />
+              </button>
+            </a>,
+          ],
+          "className": "music-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "music",
+            },
+            "ref": null,
+            "rendered": "music",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div>
+                <iframe
+                  allow="encrypted-media"
+                  allowtransparency="true"
+                  frameBorder="0"
+                  height="300px"
+                  id="spotifyPlayer"
+                  src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC"
+                  title="spotify player"
+                  width="300px"
+                />
+                <a
+                  href="https://madwallace.bandcamp.com/album/hook-line-sinker"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Hook Line and Sinker"
+                    id="hookline"
+                    src="./assets/hookline-album-art.jpg"
+                  />
+                </a>
+                <a
+                  href="https://madwallace.bandcamp.com/album/2804"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="2804"
+                    id="twenty804"
+                    src="./assets/2804-album-art.jpg"
+                  />
+                </a>
+              </div>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <iframe
+                    allow="encrypted-media"
+                    allowtransparency="true"
+                    frameBorder="0"
+                    height="300px"
+                    id="spotifyPlayer"
+                    src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC"
+                    title="spotify player"
+                    width="300px"
+                  />,
+                  <a
+                    href="https://madwallace.bandcamp.com/album/hook-line-sinker"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="Hook Line and Sinker"
+                      id="hookline"
+                      src="./assets/hookline-album-art.jpg"
+                    />
+                  </a>,
+                  <a
+                    href="https://madwallace.bandcamp.com/album/2804"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="2804"
+                      id="twenty804"
+                      src="./assets/2804-album-art.jpg"
+                    />
+                  </a>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "allow": "encrypted-media",
+                    "allowtransparency": "true",
+                    "frameBorder": "0",
+                    "height": "300px",
+                    "id": "spotifyPlayer",
+                    "src": "https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC",
+                    "title": "spotify player",
+                    "width": "300px",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "iframe",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <img
+                      alt="Hook Line and Sinker"
+                      id="hookline"
+                      src="./assets/hookline-album-art.jpg"
+                    />,
+                    "href": "https://madwallace.bandcamp.com/album/hook-line-sinker",
+                    "rel": "noopener noreferrer",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "Hook Line and Sinker",
+                      "id": "hookline",
+                      "src": "./assets/hookline-album-art.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  "type": "a",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <img
+                      alt="2804"
+                      id="twenty804"
+                      src="./assets/2804-album-art.jpg"
+                    />,
+                    "href": "https://madwallace.bandcamp.com/album/2804",
+                    "rel": "noopener noreferrer",
+                    "target": "_blank",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "2804",
+                      "id": "twenty804",
+                      "src": "./assets/2804-album-art.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  "type": "a",
+                },
+              ],
+              "type": "div",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <button>
+                follow on spotify 
+                <i
+                  className="fab fa-spotify"
+                />
+              </button>,
+              "href": "https://open.spotify.com/artist/6H2CmXWubR7YVd6n1hlXq7",
+              "rel": "noopener noreferrer",
+              "target": "_blank",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "follow on spotify ",
+                  <i
+                    className="fab fa-spotify"
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                "follow on spotify ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fab fa-spotify",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+              ],
+              "type": "button",
+            },
+            "type": "a",
+          },
+        ],
+        "type": "section",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2>
+              videos
+            </h2>,
+            <h3>
+              videos are loading
+            </h3>,
+          ],
+          "className": "videos-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "videos",
+            },
+            "ref": null,
+            "rendered": "videos",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "videos are loading",
+            },
+            "ref": null,
+            "rendered": "videos are loading",
+            "type": "h3",
+          },
+        ],
+        "type": "section",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h2>
+              photos
+            </h2>,
+            <div>
+              <i
+                className="fas fa-caret-left"
+                onClick={[Function]}
+              />
+              <h3>
+                photos are loading
+              </h3>
+              <i
+                className="fas fa-caret-right"
+                onClick={[Function]}
+              />
+            </div>,
+          ],
+          "className": "photos-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "photos",
+            },
+            "ref": null,
+            "rendered": "photos",
+            "type": "h2",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <i
+                  className="fas fa-caret-left"
+                  onClick={[Function]}
+                />,
+                <h3>
+                  photos are loading
+                </h3>,
+                <i
+                  className="fas fa-caret-right"
+                  onClick={[Function]}
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fas fa-caret-left",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "photos are loading",
+                },
+                "ref": null,
+                "rendered": "photos are loading",
+                "type": "h3",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fas fa-caret-right",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "i",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "section",
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            media
+          </h1>,
+          <section
+            className="music-container"
+          >
+            <h2>
+              music
+            </h2>
+            <div>
+              <div>
+                <iframe
+                  allow="encrypted-media"
+                  allowtransparency="true"
+                  frameBorder="0"
+                  height="300px"
+                  id="spotifyPlayer"
+                  src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC"
+                  title="spotify player"
+                  width="300px"
+                />
+                <a
+                  href="https://madwallace.bandcamp.com/album/hook-line-sinker"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="Hook Line and Sinker"
+                    id="hookline"
+                    src="./assets/hookline-album-art.jpg"
+                  />
+                </a>
+                <a
+                  href="https://madwallace.bandcamp.com/album/2804"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    alt="2804"
+                    id="twenty804"
+                    src="./assets/2804-album-art.jpg"
+                  />
+                </a>
+              </div>
+            </div>
+            <a
+              href="https://open.spotify.com/artist/6H2CmXWubR7YVd6n1hlXq7"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <button>
+                follow on spotify 
+                <i
+                  className="fab fa-spotify"
+                />
+              </button>
+            </a>
+          </section>,
+          <section
+            className="videos-container"
+          >
+            <h2>
+              videos
+            </h2>
+            <h3>
+              videos are loading
+            </h3>
+          </section>,
+          <section
+            className="photos-container"
+          >
+            <h2>
+              photos
+            </h2>
+            <div>
+              <i
+                className="fas fa-caret-left"
+                onClick={[Function]}
+              />
+              <h3>
+                photos are loading
+              </h3>
+              <i
+                className="fas fa-caret-right"
+                onClick={[Function]}
+              />
+            </div>
+          </section>,
+        ],
+        "className": "media-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "media",
+          },
+          "ref": null,
+          "rendered": "media",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                music
+              </h2>,
+              <div>
+                <div>
+                  <iframe
+                    allow="encrypted-media"
+                    allowtransparency="true"
+                    frameBorder="0"
+                    height="300px"
+                    id="spotifyPlayer"
+                    src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC"
+                    title="spotify player"
+                    width="300px"
+                  />
+                  <a
+                    href="https://madwallace.bandcamp.com/album/hook-line-sinker"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="Hook Line and Sinker"
+                      id="hookline"
+                      src="./assets/hookline-album-art.jpg"
+                    />
+                  </a>
+                  <a
+                    href="https://madwallace.bandcamp.com/album/2804"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="2804"
+                      id="twenty804"
+                      src="./assets/2804-album-art.jpg"
+                    />
+                  </a>
+                </div>
+              </div>,
+              <a
+                href="https://open.spotify.com/artist/6H2CmXWubR7YVd6n1hlXq7"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <button>
+                  follow on spotify 
+                  <i
+                    className="fab fa-spotify"
+                  />
+                </button>
+              </a>,
+            ],
+            "className": "music-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "music",
+              },
+              "ref": null,
+              "rendered": "music",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div>
+                  <iframe
+                    allow="encrypted-media"
+                    allowtransparency="true"
+                    frameBorder="0"
+                    height="300px"
+                    id="spotifyPlayer"
+                    src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC"
+                    title="spotify player"
+                    width="300px"
+                  />
+                  <a
+                    href="https://madwallace.bandcamp.com/album/hook-line-sinker"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="Hook Line and Sinker"
+                      id="hookline"
+                      src="./assets/hookline-album-art.jpg"
+                    />
+                  </a>
+                  <a
+                    href="https://madwallace.bandcamp.com/album/2804"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    <img
+                      alt="2804"
+                      id="twenty804"
+                      src="./assets/2804-album-art.jpg"
+                    />
+                  </a>
+                </div>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <iframe
+                      allow="encrypted-media"
+                      allowtransparency="true"
+                      frameBorder="0"
+                      height="300px"
+                      id="spotifyPlayer"
+                      src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC"
+                      title="spotify player"
+                      width="300px"
+                    />,
+                    <a
+                      href="https://madwallace.bandcamp.com/album/hook-line-sinker"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <img
+                        alt="Hook Line and Sinker"
+                        id="hookline"
+                        src="./assets/hookline-album-art.jpg"
+                      />
+                    </a>,
+                    <a
+                      href="https://madwallace.bandcamp.com/album/2804"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      <img
+                        alt="2804"
+                        id="twenty804"
+                        src="./assets/2804-album-art.jpg"
+                      />
+                    </a>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "allow": "encrypted-media",
+                      "allowtransparency": "true",
+                      "frameBorder": "0",
+                      "height": "300px",
+                      "id": "spotifyPlayer",
+                      "src": "https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC",
+                      "title": "spotify player",
+                      "width": "300px",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "iframe",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <img
+                        alt="Hook Line and Sinker"
+                        id="hookline"
+                        src="./assets/hookline-album-art.jpg"
+                      />,
+                      "href": "https://madwallace.bandcamp.com/album/hook-line-sinker",
+                      "rel": "noopener noreferrer",
+                      "target": "_blank",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "Hook Line and Sinker",
+                        "id": "hookline",
+                        "src": "./assets/hookline-album-art.jpg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    "type": "a",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <img
+                        alt="2804"
+                        id="twenty804"
+                        src="./assets/2804-album-art.jpg"
+                      />,
+                      "href": "https://madwallace.bandcamp.com/album/2804",
+                      "rel": "noopener noreferrer",
+                      "target": "_blank",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "2804",
+                        "id": "twenty804",
+                        "src": "./assets/2804-album-art.jpg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    "type": "a",
+                  },
+                ],
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <button>
+                  follow on spotify 
+                  <i
+                    className="fab fa-spotify"
+                  />
+                </button>,
+                "href": "https://open.spotify.com/artist/6H2CmXWubR7YVd6n1hlXq7",
+                "rel": "noopener noreferrer",
+                "target": "_blank",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "follow on spotify ",
+                    <i
+                      className="fab fa-spotify"
+                    />,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  "follow on spotify ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "fab fa-spotify",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "i",
+                  },
+                ],
+                "type": "button",
+              },
+              "type": "a",
+            },
+          ],
+          "type": "section",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                videos
+              </h2>,
+              <h3>
+                videos are loading
+              </h3>,
+            ],
+            "className": "videos-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "videos",
+              },
+              "ref": null,
+              "rendered": "videos",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "videos are loading",
+              },
+              "ref": null,
+              "rendered": "videos are loading",
+              "type": "h3",
+            },
+          ],
+          "type": "section",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h2>
+                photos
+              </h2>,
+              <div>
+                <i
+                  className="fas fa-caret-left"
+                  onClick={[Function]}
+                />
+                <h3>
+                  photos are loading
+                </h3>
+                <i
+                  className="fas fa-caret-right"
+                  onClick={[Function]}
+                />
+              </div>,
+            ],
+            "className": "photos-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "photos",
+              },
+              "ref": null,
+              "rendered": "photos",
+              "type": "h2",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <i
+                    className="fas fa-caret-left"
+                    onClick={[Function]}
+                  />,
+                  <h3>
+                    photos are loading
+                  </h3>,
+                  <i
+                    className="fas fa-caret-right"
+                    onClick={[Function]}
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fas fa-caret-left",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "photos are loading",
+                  },
+                  "ref": null,
+                  "rendered": "photos are loading",
+                  "type": "h3",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "fas fa-caret-right",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "i",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "section",
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;

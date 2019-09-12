@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import PropTypes from 'prop-types'
 import '../../main.scss'
 
 export default function ErrorPage({ message }) {
@@ -10,7 +11,11 @@ export default function ErrorPage({ message }) {
       <h2>Something has gone terribly wrong...</h2>
       <img src="https://media.giphy.com/media/IR24B7tPNFk2c/giphy.gif" alt="Error GIF" />
       <Link to="/"><button>Reload Site</button></Link>
-      <p>If you think that something is wrong on our end feel free to <a href={`mailto:madwallace@gmail.com?subject=Report Issue&body=${body}`}>let us know</a> too and we'll get right on it. Thanks!</p>
+      <p>If you think that something is wrong on our end feel free to <a href={`mailto:madwallaceband@gmail.com?subject=Report Issue&body=${body}`}>let us know</a> too and we'll get right on it. Thanks!</p>
     </section>
   )
+}
+
+ErrorPage.propTypes = {
+  message: PropTypes.string.isRequired
 }

@@ -19,7 +19,6 @@ export default class NewsForm extends Component {
 
   handleUpload = async e => {
     e.preventDefault()
-    console.log(this.state)
     await this.addVideo({
       title: this.state.title,
       link: this.state.link,
