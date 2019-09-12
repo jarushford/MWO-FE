@@ -1,0 +1,1206 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MainNav should match the snapshot 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MainNav />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <header
+          className="main-nav nav"
+        >
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
+            to="/tour"
+          >
+            tour
+          </NavLink>
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
+            to="/media"
+          >
+            media
+          </NavLink>
+          <Link
+            replace={false}
+            to="/"
+          >
+            <div
+              className="header-logo"
+            >
+              <img
+                alt="mw-logo"
+                src="./assets/main-logo.png"
+              />
+            </div>
+          </Link>
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
+            to="/about"
+          >
+            about
+          </NavLink>
+          <NavLink
+            activeClassName="active"
+            aria-current="page"
+            to="/contact"
+          >
+            contact
+          </NavLink>
+        </header>,
+        <header
+          className="mobile-nav nav"
+        >
+          <Link
+            onClick={[Function]}
+            replace={false}
+            to="/"
+          >
+            <div
+              className="header-logo"
+            >
+              <img
+                alt="mw-logo"
+                src="./assets/main-logo.png"
+              />
+            </div>
+          </Link>
+          <div
+            className="burger false"
+            onClick={[Function]}
+          >
+            <div
+              className="bar1"
+            />
+            <div
+              className="bar2"
+            />
+            <div
+              className="bar3"
+            />
+          </div>
+          <div
+            className="dropdown-container false"
+          >
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              onClick={[Function]}
+              to="/tour"
+            >
+              tour
+            </NavLink>
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              onClick={[Function]}
+              to="/media"
+            >
+              media
+            </NavLink>
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              onClick={[Function]}
+              to="/about"
+            >
+              about
+            </NavLink>
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              onClick={[Function]}
+              to="/contact"
+            >
+              contact
+            </NavLink>
+          </div>
+        </header>,
+        <div
+          className="banner-img"
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              to="/tour"
+            >
+              tour
+            </NavLink>,
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              to="/media"
+            >
+              media
+            </NavLink>,
+            <Link
+              replace={false}
+              to="/"
+            >
+              <div
+                className="header-logo"
+              >
+                <img
+                  alt="mw-logo"
+                  src="./assets/main-logo.png"
+                />
+              </div>
+            </Link>,
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              to="/about"
+            >
+              about
+            </NavLink>,
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              to="/contact"
+            >
+              contact
+            </NavLink>,
+          ],
+          "className": "main-nav nav",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active",
+              "aria-current": "page",
+              "children": "tour",
+              "to": "/tour",
+            },
+            "ref": null,
+            "rendered": "tour",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active",
+              "aria-current": "page",
+              "children": "media",
+              "to": "/media",
+            },
+            "ref": null,
+            "rendered": "media",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <div
+                className="header-logo"
+              >
+                <img
+                  alt="mw-logo"
+                  src="./assets/main-logo.png"
+                />
+              </div>,
+              "replace": false,
+              "to": "/",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  alt="mw-logo"
+                  src="./assets/main-logo.png"
+                />,
+                "className": "header-logo",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "mw-logo",
+                  "src": "./assets/main-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "div",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active",
+              "aria-current": "page",
+              "children": "about",
+              "to": "/about",
+            },
+            "ref": null,
+            "rendered": "about",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "activeClassName": "active",
+              "aria-current": "page",
+              "children": "contact",
+              "to": "/contact",
+            },
+            "ref": null,
+            "rendered": "contact",
+            "type": [Function],
+          },
+        ],
+        "type": "header",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <Link
+              onClick={[Function]}
+              replace={false}
+              to="/"
+            >
+              <div
+                className="header-logo"
+              >
+                <img
+                  alt="mw-logo"
+                  src="./assets/main-logo.png"
+                />
+              </div>
+            </Link>,
+            <div
+              className="burger false"
+              onClick={[Function]}
+            >
+              <div
+                className="bar1"
+              />
+              <div
+                className="bar2"
+              />
+              <div
+                className="bar3"
+              />
+            </div>,
+            <div
+              className="dropdown-container false"
+            >
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                onClick={[Function]}
+                to="/tour"
+              >
+                tour
+              </NavLink>
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                onClick={[Function]}
+                to="/media"
+              >
+                media
+              </NavLink>
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                onClick={[Function]}
+                to="/about"
+              >
+                about
+              </NavLink>
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                onClick={[Function]}
+                to="/contact"
+              >
+                contact
+              </NavLink>
+            </div>,
+          ],
+          "className": "mobile-nav nav",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <div
+                className="header-logo"
+              >
+                <img
+                  alt="mw-logo"
+                  src="./assets/main-logo.png"
+                />
+              </div>,
+              "onClick": [Function],
+              "replace": false,
+              "to": "/",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <img
+                  alt="mw-logo"
+                  src="./assets/main-logo.png"
+                />,
+                "className": "header-logo",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "mw-logo",
+                  "src": "./assets/main-logo.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              "type": "div",
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <div
+                  className="bar1"
+                />,
+                <div
+                  className="bar2"
+                />,
+                <div
+                  className="bar3"
+                />,
+              ],
+              "className": "burger false",
+              "onClick": [Function],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "bar1",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "bar2",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "bar3",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  onClick={[Function]}
+                  to="/tour"
+                >
+                  tour
+                </NavLink>,
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  onClick={[Function]}
+                  to="/media"
+                >
+                  media
+                </NavLink>,
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  onClick={[Function]}
+                  to="/about"
+                >
+                  about
+                </NavLink>,
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  onClick={[Function]}
+                  to="/contact"
+                >
+                  contact
+                </NavLink>,
+              ],
+              "className": "dropdown-container false",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": "tour",
+                  "onClick": [Function],
+                  "to": "/tour",
+                },
+                "ref": null,
+                "rendered": "tour",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": "media",
+                  "onClick": [Function],
+                  "to": "/media",
+                },
+                "ref": null,
+                "rendered": "media",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": "about",
+                  "onClick": [Function],
+                  "to": "/about",
+                },
+                "ref": null,
+                "rendered": "about",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "activeClassName": "active",
+                  "aria-current": "page",
+                  "children": "contact",
+                  "onClick": [Function],
+                  "to": "/contact",
+                },
+                "ref": null,
+                "rendered": "contact",
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "header",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "banner-img",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+    ],
+    "type": "section",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <header
+            className="main-nav nav"
+          >
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              to="/tour"
+            >
+              tour
+            </NavLink>
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              to="/media"
+            >
+              media
+            </NavLink>
+            <Link
+              replace={false}
+              to="/"
+            >
+              <div
+                className="header-logo"
+              >
+                <img
+                  alt="mw-logo"
+                  src="./assets/main-logo.png"
+                />
+              </div>
+            </Link>
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              to="/about"
+            >
+              about
+            </NavLink>
+            <NavLink
+              activeClassName="active"
+              aria-current="page"
+              to="/contact"
+            >
+              contact
+            </NavLink>
+          </header>,
+          <header
+            className="mobile-nav nav"
+          >
+            <Link
+              onClick={[Function]}
+              replace={false}
+              to="/"
+            >
+              <div
+                className="header-logo"
+              >
+                <img
+                  alt="mw-logo"
+                  src="./assets/main-logo.png"
+                />
+              </div>
+            </Link>
+            <div
+              className="burger false"
+              onClick={[Function]}
+            >
+              <div
+                className="bar1"
+              />
+              <div
+                className="bar2"
+              />
+              <div
+                className="bar3"
+              />
+            </div>
+            <div
+              className="dropdown-container false"
+            >
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                onClick={[Function]}
+                to="/tour"
+              >
+                tour
+              </NavLink>
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                onClick={[Function]}
+                to="/media"
+              >
+                media
+              </NavLink>
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                onClick={[Function]}
+                to="/about"
+              >
+                about
+              </NavLink>
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                onClick={[Function]}
+                to="/contact"
+              >
+                contact
+              </NavLink>
+            </div>
+          </header>,
+          <div
+            className="banner-img"
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                to="/tour"
+              >
+                tour
+              </NavLink>,
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                to="/media"
+              >
+                media
+              </NavLink>,
+              <Link
+                replace={false}
+                to="/"
+              >
+                <div
+                  className="header-logo"
+                >
+                  <img
+                    alt="mw-logo"
+                    src="./assets/main-logo.png"
+                  />
+                </div>
+              </Link>,
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                to="/about"
+              >
+                about
+              </NavLink>,
+              <NavLink
+                activeClassName="active"
+                aria-current="page"
+                to="/contact"
+              >
+                contact
+              </NavLink>,
+            ],
+            "className": "main-nav nav",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": "tour",
+                "to": "/tour",
+              },
+              "ref": null,
+              "rendered": "tour",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": "media",
+                "to": "/media",
+              },
+              "ref": null,
+              "rendered": "media",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <div
+                  className="header-logo"
+                >
+                  <img
+                    alt="mw-logo"
+                    src="./assets/main-logo.png"
+                  />
+                </div>,
+                "replace": false,
+                "to": "/",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <img
+                    alt="mw-logo"
+                    src="./assets/main-logo.png"
+                  />,
+                  "className": "header-logo",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "mw-logo",
+                    "src": "./assets/main-logo.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                "type": "div",
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": "about",
+                "to": "/about",
+              },
+              "ref": null,
+              "rendered": "about",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "activeClassName": "active",
+                "aria-current": "page",
+                "children": "contact",
+                "to": "/contact",
+              },
+              "ref": null,
+              "rendered": "contact",
+              "type": [Function],
+            },
+          ],
+          "type": "header",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Link
+                onClick={[Function]}
+                replace={false}
+                to="/"
+              >
+                <div
+                  className="header-logo"
+                >
+                  <img
+                    alt="mw-logo"
+                    src="./assets/main-logo.png"
+                  />
+                </div>
+              </Link>,
+              <div
+                className="burger false"
+                onClick={[Function]}
+              >
+                <div
+                  className="bar1"
+                />
+                <div
+                  className="bar2"
+                />
+                <div
+                  className="bar3"
+                />
+              </div>,
+              <div
+                className="dropdown-container false"
+              >
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  onClick={[Function]}
+                  to="/tour"
+                >
+                  tour
+                </NavLink>
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  onClick={[Function]}
+                  to="/media"
+                >
+                  media
+                </NavLink>
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  onClick={[Function]}
+                  to="/about"
+                >
+                  about
+                </NavLink>
+                <NavLink
+                  activeClassName="active"
+                  aria-current="page"
+                  onClick={[Function]}
+                  to="/contact"
+                >
+                  contact
+                </NavLink>
+              </div>,
+            ],
+            "className": "mobile-nav nav",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <div
+                  className="header-logo"
+                >
+                  <img
+                    alt="mw-logo"
+                    src="./assets/main-logo.png"
+                  />
+                </div>,
+                "onClick": [Function],
+                "replace": false,
+                "to": "/",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <img
+                    alt="mw-logo"
+                    src="./assets/main-logo.png"
+                  />,
+                  "className": "header-logo",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "mw-logo",
+                    "src": "./assets/main-logo.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                "type": "div",
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="bar1"
+                  />,
+                  <div
+                    className="bar2"
+                  />,
+                  <div
+                    className="bar3"
+                  />,
+                ],
+                "className": "burger false",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "bar1",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "bar2",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "bar3",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    onClick={[Function]}
+                    to="/tour"
+                  >
+                    tour
+                  </NavLink>,
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    onClick={[Function]}
+                    to="/media"
+                  >
+                    media
+                  </NavLink>,
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    onClick={[Function]}
+                    to="/about"
+                  >
+                    about
+                  </NavLink>,
+                  <NavLink
+                    activeClassName="active"
+                    aria-current="page"
+                    onClick={[Function]}
+                    to="/contact"
+                  >
+                    contact
+                  </NavLink>,
+                ],
+                "className": "dropdown-container false",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "activeClassName": "active",
+                    "aria-current": "page",
+                    "children": "tour",
+                    "onClick": [Function],
+                    "to": "/tour",
+                  },
+                  "ref": null,
+                  "rendered": "tour",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "activeClassName": "active",
+                    "aria-current": "page",
+                    "children": "media",
+                    "onClick": [Function],
+                    "to": "/media",
+                  },
+                  "ref": null,
+                  "rendered": "media",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "activeClassName": "active",
+                    "aria-current": "page",
+                    "children": "about",
+                    "onClick": [Function],
+                    "to": "/about",
+                  },
+                  "ref": null,
+                  "rendered": "about",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "activeClassName": "active",
+                    "aria-current": "page",
+                    "children": "contact",
+                    "onClick": [Function],
+                    "to": "/contact",
+                  },
+                  "ref": null,
+                  "rendered": "contact",
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "header",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "banner-img",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+      ],
+      "type": "section",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 import '../../main.scss'
 
 export default class NewsForm extends Component {
@@ -79,4 +80,8 @@ export default class NewsForm extends Component {
       </form>
     )
   }
+}
+
+NewsForm.propTypes = {
+  showForm: PropTypes.bool.isRequired
 }
