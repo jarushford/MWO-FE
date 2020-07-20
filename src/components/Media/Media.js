@@ -20,7 +20,8 @@ export class Media extends Component {
   }
 
   async componentDidMount() {
-    if (!this.props.videos.length || !this.props.photos.length) {
+    const { videos, photos } = this.props
+    if (!videos.length || !photos.length) {
       this.setState({ isLoading: true })
       await this.getVideos() 
       await this.getPhotos()
