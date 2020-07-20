@@ -9,7 +9,7 @@ export default function ErrorPage({ message }) {
   return (
     <section className="error-container">
       <h2>Something has gone terribly wrong...</h2>
-      <img src="https://media.giphy.com/media/IR24B7tPNFk2c/giphy.gif" alt="Error GIF" />
+      <img src="https://media.giphy.com/media/IR24B7tPNFk2c/giphy.gif" class="lazy" alt="Error GIF" />
       <Link to="/"><button>Reload Site</button></Link>
       <p>If you think that something is wrong on our end feel free to <a href={`mailto:madwallaceband@gmail.com?subject=Report Issue&body=${body}`}>let us know</a> too and we'll get right on it. Thanks!</p>
     </section>

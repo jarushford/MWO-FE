@@ -79,7 +79,7 @@ export default class Footer extends Component {
           </div>
         </section>
         <section className="sub-footer">
-          <img src="./assets/blue-logo.png" alt="blue mad wallace logo" />
+          <img src="./assets/blue-logo.png" class="lazy" alt="blue mad wallace logo" />
           <p>© Mad Wallace 2020</p>
         </section>
       </footer>

@@ -35,8 +35,9 @@
   width: 100%;
   overflow: auto;
 
-  a, iframe {
+  iframe, a {
     margin: 0 auto;
+    padding: 0 15px;
   }
 
   button {
@@ -63,16 +64,17 @@
   }
 
   div {
-    width: 100%;
+    width: 95%;
+    margin: auto;
     overflow: auto;
 
     div {
       display: flex;
-      justify-content: space-around;
+      // justify-content: space-around;
       align-items: center;
-      max-width: 1100px;
-      min-width: 1100px;
-      width: 1100px;
+      // max-width: 1200px;
+      // min-width: 1200px;
+      // width: 1200px;
       overflow: auto;
     }
   }
@@ -168,7 +170,7 @@
 
 @media screen and (min-width: 1200px) {
   .music-container div {
-    min-width: 1200px;
+    // min-width: 1200px;
     margin: 0 auto;
   }
 }
