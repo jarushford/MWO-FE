@@ -26,7 +26,7 @@ export class Media extends Component {
       await this.getPhotos()
       this.setState({ isLoading: false }) 
     } else {
-      this.setState({ videos: this.props.videos, photos: this.props.photos })
+      this.setState({ videos: this.props.videos.reverse(), photos: this.props.photos })
     }
   }
 
@@ -39,7 +39,8 @@ export class Media extends Component {
         const message = response.status + ' ' + response.statusText
         this.setState({ error: message })
       } else {
-        const videos = await response.json()
+        const rawVideos = await response.json()
+        const videos = rawVideos.reverse()
         this.props.setVideos(videos)
         this.setState({ videos })
       }
