@@ -1,5 +1,5 @@
 import MailchimpSubscribe from "react-mailchimp-subscribe"
-import React, { Component } from 'react'
+import React from 'react'
 import '../../main.scss'
 
 export default function Footer() {
