@@ -25,6 +25,7 @@ ShallowWrapper {
           <NavLink
             activeClassName="active"
             aria-current="page"
+            onClick={[Function]}
             to="/tour"
           >
             tour
@@ -32,11 +33,13 @@ ShallowWrapper {
           <NavLink
             activeClassName="active"
             aria-current="page"
+            onClick={[Function]}
             to="/media"
           >
             media
           </NavLink>
           <Link
+            onClick={[Function]}
             replace={false}
             to="/"
           >
@@ -52,6 +55,7 @@ ShallowWrapper {
           <NavLink
             activeClassName="active"
             aria-current="page"
+            onClick={[Function]}
             to="/about"
           >
             about
@@ -59,6 +63,7 @@ ShallowWrapper {
           <NavLink
             activeClassName="active"
             aria-current="page"
+            onClick={[Function]}
             to="/contact"
           >
             contact
@@ -148,6 +153,7 @@ ShallowWrapper {
             <NavLink
               activeClassName="active"
               aria-current="page"
+              onClick={[Function]}
               to="/tour"
             >
               tour
@@ -155,11 +161,13 @@ ShallowWrapper {
             <NavLink
               activeClassName="active"
               aria-current="page"
+              onClick={[Function]}
               to="/media"
             >
               media
             </NavLink>,
             <Link
+              onClick={[Function]}
               replace={false}
               to="/"
             >
@@ -175,6 +183,7 @@ ShallowWrapper {
             <NavLink
               activeClassName="active"
               aria-current="page"
+              onClick={[Function]}
               to="/about"
             >
               about
@@ -182,6 +191,7 @@ ShallowWrapper {
             <NavLink
               activeClassName="active"
               aria-current="page"
+              onClick={[Function]}
               to="/contact"
             >
               contact
@@ -199,6 +209,7 @@ ShallowWrapper {
               "activeClassName": "active",
               "aria-current": "page",
               "children": "tour",
+              "onClick": [Function],
               "to": "/tour",
             },
             "ref": null,
@@ -213,6 +224,7 @@ ShallowWrapper {
               "activeClassName": "active",
               "aria-current": "page",
               "children": "media",
+              "onClick": [Function],
               "to": "/media",
             },
             "ref": null,
@@ -232,6 +244,7 @@ ShallowWrapper {
                   src="./assets/main-logo.png"
                 />
               </div>,
+              "onClick": [Function],
               "replace": false,
               "to": "/",
             },
@@ -272,6 +285,7 @@ ShallowWrapper {
               "activeClassName": "active",
               "aria-current": "page",
               "children": "about",
+              "onClick": [Function],
               "to": "/about",
             },
             "ref": null,
@@ -286,6 +300,7 @@ ShallowWrapper {
               "activeClassName": "active",
               "aria-current": "page",
               "children": "contact",
+              "onClick": [Function],
               "to": "/contact",
             },
             "ref": null,
@@ -609,6 +624,7 @@ ShallowWrapper {
             <NavLink
               activeClassName="active"
               aria-current="page"
+              onClick={[Function]}
               to="/tour"
             >
               tour
@@ -616,11 +632,13 @@ ShallowWrapper {
             <NavLink
               activeClassName="active"
               aria-current="page"
+              onClick={[Function]}
               to="/media"
             >
               media
             </NavLink>
             <Link
+              onClick={[Function]}
               replace={false}
               to="/"
             >
@@ -636,6 +654,7 @@ ShallowWrapper {
             <NavLink
               activeClassName="active"
               aria-current="page"
+              onClick={[Function]}
               to="/about"
             >
               about
@@ -643,6 +662,7 @@ ShallowWrapper {
             <NavLink
               activeClassName="active"
               aria-current="page"
+              onClick={[Function]}
               to="/contact"
             >
               contact
@@ -732,6 +752,7 @@ ShallowWrapper {
               <NavLink
                 activeClassName="active"
                 aria-current="page"
+                onClick={[Function]}
                 to="/tour"
               >
                 tour
@@ -739,11 +760,13 @@ ShallowWrapper {
               <NavLink
                 activeClassName="active"
                 aria-current="page"
+                onClick={[Function]}
                 to="/media"
               >
                 media
               </NavLink>,
               <Link
+                onClick={[Function]}
                 replace={false}
                 to="/"
               >
@@ -759,6 +782,7 @@ ShallowWrapper {
               <NavLink
                 activeClassName="active"
                 aria-current="page"
+                onClick={[Function]}
                 to="/about"
               >
                 about
@@ -766,6 +790,7 @@ ShallowWrapper {
               <NavLink
                 activeClassName="active"
                 aria-current="page"
+                onClick={[Function]}
                 to="/contact"
               >
                 contact
@@ -783,6 +808,7 @@ ShallowWrapper {
                 "activeClassName": "active",
                 "aria-current": "page",
                 "children": "tour",
+                "onClick": [Function],
                 "to": "/tour",
               },
               "ref": null,
@@ -797,6 +823,7 @@ ShallowWrapper {
                 "activeClassName": "active",
                 "aria-current": "page",
                 "children": "media",
+                "onClick": [Function],
                 "to": "/media",
               },
               "ref": null,
@@ -816,6 +843,7 @@ ShallowWrapper {
                     src="./assets/main-logo.png"
                   />
                 </div>,
+                "onClick": [Function],
                 "replace": false,
                 "to": "/",
               },
@@ -856,6 +884,7 @@ ShallowWrapper {
                 "activeClassName": "active",
                 "aria-current": "page",
                 "children": "about",
+                "onClick": [Function],
                 "to": "/about",
               },
               "ref": null,
@@ -870,6 +899,7 @@ ShallowWrapper {
                 "activeClassName": "active",
                 "aria-current": "page",
                 "children": "contact",
+                "onClick": [Function],
                 "to": "/contact",
               },
               "ref": null,
