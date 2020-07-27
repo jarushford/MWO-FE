@@ -27,10 +27,8 @@ export default function PressKit() {
         </div>
         <div className="pk-music">
           <h2>Music</h2>
-          <img src="./assets/hookline-album-art.jpg" alt="hookline album art" />
-          <p>Check out our latest album
-            <a href="https://open.spotify.com/album/2aMYMSJ1p6wbmiINndEKSt"> Hook Line & Sinker</a>
-          </p>
+          <img src="./assets/okapi.png" alt="okapi" />
+          <p>Check out our latest album <a href="https://open.spotify.com/artist/6H2CmXWubR7YVd6n1hlXq7">Okapi</a></p>
         </div>
         <div className="press">
           <h2>Press</h2>
@@ -43,19 +41,19 @@ export default function PressKit() {
         </div>
         <div className="pictures">
           <a download="sabetta.jpg" href="./assets/sabetta.jpg" title="Download as JPG">
-            <img className="bigpic" src="./assets/sabetta.jpg" alt="Sabetta singing" />
+            <img className="bigpic" class="lazy" src="./assets/sabetta.jpg" alt="Sabetta singing" />
           </a>
           <a download="globe.jpg" href="./assets/globe.jpg" title="Download as JPG">
-            <img src="./assets/globe.jpg" alt="Globe Hall 6/15" />
+            <img src="./assets/globe.jpg" class="lazy" alt="Globe Hall 6/15" />
           </a>
           <a download="outside.jpg" href="./assets/outside.jpg" title="Download as JPG">
-            <img src="./assets/outside.jpg" alt="CC Battle of the Bands" />
+            <img src="./assets/outside.jpg" class="lazy" alt="CC Battle of the Bands" />
           </a>
           <a download="singing.jpg" href="./assets/singing.jpg" title="Download as JPG">
-            <img src="./assets/singing.jpg" alt="Jamie and David singing" />
+            <img src="./assets/singing.jpg" class="lazy" alt="Jamie and David singing" />
           </a>
           <a download="goggles.jpg" href="./assets/goggles.jpg" title="Download as JPG">
-            <img src="./assets/goggles.jpg" alt="goggles" />
+            <img src="./assets/goggles.jpg" class="lazy" alt="goggles" />
           </a>
         </div>
       </div>

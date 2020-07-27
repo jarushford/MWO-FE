@@ -6,7 +6,7 @@ export default function Loader() {
     <div className="loader-container">
       <section className="ripple" />
       <div>
-        <img alt="mw-logo" src="./assets/main-logo.png" />
+        <img alt="mw-logo" className="lazy" src="./assets/main-logo.png" />
         <span>Loading ...</span>
       </div>
     </div>

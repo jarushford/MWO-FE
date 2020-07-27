@@ -16,8 +16,8 @@ export class Home extends Component {
   }
 
   async componentDidMount() {
-    const { tourDates, videos, news } = this.props
-    if (!tourDates.length || !videos.length || !news.length) {
+    const { videos, news } = this.props
+    if (!videos.length || !news.length) {
       this.setState({ isLoading: true })
       await this.getData('videos')
       await this.getData('tour_dates')
@@ -86,8 +86,8 @@ export class Home extends Component {
     if (!videos.length) {
       videoLink = ''
     } else {
-      let randInt = Math.floor(Math.random() * videos.length)
-      videoLink = videos[randInt].link
+      let randInt = Math.floor(Math.random() * 5)
+      videoLink = videos.reverse()[randInt].link
     }
 
     let tourRender
