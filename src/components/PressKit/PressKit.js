@@ -27,10 +27,8 @@ export default function PressKit() {
         </div>
         <div className="pk-music">
           <h2>Music</h2>
-          <img src="./assets/hookline-album-art.jpg" alt="hookline album art" />
-          <p>Check out our latest album
-            <a href="https://open.spotify.com/album/2aMYMSJ1p6wbmiINndEKSt"> Hook Line & Sinker</a>
-          </p>
+          <img src="./assets/okapi.png" alt="okapi" />
+          <p>Check out our latest album <a href="https://open.spotify.com/artist/6H2CmXWubR7YVd6n1hlXq7">Okapi</a></p>
         </div>
         <div className="press">
           <h2>Press</h2>

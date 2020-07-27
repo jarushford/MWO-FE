@@ -27,7 +27,7 @@ export class Media extends Component {
       await this.getPhotos()
       this.setState({ isLoading: false }) 
     } else {
-      this.setState({ videos: this.props.videos, photos: this.props.photos })
+      this.setState({ videos: this.props.videos.reverse(), photos: this.props.photos })
     }
   }
 
@@ -41,7 +41,8 @@ export class Media extends Component {
         this.setState({ error: message })
       } else {
         const videos = await response.json()
-        this.props.setVideos(videos)
+        const revVideos = videos.reverse()
+        this.props.setVideos(revVideos)
         this.setState({ videos })
       }
     } catch (error) {
@@ -147,6 +148,7 @@ export class Media extends Component {
       )
     }
 
+
     return (
       <section className="media-container">
         <h1>media</h1>
@@ -156,13 +158,13 @@ export class Media extends Component {
             <div>
               <iframe id="spotifyPlayer" src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC" title="spotify player" width="300px" height="300px" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
               <a href="https://madwallace.bandcamp.com/album/okapi" target="_blank" rel="noopener noreferrer" >
-                <img id="okapi" class="lazy" src="./assets/okapi.png" alt="Okapi" />
+                <img id="okapi" className="lazy" src="./assets/okapi.png" alt="Okapi" />
               </a>
               <a href="https://madwallace.bandcamp.com/album/hook-line-sinker" target="_blank" rel="noopener noreferrer" >
-                <img id="hookline" class="lazy" src="./assets/hookline-album-art.jpg" alt="Hook Line and Sinker" />
+                <img id="hookline" className="lazy" src="./assets/hookline-album-art.jpg" alt="Hook Line and Sinker" />
               </a>
               <a href="https://madwallace.bandcamp.com/album/2804" target="_blank" rel="noopener noreferrer">
-                <img id="twenty804" class="lazy" src="./assets/2804-album-art.jpg" alt="2804" />
+                <img id="twenty804" className="lazy" src="./assets/2804-album-art.jpg" alt="2804" />
               </a>
             </div>
           </div>

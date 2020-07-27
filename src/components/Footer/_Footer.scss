@@ -50,55 +50,55 @@
   }
 }
 
-.btn {
+.subscribe-section input {
+  display: block;
+  margin: 15px auto;
+}
+
+.subscribe-section div div {
+  color: tomato !important;
+
+  a:visited {
+    color: tomato;
+  }
+}
+
+.subscribe-section button {
 	margin: 20px auto;
 	border: none;
 	padding: 10px 34px;
 	font-size: 1.2rem;
   position: relative;
-  background: black;
+  color: black;
+  background: $purple;
   outline: none;
-	&::before{
-		transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-		content: '';
-		width: 50%;
-		height: 100%;
-		position: absolute;
-		top: 0;
-		left: 0;
-	}
-
-	& .btn-text{
-		mix-blend-mode: overlay;
-	}
-	&:hover{
-		&::before{
-			width: 100%;
-		}
-	}
-
-	&.rounded{
-    border-radius:50px;
-		& .text-green{
-			color: blue;
-			mix-blend-mode: overlay;
-		}
+  border-radius:50px;
 		
 		&::before{
 			border-radius: 50px;
 			width: 25%;
-      background: $purple;
-      box-shadow: 0 0  8px 0px $purple;
+      background: #f0d22a8f;
+      box-shadow: 0 0  6px 0px #f0d22a8f;
       animation: move 8s ease infinite;
 		}
 		&:hover{
 			&::before{
-			background: $purple;
+			background: #f0d22a8f;
       width: 100%;
       -webkit-animation: 0;
       animation: 0;
 			}
 		}	
+
+
+	&::before{
+		transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+		content: '';
+		width: 30%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
 	}
 }
 
@@ -107,7 +107,7 @@
     margin-left: 0
   }
   50% {
-    margin-left: 138px
+    margin-left: 108px
   }
 }
 

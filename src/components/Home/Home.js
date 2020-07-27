@@ -86,8 +86,8 @@ export class Home extends Component {
     if (!videos.length) {
       videoLink = ''
     } else {
-      let randInt = Math.floor(Math.random() * videos.length)
-      videoLink = videos[randInt].link
+      let randInt = Math.floor(Math.random() * 5)
+      videoLink = videos.reverse()[randInt].link
     }
 
     let tourRender
