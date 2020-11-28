@@ -119,7 +119,7 @@ export class Home extends Component {
         <section className="listen-section">
           <h2>listen</h2>
           <div>
-            <iframe id="spotifyPlayer" src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC" title="spotify player" width="350px" height="400px" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            <iframe id="spotifyPlayer" src="https://open.spotify.com/embed/playlist/1dvSwaN3D8PGP8zWNGz2UC" title="spotify player" width="350px" height="400px" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
           </div>
         </section>
         <section className="tour-section">

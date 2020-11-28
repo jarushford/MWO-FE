@@ -156,7 +156,7 @@ export class Media extends Component {
           <h2>music</h2>
           <div>
             <div>
-              <iframe id="spotifyPlayer" src="https://open.spotify.com/embed/user/1243259682/playlist/1dvSwaN3D8PGP8zWNGz2UC" title="spotify player" width="300px" height="300px" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+              <iframe id="spotifyPlayer" src="https://open.spotify.com/embed/playlist/1dvSwaN3D8PGP8zWNGz2UC" title="spotify player" width="300px" height="300px" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
               <a href="https://madwallace.bandcamp.com/album/okapi" target="_blank" rel="noopener noreferrer" >
                 <img id="okapi" className="lazy" src="./assets/okapi.png" alt="Okapi" />
               </a>
