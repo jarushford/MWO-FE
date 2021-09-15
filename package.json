@@ -18,7 +18,7 @@
     "react-uid": "^2.2.0",
     "redux": "^4.0.1",
     "redux-devtools-extension": "^2.13.8",
-    "set-value": ">=2.0.1",
+    "set-value": ">=4.0.1",
     "vanilla-lazyload": "^17.1.0"
   },
   "scripts": {
